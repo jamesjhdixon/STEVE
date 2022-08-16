@@ -1,0 +1,9 @@
+,CountryID,MassCatID,TransTypeID,Desc,AveAnnKM,AveMaxLoad,AveLoadFactor,AveMaxLoadMed_U,AveLoadFactorMed_U,ShSizeHeavy,VehNumPar1,VehNumPar2,ExpectLife,FailSteep,AveShVKM_Van_Car,EVCapacity,Range
+0,9,21,2,"Great Britain, PanelSideVan, Freight Transport",20073,1.6,0.107171,0.0,0.0,0.0,-0.00020888,0.999016681,21,7,0.1125,60,220
+1,9,22,2,"Great Britain, Truck Medium, Freight Transport",80411,8.0,0.157706,7.31,0.348,0.608932532,-0.020562393,0.716724818,15,5,0.0,200,220
+2,9,23,2,"Great Britain, Truck Heavy, Freight Transport",55237,16.0,0.547808,0.0,0.0,0.608932532,-0.0110262157,0.6534065465,15,5,0.0,500,220
+3,9,24,2,"Great Britain, CarDerivedVan, Freight Transport",20073,1.6,0.107171,0.0,0.0,0.0,-0.00020888,0.999016681,21,7,0.1125,60,220
+4,9,25,2,"Great Britain, Pickup4x4Van, Freight Transport",20073,1.6,0.107171,0.0,0.0,0.0,-0.00020888,0.999016681,21,7,0.1125,60,220
+5,9,26,2,"Great Britain, DropAndTipVan, Freight Transport",20073,1.6,0.107171,0.0,0.0,0.0,-0.00020888,0.999016681,21,7,0.1125,60,220
+6,9,27,2,"Great Britain, BoxLutonInsVan, Freight Transport",20073,1.6,0.107171,0.0,0.0,0.0,-0.00020888,0.999016681,21,7,0.1125,60,220
+7,9,28,2,"Great Britain, OtherVan, Freight Transport",20073,1.6,0.107171,0.0,0.0,0.0,-0.00020888,0.999016681,21,7,0.1125,60,220

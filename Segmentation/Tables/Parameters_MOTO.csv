@@ -1,0 +1,684 @@
+,CountryID,TechID,Year,Description,AveCapacity,AveLoadFactor,AveAnnualKm,ExpectLife,FailSteep
+0,9,10,2012,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.429697056,4053.06,14,5
+1,9,10,2013,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.464865,4053.06,14,5
+2,9,10,2014,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.441253,4053.06,14,5
+3,9,10,2015,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.456587,4053.06,14,5
+4,9,10,2016,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.454807,4053.06,14,5
+5,9,10,2017,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.469333,4053.06,14,5
+6,9,10,2018,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+7,9,10,2019,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+8,9,10,2020,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+9,9,10,2021,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+10,9,10,2022,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+11,9,10,2023,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+12,9,10,2024,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+13,9,10,2025,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+14,9,10,2026,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+15,9,10,2027,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+16,9,10,2028,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+17,9,10,2029,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+18,9,10,2030,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+19,9,10,2031,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+20,9,10,2032,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+21,9,10,2033,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+22,9,10,2034,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+23,9,10,2035,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+24,9,10,2036,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+25,9,10,2037,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+26,9,10,2038,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+27,9,10,2039,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+28,9,10,2040,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+29,9,10,2041,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+30,9,10,2042,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+31,9,10,2043,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+32,9,10,2044,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+33,9,10,2045,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+34,9,10,2046,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+35,9,10,2047,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+36,9,10,2048,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+37,9,10,2049,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+38,9,10,2050,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+39,9,10,2051,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+40,9,10,2052,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+41,9,10,2053,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+42,9,10,2054,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+43,9,10,2055,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+44,9,10,2056,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+45,9,10,2057,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+46,9,10,2058,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+47,9,10,2059,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+48,9,10,2060,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+49,9,10,2061,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+50,9,10,2062,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+51,9,10,2063,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+52,9,10,2064,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+53,9,10,2065,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+54,9,10,2066,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+55,9,10,2067,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+56,9,10,2068,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+57,9,10,2069,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+58,9,10,2070,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+59,9,10,2071,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+60,9,10,2072,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+61,9,10,2073,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+62,9,10,2074,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+63,9,10,2075,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+64,9,10,2076,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+65,9,10,2077,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+66,9,10,2078,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+67,9,10,2079,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+68,9,10,2080,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+69,9,10,2081,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+70,9,10,2082,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+71,9,10,2083,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+72,9,10,2084,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+73,9,10,2085,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+74,9,10,2086,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+75,9,10,2087,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+76,9,10,2088,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+77,9,10,2089,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+78,9,10,2090,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+79,9,10,2091,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+80,9,10,2092,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+81,9,10,2093,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+82,9,10,2094,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+83,9,10,2095,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+84,9,10,2096,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+85,9,10,2097,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+86,9,10,2098,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+87,9,10,2099,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+88,9,10,2100,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+89,9,20,2012,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.429697056,4053.06,14,5
+90,9,20,2013,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.464865,4053.06,14,5
+91,9,20,2014,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.441253,4053.06,14,5
+92,9,20,2015,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.456587,4053.06,14,5
+93,9,20,2016,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.454807,4053.06,14,5
+94,9,20,2017,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.469333,4053.06,14,5
+95,9,20,2018,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+96,9,20,2019,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+97,9,20,2020,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+98,9,20,2021,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+99,9,20,2022,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+100,9,20,2023,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+101,9,20,2024,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+102,9,20,2025,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+103,9,20,2026,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+104,9,20,2027,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+105,9,20,2028,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+106,9,20,2029,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+107,9,20,2030,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+108,9,20,2031,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+109,9,20,2032,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+110,9,20,2033,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+111,9,20,2034,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+112,9,20,2035,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+113,9,20,2036,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+114,9,20,2037,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+115,9,20,2038,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+116,9,20,2039,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+117,9,20,2040,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+118,9,20,2041,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+119,9,20,2042,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+120,9,20,2043,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+121,9,20,2044,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+122,9,20,2045,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+123,9,20,2046,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+124,9,20,2047,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+125,9,20,2048,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+126,9,20,2049,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+127,9,20,2050,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+128,9,20,2051,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+129,9,20,2052,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+130,9,20,2053,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+131,9,20,2054,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+132,9,20,2055,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+133,9,20,2056,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+134,9,20,2057,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+135,9,20,2058,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+136,9,20,2059,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+137,9,20,2060,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+138,9,20,2061,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+139,9,20,2062,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+140,9,20,2063,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+141,9,20,2064,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+142,9,20,2065,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+143,9,20,2066,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+144,9,20,2067,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+145,9,20,2068,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+146,9,20,2069,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+147,9,20,2070,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+148,9,20,2071,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+149,9,20,2072,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+150,9,20,2073,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+151,9,20,2074,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+152,9,20,2075,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+153,9,20,2076,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+154,9,20,2077,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+155,9,20,2078,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+156,9,20,2079,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+157,9,20,2080,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+158,9,20,2081,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+159,9,20,2082,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+160,9,20,2083,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+161,9,20,2084,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+162,9,20,2085,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+163,9,20,2086,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+164,9,20,2087,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+165,9,20,2088,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+166,9,20,2089,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+167,9,20,2090,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+168,9,20,2091,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+169,9,20,2092,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+170,9,20,2093,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+171,9,20,2094,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+172,9,20,2095,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+173,9,20,2096,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+174,9,20,2097,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+175,9,20,2098,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+176,9,20,2099,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+177,9,20,2100,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 1 - Passenger Transport,2,0.458369,4053.06,14,5
+178,9,25,2012,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.429697056,4053.06,14,5
+179,9,25,2013,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.464865,4053.06,14,5
+180,9,25,2014,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.441253,4053.06,14,5
+181,9,25,2015,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.456587,4053.06,14,5
+182,9,25,2016,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.454807,4053.06,14,5
+183,9,25,2017,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.469333,4053.06,14,5
+184,9,25,2018,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+185,9,25,2019,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+186,9,25,2020,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+187,9,25,2021,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+188,9,25,2022,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+189,9,25,2023,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+190,9,25,2024,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+191,9,25,2025,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+192,9,25,2026,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+193,9,25,2027,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+194,9,25,2028,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+195,9,25,2029,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+196,9,25,2030,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+197,9,25,2031,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+198,9,25,2032,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+199,9,25,2033,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+200,9,25,2034,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+201,9,25,2035,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+202,9,25,2036,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+203,9,25,2037,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+204,9,25,2038,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+205,9,25,2039,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+206,9,25,2040,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+207,9,25,2041,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+208,9,25,2042,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+209,9,25,2043,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+210,9,25,2044,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+211,9,25,2045,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+212,9,25,2046,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+213,9,25,2047,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+214,9,25,2048,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+215,9,25,2049,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+216,9,25,2050,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+217,9,25,2051,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+218,9,25,2052,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+219,9,25,2053,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+220,9,25,2054,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+221,9,25,2055,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+222,9,25,2056,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+223,9,25,2057,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+224,9,25,2058,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+225,9,25,2059,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+226,9,25,2060,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+227,9,25,2061,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+228,9,25,2062,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+229,9,25,2063,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+230,9,25,2064,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+231,9,25,2065,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+232,9,25,2066,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+233,9,25,2067,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+234,9,25,2068,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+235,9,25,2069,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+236,9,25,2070,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+237,9,25,2071,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+238,9,25,2072,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+239,9,25,2073,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+240,9,25,2074,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+241,9,25,2075,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+242,9,25,2076,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+243,9,25,2077,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+244,9,25,2078,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+245,9,25,2079,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+246,9,25,2080,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+247,9,25,2081,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+248,9,25,2082,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+249,9,25,2083,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+250,9,25,2084,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+251,9,25,2085,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+252,9,25,2086,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+253,9,25,2087,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+254,9,25,2088,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+255,9,25,2089,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+256,9,25,2090,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+257,9,25,2091,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+258,9,25,2092,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+259,9,25,2093,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+260,9,25,2094,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+261,9,25,2095,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+262,9,25,2096,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+263,9,25,2097,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+264,9,25,2098,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+265,9,25,2099,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+266,9,25,2100,Road - Motorcycle - Average moto - Electricity - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+267,9,26,2020,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+268,9,26,2021,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+269,9,26,2022,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+270,9,26,2023,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+271,9,26,2024,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+272,9,26,2025,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+273,9,26,2026,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+274,9,26,2027,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+275,9,26,2028,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+276,9,26,2029,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+277,9,26,2030,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+278,9,26,2031,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+279,9,26,2032,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+280,9,26,2033,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+281,9,26,2034,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+282,9,26,2035,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+283,9,26,2036,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+284,9,26,2037,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+285,9,26,2038,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+286,9,26,2039,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+287,9,26,2040,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+288,9,26,2041,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+289,9,26,2042,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+290,9,26,2043,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+291,9,26,2044,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+292,9,26,2045,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+293,9,26,2046,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+294,9,26,2047,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+295,9,26,2048,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+296,9,26,2049,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+297,9,26,2050,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+298,9,26,2051,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+299,9,26,2052,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+300,9,26,2053,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+301,9,26,2054,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+302,9,26,2055,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+303,9,26,2056,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+304,9,26,2057,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+305,9,26,2058,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+306,9,26,2059,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+307,9,26,2060,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+308,9,26,2061,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+309,9,26,2062,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+310,9,26,2063,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+311,9,26,2064,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+312,9,26,2065,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+313,9,26,2066,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+314,9,26,2067,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+315,9,26,2068,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+316,9,26,2069,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+317,9,26,2070,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+318,9,26,2071,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+319,9,26,2072,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+320,9,26,2073,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+321,9,26,2074,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+322,9,26,2075,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+323,9,26,2076,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+324,9,26,2077,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+325,9,26,2078,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+326,9,26,2079,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+327,9,26,2080,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+328,9,26,2081,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+329,9,26,2082,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+330,9,26,2083,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+331,9,26,2084,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+332,9,26,2085,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+333,9,26,2086,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+334,9,26,2087,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+335,9,26,2088,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+336,9,26,2089,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+337,9,26,2090,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+338,9,26,2091,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+339,9,26,2092,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+340,9,26,2093,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+341,9,26,2094,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+342,9,26,2095,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+343,9,26,2096,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+344,9,26,2097,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+345,9,26,2098,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+346,9,26,2099,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+347,9,26,2100,Road - Motorcycle - Average moto - Electricity - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+348,9,30,2012,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.429697056,4053.06,14,5
+349,9,30,2013,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.464865,4053.06,14,5
+350,9,30,2014,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.441253,4053.06,14,5
+351,9,30,2015,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.456587,4053.06,14,5
+352,9,30,2016,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.454807,4053.06,14,5
+353,9,30,2017,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.469333,4053.06,14,5
+354,9,30,2018,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+355,9,30,2019,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+356,9,30,2020,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+357,9,30,2021,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+358,9,30,2022,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+359,9,30,2023,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+360,9,30,2024,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+361,9,30,2025,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+362,9,30,2026,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+363,9,30,2027,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+364,9,30,2028,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+365,9,30,2029,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+366,9,30,2030,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+367,9,30,2031,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+368,9,30,2032,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+369,9,30,2033,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+370,9,30,2034,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+371,9,30,2035,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+372,9,30,2036,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+373,9,30,2037,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+374,9,30,2038,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+375,9,30,2039,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+376,9,30,2040,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+377,9,30,2041,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+378,9,30,2042,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+379,9,30,2043,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+380,9,30,2044,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+381,9,30,2045,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+382,9,30,2046,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+383,9,30,2047,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+384,9,30,2048,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+385,9,30,2049,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+386,9,30,2050,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+387,9,30,2051,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+388,9,30,2052,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+389,9,30,2053,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+390,9,30,2054,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+391,9,30,2055,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+392,9,30,2056,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+393,9,30,2057,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+394,9,30,2058,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+395,9,30,2059,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+396,9,30,2060,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+397,9,30,2061,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+398,9,30,2062,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+399,9,30,2063,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+400,9,30,2064,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+401,9,30,2065,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+402,9,30,2066,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+403,9,30,2067,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+404,9,30,2068,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+405,9,30,2069,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+406,9,30,2070,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+407,9,30,2071,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+408,9,30,2072,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+409,9,30,2073,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+410,9,30,2074,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+411,9,30,2075,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+412,9,30,2076,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+413,9,30,2077,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+414,9,30,2078,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+415,9,30,2079,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+416,9,30,2080,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+417,9,30,2081,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+418,9,30,2082,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+419,9,30,2083,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+420,9,30,2084,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+421,9,30,2085,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+422,9,30,2086,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+423,9,30,2087,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+424,9,30,2088,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+425,9,30,2089,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+426,9,30,2090,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+427,9,30,2091,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+428,9,30,2092,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+429,9,30,2093,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+430,9,30,2094,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+431,9,30,2095,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+432,9,30,2096,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+433,9,30,2097,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+434,9,30,2098,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+435,9,30,2099,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+436,9,30,2100,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Standard 2 - Passenger Transport,2,0.458369,4053.06,14,5
+437,9,40,2012,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.429697056,4053.06,14,5
+438,9,40,2013,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.464865,4053.06,14,5
+439,9,40,2014,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.441253,4053.06,14,5
+440,9,40,2015,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.456587,4053.06,14,5
+441,9,40,2016,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.454807,4053.06,14,5
+442,9,40,2017,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.469333,4053.06,14,5
+443,9,40,2018,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+444,9,40,2019,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+445,9,40,2020,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+446,9,40,2021,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+447,9,40,2022,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+448,9,40,2023,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+449,9,40,2024,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+450,9,40,2025,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+451,9,40,2026,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+452,9,40,2027,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+453,9,40,2028,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+454,9,40,2029,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+455,9,40,2030,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+456,9,40,2031,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+457,9,40,2032,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+458,9,40,2033,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+459,9,40,2034,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+460,9,40,2035,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+461,9,40,2036,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+462,9,40,2037,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+463,9,40,2038,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+464,9,40,2039,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+465,9,40,2040,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+466,9,40,2041,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+467,9,40,2042,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+468,9,40,2043,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+469,9,40,2044,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+470,9,40,2045,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+471,9,40,2046,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+472,9,40,2047,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+473,9,40,2048,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+474,9,40,2049,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+475,9,40,2050,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+476,9,40,2051,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+477,9,40,2052,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+478,9,40,2053,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+479,9,40,2054,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+480,9,40,2055,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+481,9,40,2056,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+482,9,40,2057,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+483,9,40,2058,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+484,9,40,2059,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+485,9,40,2060,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+486,9,40,2061,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+487,9,40,2062,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+488,9,40,2063,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+489,9,40,2064,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+490,9,40,2065,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+491,9,40,2066,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+492,9,40,2067,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+493,9,40,2068,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+494,9,40,2069,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+495,9,40,2070,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+496,9,40,2071,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+497,9,40,2072,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+498,9,40,2073,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+499,9,40,2074,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+500,9,40,2075,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+501,9,40,2076,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+502,9,40,2077,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+503,9,40,2078,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+504,9,40,2079,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+505,9,40,2080,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+506,9,40,2081,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+507,9,40,2082,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+508,9,40,2083,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+509,9,40,2084,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+510,9,40,2085,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+511,9,40,2086,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+512,9,40,2087,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+513,9,40,2088,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+514,9,40,2089,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+515,9,40,2090,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+516,9,40,2091,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+517,9,40,2092,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+518,9,40,2093,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+519,9,40,2094,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+520,9,40,2095,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+521,9,40,2096,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+522,9,40,2097,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+523,9,40,2098,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+524,9,40,2099,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+525,9,40,2100,Road - Motorcycle - Average moto - Gasoline - 2-Stroke Economic - Passenger Transport,2,0.458369,4053.06,14,5
+526,9,50,2015,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.456587,4053.06,14,5
+527,9,50,2016,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.454807,4053.06,14,5
+528,9,50,2017,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.469333,4053.06,14,5
+529,9,50,2018,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+530,9,50,2019,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+531,9,50,2020,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+532,9,50,2021,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+533,9,50,2022,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+534,9,50,2023,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+535,9,50,2024,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+536,9,50,2025,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+537,9,50,2026,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+538,9,50,2027,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+539,9,50,2028,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+540,9,50,2029,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+541,9,50,2030,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+542,9,50,2031,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+543,9,50,2032,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+544,9,50,2033,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+545,9,50,2034,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+546,9,50,2035,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+547,9,50,2036,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+548,9,50,2037,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+549,9,50,2038,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+550,9,50,2039,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+551,9,50,2040,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+552,9,50,2041,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+553,9,50,2042,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+554,9,50,2043,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+555,9,50,2044,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+556,9,50,2045,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+557,9,50,2046,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+558,9,50,2047,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+559,9,50,2048,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+560,9,50,2049,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+561,9,50,2050,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+562,9,50,2051,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+563,9,50,2052,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+564,9,50,2053,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+565,9,50,2054,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+566,9,50,2055,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+567,9,50,2056,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+568,9,50,2057,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+569,9,50,2058,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+570,9,50,2059,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+571,9,50,2060,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+572,9,50,2061,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+573,9,50,2062,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+574,9,50,2063,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+575,9,50,2064,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+576,9,50,2065,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+577,9,50,2066,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+578,9,50,2067,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+579,9,50,2068,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+580,9,50,2069,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+581,9,50,2070,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+582,9,50,2071,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+583,9,50,2072,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+584,9,50,2073,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+585,9,50,2074,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+586,9,50,2075,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+587,9,50,2076,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+588,9,50,2077,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+589,9,50,2078,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+590,9,50,2079,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+591,9,50,2080,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+592,9,50,2081,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+593,9,50,2082,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+594,9,50,2083,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+595,9,50,2084,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+596,9,50,2085,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+597,9,50,2086,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+598,9,50,2087,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+599,9,50,2088,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+600,9,50,2089,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+601,9,50,2090,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+602,9,50,2091,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+603,9,50,2092,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+604,9,50,2093,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+605,9,50,2094,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+606,9,50,2095,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+607,9,50,2096,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+608,9,50,2097,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+609,9,50,2098,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+610,9,50,2099,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+611,9,50,2100,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+612,9,60,2030,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+613,9,60,2031,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+614,9,60,2032,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+615,9,60,2033,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+616,9,60,2034,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+617,9,60,2035,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+618,9,60,2036,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+619,9,60,2037,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+620,9,60,2038,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+621,9,60,2039,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+622,9,60,2040,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+623,9,60,2041,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+624,9,60,2042,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+625,9,60,2043,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+626,9,60,2044,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+627,9,60,2045,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+628,9,60,2046,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+629,9,60,2047,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+630,9,60,2048,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+631,9,60,2049,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+632,9,60,2050,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+633,9,60,2051,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+634,9,60,2052,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+635,9,60,2053,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+636,9,60,2054,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+637,9,60,2055,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+638,9,60,2056,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+639,9,60,2057,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+640,9,60,2058,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+641,9,60,2059,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+642,9,60,2060,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+643,9,60,2061,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+644,9,60,2062,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+645,9,60,2063,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+646,9,60,2064,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+647,9,60,2065,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+648,9,60,2066,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+649,9,60,2067,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+650,9,60,2068,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+651,9,60,2069,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+652,9,60,2070,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+653,9,60,2071,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+654,9,60,2072,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+655,9,60,2073,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+656,9,60,2074,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+657,9,60,2075,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+658,9,60,2076,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+659,9,60,2077,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+660,9,60,2078,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+661,9,60,2079,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+662,9,60,2080,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+663,9,60,2081,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+664,9,60,2082,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+665,9,60,2083,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+666,9,60,2084,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+667,9,60,2085,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+668,9,60,2086,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+669,9,60,2087,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+670,9,60,2088,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+671,9,60,2089,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+672,9,60,2090,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+673,9,60,2091,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+674,9,60,2092,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+675,9,60,2093,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+676,9,60,2094,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+677,9,60,2095,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+678,9,60,2096,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+679,9,60,2097,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+680,9,60,2098,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+681,9,60,2099,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5
+682,9,60,2100,Road - Motorcycle - Average moto - Gaseous Hydrogen - Fuel Cell - Passenger Transport,2,0.458369,4053.06,14,5

@@ -1,0 +1,6 @@
+,CountryID,MassCatID,TransTypeID,Desc,AveCapacity,AveLoadFactor,AveAnnualKm,ExpectLife,FailSteep,Investment
+0,9,31,1,"Great Britain, Train Light, Passenger Transport",500.0,0.190223,67041,40,10,78765000
+1,9,32,1,"Great Britain, Train Regional, Passenger Transport",200.0,0.338067,47653,40,10,865235000
+2,9,32,2,"Great Britain, Train Regional, Freight Transport",408.066,0.793011,48929,40,10,247800000
+3,9,33,1,"Great Britain, Train National, Passenger Transport",350.0,0.342228,150194,40,10,182015000
+4,9,34,1,"Great Britain, Train High Speed, Passenger Transport",795.0,0.5,100000,40,10,0

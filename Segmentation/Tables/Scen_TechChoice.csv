@@ -1,0 +1,1247 @@
+,ScenarioID,CountryID,TechID,TechDesc,Performance,Start,N,Maturity,NVM,DRate
+0,1,9,10,Road - P - MOTO - Average moto - Gasoline - 2-Stroke Standard 1,594001.0,1980,,1981,,0.300000011920929
+1,1,9,20,Road - P - MOTO - Average moto - Electricity - 2-Stroke Standard 1,0.100000001490116,1995,,2000,,0.300000011920929
+2,1,9,25,Road - P - MOTO - Average moto - Electricity - 2-Stroke Standard 2,5940.0,2010,,2015,,0.300000011920929
+3,1,9,26,Road - P - MOTO - Average moto - Electricity - 2-Stroke Economic,5940.0,2020,,2025,,0.300000011920929
+4,1,9,30,Road - P - MOTO - Average moto - Gasoline - 2-Stroke Standard 2,594001.0,2000,,2001,,0.300000011920929
+5,1,9,40,Road - P - MOTO - Average moto - Gasoline - 2-Stroke Economic,594001.0,2010,,2011,,0.300000011920929
+6,1,9,50,Road - P - MOTO - Average moto - Gaseous Hydrogen - Fuel Cell,0.100000001490116,2015,,2020,,0.300000011920929
+7,1,9,60,Road - P - MOTO - Average moto - Gaseous Hydrogen - Fuel Cell,0.100000001490116,2030,,2035,,0.300000011920929
+8,1,9,70,Road - P - CAR - Small - Gasoline - Conventional (pre-EURO),12561.0,1980,,1981,,0.300000011920929
+9,1,9,80,Road - P - CAR - Small - Gasoline - Euro 5 (2009-14),12561.0,2009,,2010,,0.300000011920929
+10,1,9,81,Road - P - CAR - Small - Gasoline - Euro 6 (2015-19),12561.0,2015,,2016,,0.300000011920929
+11,1,9,82,Road - P - CAR - Small - Gasoline - Euro 7 (2020-24),12561.0,2020,,2021,,0.300000011920929
+12,1,9,83,Road - P - CAR - Small - Gasoline - Euro 8 (2025-29),12561.0,2025,,2026,,0.300000011920929
+13,1,9,84,Road - P - CAR - Small - Gasoline - Euro 9 (2030-34),12561.0,2030,,2031,,0.300000011920929
+14,1,9,85,Road - P - CAR - Small - Gasoline - Euro 10 (2035-39),12561.0,2035,,2036,,0.300000011920929
+15,1,9,86,Road - P - CAR - Small - Gasoline - Euro 11 (2040-44),12561.0,2040,,2041,,0.300000011920929
+16,1,9,87,Road - P - CAR - Small - Gasoline - Euro 12 (2045-50),12561.0,2045,,2046,,0.300000011920929
+17,1,9,90,Road - P - CAR - Small - Gasoline - Euro 1 (1992-96),12561.0,1992,,1993,,0.300000011920929
+18,1,9,91,Road - P - CAR - Small - Gasoline - Euro 5 (2009-14) - PHEV,0.0,2009,,2014,,0.300000011920929
+19,1,9,92,Road - P - CAR - Small - Gasoline - Euro 6 (2015-19) - PHEV,380.0,2015,,2019,,0.300000011920929
+20,1,9,93,Road - P - CAR - Small - Gasoline - Euro 7 (2020-24) - PHEV,760.0,2020,,2024,,0.300000011920929
+21,1,9,94,Road - P - CAR - Small - Gasoline - Euro 8 (2025-29) - PHEV,1256.0,2025,,2026,,0.300000011920929
+22,1,9,95,Road - P - CAR - Small - Gasoline - Euro 9 (2030-34) - PHEV,1256.0,2030,,2031,,0.300000011920929
+23,1,9,96,Road - P - CAR - Small - Gasoline - Euro 10 (2035-39) - PHEV,1256.0,2035,,2036,,0.300000011920929
+24,1,9,97,Road - P - CAR - Small - Gasoline - Euro 11 (2040-44) - PHEV,1256.0,2040,,2041,,0.300000011920929
+25,1,9,98,Road - P - CAR - Small - Gasoline - Euro 12 (2045-50) - PHEV,1256.0,2045,,2046,,0.300000011920929
+26,1,9,100,Road - P - CAR - Small - Gasoline - Euro 2 (1996-2001),12561.0,1996,,1997,,0.300000011920929
+27,1,9,110,Road - P - CAR - Small - Gasoline - Euro 3 (2001-05),12561.0,2000,,2001,,0.300000011920929
+28,1,9,120,Road - P - CAR - Small - Gasoline - Euro 4 (2005-09),12561.0,2005,,2006,,0.300000011920929
+29,1,9,130,Road - P - CAR - Medium - Gasoline - Conventional (pre-EURO),10587.0,1980,,1981,,0.300000011920929
+30,1,9,140,Road - P - CAR - Medium - Gasoline - Euro 5 (2009-14),10587.0,2009,,2010,,0.300000011920929
+31,1,9,150,Road - P - CAR - Medium - Gasoline - Euro 1 (1992-96),10587.0,1992,,1993,,0.300000011920929
+32,1,9,160,Road - P - CAR - Medium - Gasoline - Euro 2 (1996-2001),10587.0,1996,,1997,,0.300000011920929
+33,1,9,161,Road - P - CAR - Medium - Gasoline - Euro 5 (2009-14) - PHEV,190.0,2009,,2014,,0.300000011920929
+34,1,9,162,Road - P - CAR - Medium - Gasoline - Euro 6 (2015-19) - PHEV,380.0,2015,,2019,,0.300000011920929
+35,1,9,163,Road - P - CAR - Medium - Gasoline - Euro 7 (2020-24) - PHEV,380.0,2020,,2023,,0.300000011920929
+36,1,9,164,Road - P - CAR - Medium - Gasoline - Euro 8 (2025-29) - PHEV,760.0,2025,,2026,,0.300000011920929
+37,1,9,165,Road - P - CAR - Medium - Gasoline - Euro 9 (2030-34) - PHEV,760.0,2030,,2031,,0.300000011920929
+38,1,9,166,Road - P - CAR - Medium - Gasoline - Euro 10 (2035-39) - PHEV,760.0,2035,,2036,,0.300000011920929
+39,1,9,167,Road - P - CAR - Medium - Gasoline - Euro 11 (2040-44) - PHEV,760.0,2040,,2041,,0.300000011920929
+40,1,9,168,Road - P - CAR - Medium - Gasoline - Euro 12 (2045-50) - PHEV,760.0,2045,,2046,,0.300000011920929
+41,1,9,170,Road - P - CAR - Medium - Gasoline - Euro 3 (2001-05),10587.0,2000,,2001,,0.300000011920929
+42,1,9,171,Road - P - CAR - Medium - Gasoline - Euro 6 (2015-19),10587.0,2015,,2016,,0.300000011920929
+43,1,9,172,Road - P - CAR - Medium - Gasoline - Euro 7 (2020-24),10587.0,2020,,2021,,0.300000011920929
+44,1,9,173,Road - P - CAR - Medium - Gasoline - Euro 8 (2025-29),10587.0,2025,,2026,,0.300000011920929
+45,1,9,174,Road - P - CAR - Medium - Gasoline - Euro 9 (2030-34),10587.0,2030,,2031,,0.300000011920929
+46,1,9,175,Road - P - CAR - Medium - Gasoline - Euro 10 (2035-39),10587.0,2035,,2036,,0.300000011920929
+47,1,9,176,Road - P - CAR - Medium - Gasoline - Euro 11 (2040-44),10587.0,2040,,2041,,0.300000011920929
+48,1,9,177,Road - P - CAR - Medium - Gasoline - Euro 12 (2045-50),10587.0,2045,,2046,,0.300000011920929
+49,1,9,181,Road - P - CAR - Medium - Gasoline - Euro 4 (2005-09),10587.0,2005,,2006,,0.300000011920929
+50,1,9,190,Road - P - CAR - Large - Gasoline - Conventional (pre-EURO),10537.0,1980,,1981,,0.300000011920929
+51,1,9,191,Road - P - CAR - Large - Gasoline - Euro 5 (2009-14) - PHEV,258.0,2009,,2014,,0.300000011920929
+52,1,9,192,Road - P - CAR - Large - Gasoline - Euro 6 (2015-19) - PHEV,516.0,2015,,2019,,0.300000011920929
+53,1,9,193,Road - P - CAR - Large - Gasoline - Euro 7 (2020-24) - PHEV,516.0,2020,,2024,,0.300000011920929
+54,1,9,194,Road - P - CAR - Large - Gasoline - Euro 8 (2025-29) - PHEV,516.0,2025,,2029,,0.300000011920929
+55,1,9,195,Road - P - CAR - Large - Gasoline - Euro 9 (2030-34) - PHEV,516.0,2030,,2031,,0.300000011920929
+56,1,9,196,Road - P - CAR - Large - Gasoline - Euro 10 (2035-39) - PHEV,516.0,2035,,2036,,0.300000011920929
+57,1,9,197,Road - P - CAR - Large - Gasoline - Euro 11 (2040-44) - PHEV,516.0,2040,,2041,,0.300000011920929
+58,1,9,198,Road - P - CAR - Large - Gasoline - Euro 12 (2045-50) - PHEV,516.0,2045,,2046,,0.300000011920929
+59,1,9,200,Road - P - CAR - Large - Gasoline - Euro 5 (2009-14),10537.0,2009,,2010,,0.300000011920929
+60,1,9,201,Road - P - CAR - Large - Gasoline - Euro 7 (2020-24),10537.0,2020,,2021,,0.300000011920929
+61,1,9,202,Road - P - CAR - Large - Gasoline - Euro 8 (2025-29),10537.0,2025,,2026,,0.300000011920929
+62,1,9,203,Road - P - CAR - Large - Gasoline - Euro 9 (2030-34),10537.0,2030,,2031,,0.300000011920929
+63,1,9,204,Road - P - CAR - Large - Gasoline - Euro 10 (2035-39),10537.0,2035,,2036,,0.300000011920929
+64,1,9,205,Road - P - CAR - Large - Gasoline - Euro 11 (2040-44),10537.0,2040,,2041,,0.300000011920929
+65,1,9,206,Road - P - CAR - Large - Gasoline - Euro 12 (2045-50),10537.0,2045,,2046,,0.300000011920929
+66,1,9,210,Road - P - CAR - Large - Gasoline - Euro 1 (1992-96),10537.0,1992,,1993,,0.300000011920929
+67,1,9,220,Road - P - CAR - Large - Gasoline - Euro 2 (1996-2001),10537.0,1996,,1997,,0.300000011920929
+68,1,9,230,Road - P - CAR - Large - Gasoline - Euro 3 (2001-05),10537.0,2000,,2001,,0.300000011920929
+69,1,9,240,Road - P - CAR - Large - Gasoline - Euro 4 (2005-09),10537.0,2005,,2006,,0.300000011920929
+70,1,9,245,Road - P - CAR - Large - Gasoline - Euro 6 (2015-19),10537.0,2015,,2016,,0.300000011920929
+71,1,9,250,Road - P - CAR - Medium - Diesel - Conventional (pre-EURO),700.0,1980,,1981,,0.300000011920929
+72,1,9,251,Road - P - CAR - Medium - Diesel - Euro 6 (2015-19),11190.0,2015,,2016,,0.300000011920929
+73,1,9,252,Road - P - CAR - Medium - Diesel - Euro 7 (2020-24),11190.0,2020,,2021,,0.300000011920929
+74,1,9,253,Road - P - CAR - Medium - Diesel - Euro 8 (2025-29),11190.0,2025,,2026,,0.300000011920929
+75,1,9,254,Road - P - CAR - Medium - Diesel - Euro 9 (2030-34),11190.0,2030,,2031,,0.300000011920929
+76,1,9,255,Road - P - CAR - Medium - Diesel - Euro 10 (2035-39),11190.0,2035,,2036,,0.300000011920929
+77,1,9,256,Road - P - CAR - Medium - Diesel - Euro 11 (2040-44),11190.0,2040,,2041,,0.300000011920929
+78,1,9,257,Road - P - CAR - Medium - Diesel - Euro 12 (2045-50),11190.0,2045,,2046,,0.300000011920929
+79,1,9,260,Road - P - CAR - Medium - Diesel - Euro 5 (2009-14),11190.0,2009,,2010,,0.300000011920929
+80,1,9,261,"Road - P - CAR - Medium - Biodiesel (FT, synthetic) - Standard 1",0.400000005960464,1995,,2000,,0.300000011920929
+81,1,9,265,Road - P - CAR - Small - Diesel - Euro 5 (2009-14),11013.0,2009,,2010,,0.300000011920929
+82,1,9,266,Road - P - CAR - Small - Diesel - Euro 6 (2015-19),11013.0,2015,,2016,,0.300000011920929
+83,1,9,267,Road - P - CAR - Small - Diesel - Euro 7 (2020-24),11013.0,2020,,2021,,0.300000011920929
+84,1,9,268,Road - P - CAR - Small - Diesel - Euro 8 (2025-29),11013.0,2025,,2026,,0.300000011920929
+85,1,9,269,Road - P - CAR - Small - Diesel - Euro 9 (2030-34),11013.0,2030,,2031,,0.300000011920929
+86,1,9,270,Road - P - CAR - Medium - Diesel - Euro 1 (1992-96),1375.0,1992,,1993,,0.300000011920929
+87,1,9,271,Road - P - CAR - Small - Diesel - Euro 10 (2035-39),11013.0,2035,,2036,,0.300000011920929
+88,1,9,272,Road - P - CAR - Small - Diesel - Euro 11 (2040-44),11013.0,2040,,2041,,0.300000011920929
+89,1,9,273,Road - P - CAR - Small - Diesel - Euro 12 (2045-50),11013.0,2045,,2046,,0.300000011920929
+90,1,9,275,Road - P - CAR - Small - Electricity - Euro 4 (2005-09),26.7000007629395,2005,,2015,,0.300000011920929
+91,1,9,276,Road - P - CAR - Small - Electricity - Euro 5 (2009-14),2483.0,2009,,2015,,0.300000011920929
+92,1,9,277,Road - P - CAR - Small - Gaseous Hydrogen - Fuel Cell,0.0,2020,,2025,,0.5
+93,1,9,278,Road - P - CAR - Small - Gaseous Hydrogen - Fuel Cell,0.0,2030,,2035,,0.5
+94,1,9,280,Road - P - CAR - Medium - Diesel - Euro 2 (1996-2001),2750.0,1996,,1997,,0.300000011920929
+95,1,9,290,Road - P - CAR - Medium - Diesel - Euro 3 (2001-05),5500.0,2000,,2001,,0.300000011920929
+96,1,9,291,"Road - P - CAR - Medium - Biodiesel (FT, synthetic) - Standard 2",0.0,2010,,2014,,0.300000011920929
+97,1,9,292,"Road - P - CAR - Medium - Biodiesel (FT, synthetic) - Standard 3",0.0,2025,,2030,,0.300000011920929
+98,1,9,295,Road - P - CAR - Small - Diesel - Euro 3 (2001-05),11013.0,2000,,2004,,0.300000011920929
+99,1,9,300,Road - P - CAR - Medium - Diesel - Euro 4 (2005-09),11190.0,2005,,2006,,0.300000011920929
+100,1,9,302,Road - P - CAR - Medium - Gasoline - Euro 4 (2005-09) - HEV,1.5,2005,,2006,,0.300000011920929
+101,1,9,305,Road - P - CAR - Small - Diesel - Euro 4 (2005-09),11013.0,2005,,2006,,0.300000011920929
+102,1,9,310,Road - P - CAR - Large - Diesel - Conventional (pre-EURO),1336.0,1980,,1991,,0.300000011920929
+103,1,9,320,Road - P - CAR - Medium - Gasoline - Euro 5 (2009-14) - HEV,321.0,2009,,2010,,0.300000011920929
+104,1,9,321,Road - P - CAR - Medium - Gasoline - Euro 6 (2015-19) - HEV,642.0,2015,,2016,,0.300000011920929
+105,1,9,322,Road - P - CAR - Medium - Gasoline - Euro 7 (2020-24) - HEV,1284.0,2020,,2021,,0.300000011920929
+106,1,9,323,Road - P - CAR - Medium - Gasoline - Euro 8 (2025-29) - HEV,2568.0,2025,,2026,,0.300000011920929
+107,1,9,324,Road - P - CAR - Medium - Gasoline - Euro 9 (2030-34) - HEV,2568.0,2030,,2031,,0.300000011920929
+108,1,9,325,Road - P - CAR - Medium - Gasoline - Euro 10 (2035-39) - HEV,2568.0,2035,,2036,,0.300000011920929
+109,1,9,326,Road - P - CAR - Medium - Gasoline - Euro 11 (2040-44) - HEV,2568.0,2040,,2041,,0.300000011920929
+110,1,9,327,Road - P - CAR - Medium - Gasoline - Euro 12 (2045-50) - HEV,2568.0,2045,,2046,,0.300000011920929
+111,1,9,330,Road - P - CAR - Large - Diesel - Euro 1 (1992-96),2250.0,1992,,1995,,0.300000011920929
+112,1,9,340,Road - P - CAR - Large - Diesel - Euro 2 (1996-2001),4500.0,1996,,1999,,0.300000011920929
+113,1,9,350,Road - P - CAR - Large - Diesel - Euro 3 (2001-05),13364.0,2000,,2004,,0.300000011920929
+114,1,9,351,"Road - P - CAR - Large - Biodiesel (FT, synthetic) - Standard 1",0.5,1995,,2000,,0.300000011920929
+115,1,9,360,Road - P - CAR - Large - Diesel - Euro 4 (2005-09),13364.0,2005,,2006,,0.300000011920929
+116,1,9,361,"Road - P - CAR - Large - Biodiesel (FT, synthetic) - Standard 2",0.0,2010,,2014,,0.300000011920929
+117,1,9,362,Road - P - CAR - Large - Gasoline - Euro 4 (2005-09) - HEV,10.0,2005,,2006,,0.300000011920929
+118,1,9,363,Road - P - CAR - Large - Diesel - Euro 5 (2009-14),13364.0,2009,,2010,,0.300000011920929
+119,1,9,364,Road - P - CAR - Small - Electricity - Euro 6 (2015-19),4966.0,2015,,2020,,0.300000011920929
+120,1,9,365,Road - P - CAR - Large - Gaseous Hydrogen - Fuel Cell,0.0,2015,,2020,,0.5
+121,1,9,366,Road - P - CAR - Large - Diesel - Euro 6 (2015-19),13364.0,2015,,2016,,0.300000011920929
+122,1,9,367,Road - P - CAR - Large - Diesel - Euro 7 (2020-24),13364.0,2020,,2021,,0.300000011920929
+123,1,9,368,Road - P - CAR - Large - Diesel - Euro 8 (2025-29),13364.0,2025,,2026,,0.300000011920929
+124,1,9,369,Road - P - CAR - Large - Diesel - Euro 9 (2030-34),13364.0,2030,,2031,,0.300000011920929
+125,1,9,370,Road - P - CAR - Large - Diesel - Euro 10 (2035-39),13364.0,2035,,2036,,0.300000011920929
+126,1,9,371,Road - P - CAR - Large - Diesel - Euro 11 (2040-44),13364.0,2040,,2041,,0.300000011920929
+127,1,9,372,Road - P - CAR - Large - Diesel - Euro 12 (2045-50),13364.0,2045,,2046,,0.300000011920929
+128,1,9,373,"Road - P - CAR - Large - Biodiesel (FT, synthetic) - Standard 3",0.0,2025,,2030,,0.300000011920929
+129,1,9,375,Road - P - CAR - Small - Electricity - Euro 7 (2020-24),4966.0,2020,,2021,,0.300000011920929
+130,1,9,376,Road - P - CAR - Large - Gaseous Hydrogen - Fuel Cell,0.0,2030,,2035,,0.5
+131,1,9,377,Road - P - CAR - Small - Electricity - Euro 8 (2025-29),4966.0,2025,,2026,,0.300000011920929
+132,1,9,378,Road - P - CAR - Medium - Gaseous Hydrogen - Fuel Cell,0.0,2030,,2035,,0.5
+133,1,9,380,Road - P - CAR - Small - Electricity - Euro 9 (2030-34),4966.0,2030,,2031,,0.300000011920929
+134,1,9,381,Road - P - CAR - Small - Electricity - Euro 10 (2035-39),4966.0,2035,,2036,,0.300000011920929
+135,1,9,385,Road - P - CAR - Large - Bioethanol(85)-petrol(15) blend - Euro 4 (2005-09),0.400000005960464,2005,,2009,,0.300000011920929
+136,1,9,386,Road - P - CAR - Large - Bioethanol(85)-petrol(15) blend - Euro 5 (2009-14),0.0,2009,,2014,,0.300000011920929
+137,1,9,387,Road - P - CAR - Large - Bioethanol(85)-petrol(15) blend - Euro 6 (2015-19),0.0,2015,,2016,,0.300000011920929
+138,1,9,388,Road - P - CAR - Large - Bioethanol(85)-petrol(15) blend - Euro 7 (2020-24),0.0,2020,,2021,,0.300000011920929
+139,1,9,389,Road - P - CAR - Large - Bioethanol(85)-petrol(15) blend - Euro 8 (2025-29),0.0,2025,,2026,,0.300000011920929
+140,1,9,390,Road - P - CAR - Large - Bioethanol(85)-petrol(15) blend - Euro 9 (2030-34),0.0,2030,,2031,,0.300000011920929
+141,1,9,391,Road - P - CAR - Large - Bioethanol(85)-petrol(15) blend - Euro 10 (2035-39),0.0,2035,,2036,,0.300000011920929
+142,1,9,392,Road - P - CAR - Large - Bioethanol(85)-petrol(15) blend - Euro 11 (2040-44),0.0,2040,,2041,,0.300000011920929
+143,1,9,393,Road - P - CAR - Large - Bioethanol(85)-petrol(15) blend - Euro 12 (2045-50),0.0,2045,,2046,,0.300000011920929
+144,1,9,400,Road - P - CAR - Large - Gasoline - Euro 5 (2009-14) - HEV,518.0,2009,,2014,,0.300000011920929
+145,1,9,401,Road - P - CAR - Large - Gasoline - Euro 6 (2015-19) - HEV,1036.0,2015,,2019,,0.300000011920929
+146,1,9,402,Road - P - CAR - Large - Gasoline - Euro 7 (2020-24) - HEV,1036.0,2020,,2023,,0.300000011920929
+147,1,9,403,Road - P - CAR - Large - Gasoline - Euro 8 (2025-29) - HEV,1036.0,2025,,2027,,0.300000011920929
+148,1,9,404,Road - P - CAR - Large - Gasoline - Euro 9 (2030-34) - HEV,1036.0,2030,,2031,,0.300000011920929
+149,1,9,405,Road - P - CAR - Large - Gasoline - Euro 10 (2035-39) - HEV,1036.0,2035,,2036,,0.300000011920929
+150,1,9,406,Road - P - CAR - Large - Gasoline - Euro 11 (2040-44) - HEV,1036.0,2040,,2041,,0.300000011920929
+151,1,9,407,Road - P - CAR - Large - Gasoline - Euro 12 (2045-50) - HEV,1036.0,2045,,2046,,0.300000011920929
+152,1,9,410,Road - P - CAR - Medium - Bioethanol(85)-petrol(15) blend - Euro 4 (2005-09),0.5,2005,,2009,,0.300000011920929
+153,1,9,411,Road - P - CAR - Medium - Bioethanol(85)-petrol(15) blend - Euro 5 (2009-14),0.0,2009,,2010,,0.300000011920929
+154,1,9,412,Road - P - CAR - Medium - Bioethanol(85)-petrol(15) blend - Euro 6 (2015-19),0.0,2015,,2016,,0.300000011920929
+155,1,9,413,Road - P - CAR - Medium - Bioethanol(85)-petrol(15) blend - Euro 7 (2020-24),0.0,2020,,2021,,0.300000011920929
+156,1,9,414,Road - P - CAR - Medium - Bioethanol(85)-petrol(15) blend - Euro 8 (2025-29),0.0,2025,,2026,,0.300000011920929
+157,1,9,415,Road - P - CAR - Medium - Bioethanol(85)-petrol(15) blend - Euro 9 (2030-34),0.0,2030,,2031,,0.300000011920929
+158,1,9,416,Road - P - CAR - Medium - Bioethanol(85)-petrol(15) blend - Euro 10 (2035-39),0.0,2035,,2036,,0.300000011920929
+159,1,9,417,Road - P - CAR - Medium - Bioethanol(85)-petrol(15) blend - Euro 11 (2040-44),0.0,2040,,2041,,0.300000011920929
+160,1,9,418,Road - P - CAR - Medium - Bioethanol(85)-petrol(15) blend - Euro 12 (2045-50),0.0,2045,,2046,,0.300000011920929
+161,1,9,420,Road - P - CAR - Large - Liquefied Hydrogen - Euro 5 (2009-14),0.0,2009,,2014,,0.5
+162,1,9,421,Road - P - CAR - Large - Liquefied Hydrogen - Euro 6 (2015-19),0.0,2015,,2016,,0.5
+163,1,9,422,Road - P - CAR - Large - Liquefied Hydrogen - Euro 7 (2020-24),0.0,2020,,2021,,0.5
+164,1,9,423,Road - P - CAR - Large - Liquefied Hydrogen - Euro 8 (2025-29),0.0,2025,,2026,,0.5
+165,1,9,424,Road - P - CAR - Large - Liquefied Hydrogen - Euro 9 (2030-34),0.0,2030,,2031,,0.5
+166,1,9,425,Road - P - CAR - Large - Liquefied Hydrogen - Euro 11 (2040-44),0.0,2040,,2041,,0.5
+167,1,9,430,Road - P - CAR - Medium - Liquified Petroleum Gas - Euro 2 (1996-2001),0.527190983295441,1995,,1996,,0.300000011920929
+168,1,9,431,Road - P - CAR - Medium - Liquified Petroleum Gas - Euro 3 (2001-05),2.0,2000,,2002,,0.300000011920929
+169,1,9,432,Road - P - CAR - Medium - Liquified Petroleum Gas - Euro 4 (2005-09),0.479999989271164,2005,,2007,,0.300000011920929
+170,1,9,433,Road - P - CAR - Medium - Liquified Petroleum Gas - Euro 5 (2009-14),14.0,2009,,2010,,0.300000011920929
+171,1,9,434,Road - P - CAR - Medium - Liquified Petroleum Gas - Euro 6 (2015-19),14.0,2015,,2016,,0.300000011920929
+172,1,9,435,Road - P - CAR - Medium - Liquified Petroleum Gas - Euro 7 (2020-24),14.0,2020,,2021,,0.300000011920929
+173,1,9,436,Road - P - CAR - Medium - Liquified Petroleum Gas - Euro 8 (2025-29),14.0,2025,,2026,,0.300000011920929
+174,1,9,437,Road - P - CAR - Medium - Liquified Petroleum Gas - Euro 9 (2030-34),14.0,2030,,2031,,0.300000011920929
+175,1,9,438,Road - P - CAR - Medium - Liquified Petroleum Gas - Euro 10 (2035-39),14.0,2035,,2036,,0.300000011920929
+176,1,9,439,Road - P - CAR - Medium - Liquified Petroleum Gas - Euro 11 (2040-44),14.0,2040,,2041,,0.300000011920929
+177,1,9,440,Road - P - CAR - Medium - Liquified Petroleum Gas - Euro 12 (2045-50),14.0,2045,,2046,,0.300000011920929
+178,1,9,441,Road - P - CAR - Large - Liquified Petroleum Gas - Euro 2 (1996-2001),0.100000001490116,1995,,1997,,0.300000011920929
+179,1,9,442,Road - P - CAR - Large - Liquified Petroleum Gas - Euro 3 (2001-05),1.55999994277954,2000,,2002,,0.300000011920929
+180,1,9,443,Road - P - CAR - Large - Liquified Petroleum Gas - Euro 4 (2005-09),0.389999985694885,2005,,2007,,0.300000011920929
+181,1,9,444,Road - P - CAR - Large - Liquified Petroleum Gas - Euro 5 (2009-14),11.0,2009,,2010,,0.300000011920929
+182,1,9,445,Road - P - CAR - Large - Liquified Petroleum Gas - Euro 6 (2015-19),11.0,2015,,2016,,0.300000011920929
+183,1,9,446,Road - P - CAR - Large - Liquified Petroleum Gas - Euro 7 (2020-24),11.0,2020,,2021,,0.300000011920929
+184,1,9,447,Road - P - CAR - Large - Liquified Petroleum Gas - Euro 8 (2025-29),11.0,2025,,2026,,0.300000011920929
+185,1,9,448,Road - P - CAR - Large - Liquified Petroleum Gas - Euro 9 (2030-34),11.0,2030,,2031,,0.300000011920929
+186,1,9,449,Road - P - CAR - Large - Liquified Petroleum Gas - Euro 10 (2035-39),11.0,2035,,2036,,0.300000011920929
+187,1,9,450,Road - P - CAR - Large - Liquified Petroleum Gas - Euro 11 (2040-44),11.0,2040,,2041,,0.300000011920929
+188,1,9,451,Road - P - CAR - Large - Liquified Petroleum Gas - Euro 12 (2045-50),11.0,2045,,2046,,0.300000011920929
+189,1,9,460,Road - P - CAR - Medium - Diesel - Euro 4 (2005-09) - HEV,1.5,2005,,2006,,0.300000011920929
+190,1,9,461,Road - P - CAR - Medium - Diesel - Euro 5 (2009-14) - HEV,25.0,2009,,2010,,0.300000011920929
+191,1,9,462,Road - P - CAR - Medium - Diesel - Euro 6 (2015-19) - HEV,100.0,2015,,2020,,0.300000011920929
+192,1,9,463,Road - P - CAR - Medium - Diesel - Euro 7 (2020-24) - HEV,500.0,2020,,2023,,0.300000011920929
+193,1,9,464,Road - P - CAR - Medium - Diesel - Euro 8 (2025-29) - HEV,1000.0,2025,,2027,,0.300000011920929
+194,1,9,465,Road - P - CAR - Medium - Diesel - Euro 9 (2030-34) - HEV,1284.0,2030,,2031,,0.300000011920929
+195,1,9,466,Road - P - CAR - Medium - Diesel - Euro 10 (2035-39) - HEV,1284.0,2035,,2036,,0.300000011920929
+196,1,9,467,Road - P - CAR - Medium - Diesel - Euro 11 (2040-44) - HEV,1284.0,2040,,2041,,0.300000011920929
+197,1,9,468,Road - P - CAR - Medium - Diesel - Euro 12 (2045-50) - HEV,1284.0,2045,,2046,,0.300000011920929
+198,1,9,470,Road - P - CAR - Large - Diesel - Euro 4 (2005-09) - HEV,0.100000001490116,2005,,2006,,0.300000011920929
+199,1,9,471,Road - P - CAR - Large - Diesel - Euro 5 (2009-14) - HEV,61.0,2009,,2010,,0.300000011920929
+200,1,9,472,Road - P - CAR - Large - Diesel - Euro 6 (2015-19) - HEV,244.0,2015,,2016,,0.300000011920929
+201,1,9,473,Road - P - CAR - Large - Diesel - Euro 7 (2020-24) - HEV,1054.0,2020,,2021,,0.300000011920929
+202,1,9,474,Road - P - CAR - Large - Diesel - Euro 8 (2025-29) - HEV,1054.0,2025,,2026,,0.300000011920929
+203,1,9,475,Road - P - CAR - Large - Diesel - Euro 9 (2030-34) - HEV,1054.0,2030,,2031,,0.300000011920929
+204,1,9,476,Road - P - CAR - Large - Diesel - Euro 10 (2035-39) - HEV,1054.0,2035,,2036,,0.300000011920929
+205,1,9,477,Road - P - CAR - Large - Diesel - Euro 11 (2040-44) - HEV,1054.0,2040,,2041,,0.300000011920929
+206,1,9,478,Road - P - CAR - Large - Diesel - Euro 12 (2045-50) - HEV,1054.0,2045,,2046,,0.300000011920929
+207,1,9,480,Road - P - CAR - Medium - Electricity - Euro 3 (2001-05),0.00999999977648258,1995,,2005,,0.300000011920929
+208,1,9,510,Road - P - CAR - Medium - Electricity - Euro 4 (2005-09),3.0,2000,,2010,,0.300000011920929
+209,1,9,515,Road - P - CAR - Medium - Electricity - Euro 5 (2009-14),12.1000003814697,2004,,2014,,0.300000011920929
+210,1,9,520,Road - P - CAR - Small - Compressed Natural Gas - Euro 4 (2005-09),0.0,2005,,2008,,0.300000011920929
+211,1,9,521,Road - P - CAR - Small - Compressed Natural Gas - Euro 5 (2009-14),0.0,2009,,2014,,0.300000011920929
+212,1,9,522,Road - P - CAR - Small - Compressed Natural Gas - Euro 6 (2015-19),0.0,2015,,2018,,0.300000011920929
+213,1,9,523,Road - P - CAR - Small - Compressed Natural Gas - Euro 7 (2020-24),0.0,2020,,2022,,0.300000011920929
+214,1,9,524,Road - P - CAR - Small - Compressed Natural Gas - Euro 8 (2025-29),0.0,2025,,2027,,0.300000011920929
+215,1,9,525,Road - P - CAR - Small - Compressed Natural Gas - Euro 9 (2030-34),0.0,2030,,2031,,0.300000011920929
+216,1,9,526,Road - P - CAR - Small - Compressed Natural Gas - Euro 10 (2035-39),0.0,2035,,2036,,0.300000011920929
+217,1,9,527,Road - P - CAR - Small - Compressed Natural Gas - Euro 11 (2040-44),0.0,2040,,2041,,0.300000011920929
+218,1,9,528,Road - P - CAR - Small - Compressed Natural Gas - Euro 12 (2045-50),0.0,2045,,2046,,0.300000011920929
+219,1,9,530,Road - P - CAR - Medium - Compressed Natural Gas - Euro 4 (2005-09),0.0,2005,,2008,,0.300000011920929
+220,1,9,531,Road - P - CAR - Medium - Compressed Natural Gas - Euro 5 (2009-14),0.0,2009,,2014,,0.300000011920929
+221,1,9,532,Road - P - CAR - Medium - Compressed Natural Gas - Euro 6 (2015-19),0.0,2015,,2018,,0.300000011920929
+222,1,9,533,Road - P - CAR - Medium - Compressed Natural Gas - Euro 7 (2020-24),0.0,2020,,2022,,0.300000011920929
+223,1,9,534,Road - P - CAR - Medium - Compressed Natural Gas - Euro 8 (2025-29),0.0,2025,,2027,,0.300000011920929
+224,1,9,535,Road - P - CAR - Medium - Compressed Natural Gas - Euro 9 (2030-34),0.0,2030,,2031,,0.300000011920929
+225,1,9,536,Road - P - CAR - Medium - Compressed Natural Gas - Euro 10 (2035-39),0.0,2035,,2036,,0.300000011920929
+226,1,9,537,Road - P - CAR - Medium - Compressed Natural Gas - Euro 11 (2040-44),0.0,2040,,2041,,0.300000011920929
+227,1,9,538,Road - P - CAR - Medium - Compressed Natural Gas - Euro 12 (2045-50),0.0,2045,,2046,,0.300000011920929
+228,1,9,540,Road - P - CAR - Large - Compressed Natural Gas - Euro 4 (2005-09),0.0,2005,,2008,,0.300000011920929
+229,1,9,541,Road - P - CAR - Large - Compressed Natural Gas - Euro 5 (2009-14),0.0,2009,,2014,,0.300000011920929
+230,1,9,542,Road - P - CAR - Large - Compressed Natural Gas - Euro 6 (2015-19),0.0,2015,,2018,,0.300000011920929
+231,1,9,543,Road - P - CAR - Large - Compressed Natural Gas - Euro 7 (2020-24),0.0,2020,,2022,,0.300000011920929
+232,1,9,544,Road - P - CAR - Large - Compressed Natural Gas - Euro 8 (2025-29),0.0,2025,,2027,,0.300000011920929
+233,1,9,545,Road - P - CAR - Large - Compressed Natural Gas - Euro 9 (2030-34),0.0,2030,,2031,,0.300000011920929
+234,1,9,546,Road - P - CAR - Large - Compressed Natural Gas - Euro 10 (2035-39),0.0,2035,,2036,,0.300000011920929
+235,1,9,547,Road - P - CAR - Large - Compressed Natural Gas - Euro 11 (2040-44),0.0,2040,,2041,,0.300000011920929
+236,1,9,548,Road - P - CAR - Large - Compressed Natural Gas - Euro 12 (2045-50),0.0,2045,,2046,,0.300000011920929
+237,1,9,550,Road - P - CAR - Small - Liquified Petroleum Gas - Euro 4 (2005-09),0.0,2005,,2006,,0.300000011920929
+238,1,9,551,Road - P - CAR - Small - Liquified Petroleum Gas - Euro 5 (2009-14),0.0,2009,,2010,,0.300000011920929
+239,1,9,552,Road - P - CAR - Small - Liquified Petroleum Gas - Euro 6 (2015-19),0.0,2015,,2016,,0.300000011920929
+240,1,9,553,Road - P - CAR - Small - Liquified Petroleum Gas - Euro 7 (2020-24),0.0,2020,,2021,,0.300000011920929
+241,1,9,554,Road - P - CAR - Small - Liquified Petroleum Gas - Euro 8 (2025-29),0.0,2025,,2026,,0.300000011920929
+242,1,9,555,Road - P - CAR - Small - Liquified Petroleum Gas - Euro 9 (2030-34),0.0,2030,,2031,,0.300000011920929
+243,1,9,556,Road - P - CAR - Small - Liquified Petroleum Gas - Euro 10 (2035-39),0.0,2035,,2036,,0.300000011920929
+244,1,9,557,Road - P - CAR - Small - Liquified Petroleum Gas - Euro 11 (2040-44),0.0,2040,,2041,,0.300000011920929
+245,1,9,558,Road - P - CAR - Small - Liquified Petroleum Gas - Euro 12 (2045-50),0.0,2045,,2046,,0.300000011920929
+246,1,9,580,Road - P - CAR - Small - Electricity - Euro 11 (2040-44),4966.0,2040,,2041,,0.300000011920929
+247,1,9,590,Road - P - CAR - Small - Electricity - Euro 1 (1992-96),3.0,1990,,2000,,0.300000011920929
+248,1,9,600,Road - P - CAR - Small - Electricity - Euro 2 (1996-2001),6.5,1995,,2005,,0.300000011920929
+249,1,9,610,Road - P - CAR - Small - Electricity - Euro 3 (2001-05),13.3999996185303,2000,,2010,,0.300000011920929
+250,1,9,611,Road - P - CAR - Medium - Diesel - Euro 5 (2009-14) - PHEV,0.0,2009,,2014,,0.300000011920929
+251,1,9,612,Road - P - CAR - Medium - Diesel - Euro 6 (2015-19) - PHEV,190.0,2015,,2019,,0.300000011920929
+252,1,9,613,Road - P - CAR - Medium - Diesel - Euro 7 (2020-24) - PHEV,380.0,2020,,2024,,0.300000011920929
+253,1,9,614,Road - P - CAR - Medium - Diesel - Euro 8 (2025-29) - PHEV,380.0,2025,,2026,,0.300000011920929
+254,1,9,615,Road - P - CAR - Medium - Diesel - Euro 9 (2030-34) - PHEV,760.0,2030,,2031,,0.300000011920929
+255,1,9,616,Road - P - CAR - Medium - Diesel - Euro 10 (2035-39) - PHEV,760.0,2035,,2036,,0.300000011920929
+256,1,9,617,Road - P - CAR - Medium - Diesel - Euro 11 (2040-44) - PHEV,760.0,2040,,2041,,0.300000011920929
+257,1,9,618,Road - P - CAR - Medium - Diesel - Euro 12 (2045-50) - PHEV,760.0,2045,,2046,,0.300000011920929
+258,1,9,620,Road - P - CAR - Small - Gasoline - Euro 5 (2009-14) - HEV,20.0,2009,,2014,,0.300000011920929
+259,1,9,621,Road - P - CAR - Small - Gasoline - Euro 6 (2015-19) - HEV,800.0,2015,,2019,,0.300000011920929
+260,1,9,622,Road - P - CAR - Small - Gasoline - Euro 7 (2020-24) - HEV,2400.0,2020,,2024,,0.300000011920929
+261,1,9,623,Road - P - CAR - Small - Gasoline - Euro 8 (2025-29) - HEV,2400.0,2025,,2026,,0.300000011920929
+262,1,9,624,Road - P - CAR - Small - Gasoline - Euro 9 (2030-34) - HEV,2400.0,2030,,2031,,0.300000011920929
+263,1,9,625,Road - P - CAR - Small - Gasoline - Euro 10 (2035-39) - HEV,2400.0,2035,,2036,,0.300000011920929
+264,1,9,626,Road - P - CAR - Small - Gasoline - Euro 11 (2040-44) - HEV,2400.0,2040,,2041,,0.300000011920929
+265,1,9,627,Road - P - CAR - Small - Gasoline - Euro 12 (2045-50) - HEV,2400.0,2045,,2046,,0.300000011920929
+266,1,9,630,Road - P - BUS - Mini - Diesel - Conventional (pre-EURO),4118.0,1980,,1981,,0.100000001490116
+267,1,9,631,Road - P - CAR - Large - Diesel - Euro 5 (2009-14) - PHEV,0.0,2009,,2014,,0.300000011920929
+268,1,9,632,Road - P - CAR - Large - Diesel - Euro 6 (2015-19) - PHEV,100.0,2015,,2019,,0.300000011920929
+269,1,9,633,Road - P - CAR - Large - Diesel - Euro 7 (2020-24) - PHEV,250.0,2020,,2024,,0.300000011920929
+270,1,9,634,Road - P - CAR - Large - Diesel - Euro 8 (2025-29) - PHEV,516.0,2025,,2029,,0.300000011920929
+271,1,9,635,Road - P - CAR - Large - Diesel - Euro 9 (2030-34) - PHEV,516.0,2030,,2031,,0.300000011920929
+272,1,9,636,Road - P - CAR - Large - Diesel - Euro 10 (2035-39) - PHEV,516.0,2035,,2036,,0.300000011920929
+273,1,9,637,Road - P - CAR - Large - Diesel - Euro 11 (2040-44) - PHEV,516.0,2040,,2041,,0.300000011920929
+274,1,9,638,Road - P - CAR - Large - Diesel - Euro 12 (2045-50) - PHEV,516.0,2045,,2046,,0.300000011920929
+275,1,9,640,Road - P - BUS - Mini - Gasoline - Standard 1,20243.0,1990,,1991,,0.100000001490116
+276,1,9,641,Road - P - CAR - Large - Electricity - Euro 5 (2009-14),0.0,2009,,2014,,0.300000011920929
+277,1,9,642,Road - P - CAR - Large - Electricity - Euro 6 (2015-19),125.0,2015,,2019,,0.300000011920929
+278,1,9,643,Road - P - CAR - Large - Electricity - Euro 7 (2020-24),250.0,2020,,2023,,0.300000011920929
+279,1,9,644,Road - P - CAR - Large - Electricity - Euro 8 (2025-29),500.0,2025,,2027,,0.300000011920929
+280,1,9,645,Road - P - CAR - Large - Electricity - Euro 9 (2030-34),1036.0,2030,,2031,,0.300000011920929
+281,1,9,646,Road - P - CAR - Large - Electricity - Euro 10 (2035-39),1036.0,2035,,2036,,0.300000011920929
+282,1,9,647,Road - P - CAR - Large - Electricity - Euro 11 (2040-44),1036.0,2040,,2041,,0.300000011920929
+283,1,9,648,Road - P - CAR - Large - Electricity - Euro 12 (2045-50),1036.0,2045,,2046,,0.300000011920929
+284,1,9,650,Road - P - BUS - Mini - Compressed Natural Gas - Euro 4 (2005-09),0.0,2005,,2008,,0.100000001490116
+285,1,9,651,Road - P - BUS - Mini - Compressed Natural Gas - Euro 5 (2009-14),0.0,2009,,2014,,0.100000001490116
+286,1,9,652,Road - P - BUS - Mini - Compressed Natural Gas - Euro 6 (2015-19),0.0,2015,,2018,,0.100000001490116
+287,1,9,653,Road - P - BUS - Mini - Compressed Natural Gas - Euro 7 (2020-24),0.0,2020,,2022,,0.100000001490116
+288,1,9,654,Road - P - BUS - Mini - Compressed Natural Gas - Euro 8 (2025-29),0.0,2025,,2027,,0.100000001490116
+289,1,9,655,Road - P - BUS - Mini - Compressed Natural Gas - Euro 9 (2030-34),0.0,2030,,2031,,0.100000001490116
+290,1,9,656,Road - P - BUS - Mini - Compressed Natural Gas - Euro 10 (2035-39),0.0,2035,,2036,,0.100000001490116
+291,1,9,657,Road - P - BUS - Mini - Compressed Natural Gas - Euro 11 (2040-44),0.0,2040,,2041,,0.100000001490116
+292,1,9,658,Road - P - BUS - Mini - Compressed Natural Gas - Euro 12 (2045-50),0.0,2045,,2046,,0.100000001490116
+293,1,9,660,Road - P - BUS - Mini - Liquified Petroleum Gas - Euro 4 (2005-09),1.0,2005,,2006,,0.100000001490116
+294,1,9,661,Road - P - BUS - Mini - Liquified Petroleum Gas - Euro 5 (2009-14),0.0,2009,,2010,,0.100000001490116
+295,1,9,662,Road - P - BUS - Mini - Liquified Petroleum Gas - Euro 6 (2015-19),0.0,2015,,2016,,0.100000001490116
+296,1,9,663,Road - P - BUS - Mini - Liquified Petroleum Gas - Euro 7 (2020-24),0.0,2020,,2021,,0.100000001490116
+297,1,9,664,Road - P - BUS - Mini - Liquified Petroleum Gas - Euro 8 (2025-29),0.0,2025,,2026,,0.100000001490116
+298,1,9,665,Road - P - BUS - Mini - Liquified Petroleum Gas - Euro 9 (2030-34),0.0,2030,,2031,,0.100000001490116
+299,1,9,666,Road - P - BUS - Mini - Liquified Petroleum Gas - Euro 10 (2035-39),0.0,2035,,2036,,0.100000001490116
+300,1,9,667,Road - P - BUS - Mini - Liquified Petroleum Gas - Euro 11 (2040-44),0.0,2040,,2041,,0.100000001490116
+301,1,9,668,Road - P - BUS - Mini - Liquified Petroleum Gas - Euro 12 (2045-50),0.0,2045,,2046,,0.100000001490116
+302,1,9,670,Road - P - BUS - Mini - Gasoline - Standard 2,20243.0,2005,,2006,,0.100000001490116
+303,1,9,675,Road - P - BUS - Mini - Gasoline - Standard 3,20243.0,2020,,2021,,0.100000001490116
+304,1,9,680,Road - P - BUS - Urban - Electricity - Euro 4 (2005-09),33.560001373291,2005,,2009,,0.100000001490116
+305,1,9,690,Road - P - BUS - Mini - Diesel - Euro 5 (2009-14),20243.0,2009,,2010,,0.100000001490116
+306,1,9,691,"Road - P - BUS - Mini - Biodiesel (FT, synthetic) - Standard 1",0.100000001490116,1990,,1995,,0.100000001490116
+307,1,9,695,Road - P - BUS - Mini - Diesel - Euro 6 (2015-19),20243.0,2015,,2016,,0.100000001490116
+308,1,9,696,Road - P - BUS - Mini - Diesel - Euro 7 (2020-24),20243.0,2020,,2021,,0.100000001490116
+309,1,9,697,Road - P - BUS - Mini - Diesel - Euro 8 (2025-29),20243.0,2025,,2026,,0.100000001490116
+310,1,9,698,Road - P - BUS - Mini - Diesel - Euro 9 (2030-34),20243.0,2030,,2031,,0.100000001490116
+311,1,9,699,Road - P - BUS - Mini - Diesel - Euro 10 (2035-39),20243.0,2035,,2036,,0.100000001490116
+312,1,9,700,Road - P - BUS - Mini - Diesel - Euro 1 (1992-96),1370.0,1992,,1993,,0.100000001490116
+313,1,9,701,Road - P - BUS - Mini - Diesel - Euro 11 (2040-44),20243.0,2040,,2041,,0.100000001490116
+314,1,9,702,Road - P - BUS - Mini - Diesel - Euro 12 (2045-50),20243.0,2045,,2046,,0.100000001490116
+315,1,9,720,Road - P - BUS - Mini - Diesel - Euro 2 (1996-2001),5488.0,1996,,1997,,0.100000001490116
+316,1,9,730,Road - P - BUS - Urban - Electricity - Euro 5 (2009-14),335.600006103516,2009,,2014,,0.100000001490116
+317,1,9,731,Road - P - BUS - Urban - Electricity - Euro 6 (2015-19),3356.0,2015,,2020,,0.100000001490116
+318,1,9,750,Road - P - BUS - Mini - Electricity - Standard 1,1012.0,2015,,2020,,0.100000001490116
+319,1,9,780,Road - P - BUS - Mini - Electricity - Standard 2,1012.0,2025,,2026,,0.100000001490116
+320,1,9,781,Road - P - BUS - Mini - Electricity - Standard 3,1012.0,2035,,2036,,0.100000001490116
+321,1,9,810,Road - P - BUS - Mini - Diesel - Euro 3 (2001-05),20243.0,2000,,2001,,0.100000001490116
+322,1,9,811,"Road - P - BUS - Mini - Biodiesel (FT, synthetic) - Standard 2",101.0,2005,,2010,,0.100000001490116
+323,1,9,812,"Road - P - BUS - Mini - Biodiesel (FT, synthetic) - Standard 3",202.429992675781,2015,,2020,,0.100000001490116
+324,1,9,850,Road - P - BUS - Mini - Diesel - Euro 4 (2005-09),20243.0,2005,,2006,,0.100000001490116
+325,1,9,852,Road - P - BUS - Mini - Diesel - Euro 4 (2005-09) - HEV,202.429992675781,2005,,2008,,0.100000001490116
+326,1,9,853,Road - P - BUS - Mini - Bioethanol(85)-petrol(15) blend - Euro 4 (2005-09),101.199996948242,2005,,2009,,0.100000001490116
+327,1,9,854,Road - P - BUS - Mini - Gaseous Hydrogen - Fuel Cell,0.100000001490116,2010,,2030,,0.150000005960464
+328,1,9,855,Road - P - CAR - Small - Electricity - Euro 12 (2045-50),4966.0,2045,,2046,,0.300000011920929
+329,1,9,856,Road - P - CAR - Medium - Gaseous Hydrogen - Fuel Cell,0.0,2020,,2025,,0.5
+330,1,9,857,Road - P - BUS - Mini - Bioethanol(85)-petrol(15) blend - Euro 5 (2009-14),202.429992675781,2009,,2014,,0.100000001490116
+331,1,9,858,Road - P - BUS - Mini - Bioethanol(85)-petrol(15) blend - Euro 6 (2015-19),202.429992675781,2015,,2019,,0.100000001490116
+332,1,9,859,Road - P - BUS - Mini - Bioethanol(85)-petrol(15) blend - Euro 7 (2020-24),202.429992675781,2020,,2021,,0.100000001490116
+333,1,9,860,Road - P - BUS - Mini - Bioethanol(85)-petrol(15) blend - Euro 8 (2025-29),202.429992675781,2025,,2026,,0.100000001490116
+334,1,9,861,Road - P - BUS - Mini - Bioethanol(85)-petrol(15) blend - Euro 9 (2030-34),202.429992675781,2030,,2031,,0.100000001490116
+335,1,9,862,Road - P - BUS - Mini - Bioethanol(85)-petrol(15) blend - Euro 10 (2035-39),202.429992675781,2035,,2036,,0.100000001490116
+336,1,9,863,Road - P - BUS - Mini - Bioethanol(85)-petrol(15) blend - Euro 11 (2040-44),202.429992675781,2040,,2041,,0.100000001490116
+337,1,9,864,Road - P - BUS - Mini - Bioethanol(85)-petrol(15) blend - Euro 12 (2045-50),202.429992675781,2045,,2046,,0.100000001490116
+338,1,9,865,Road - P - BUS - Mini - Diesel - Euro 5 (2009-14) - HEV,1012.0,2009,,2012,,0.100000001490116
+339,1,9,866,Road - P - BUS - Mini - Diesel - Euro 6 (2015-19) - HEV,2024.0,2015,,2018,,0.100000001490116
+340,1,9,867,Road - P - BUS - Mini - Diesel - Euro 7 (2020-24) - HEV,2024.0,2020,,2021,,0.100000001490116
+341,1,9,868,Road - P - BUS - Mini - Diesel - Euro 8 (2025-29) - HEV,2024.0,2025,,2026,,0.100000001490116
+342,1,9,869,Road - P - BUS - Mini - Diesel - Euro 9 (2030-34) - HEV,2024.0,2030,,2031,,0.100000001490116
+343,1,9,870,Road - P - BUS - Urban - Diesel - Conventional (pre-EURO),50459.0,1980,,1981,,0.100000001490116
+344,1,9,871,Road - P - BUS - Mini - Diesel - Euro 10 (2035-39) - HEV,2024.0,2035,,2036,,0.100000001490116
+345,1,9,872,Road - P - BUS - Mini - Diesel - Euro 11 (2040-44) - HEV,2024.0,2040,,2041,,0.100000001490116
+346,1,9,873,Road - P - BUS - Mini - Diesel - Euro 12 (2045-50) - HEV,2024.0,2045,,2046,,0.100000001490116
+347,1,9,890,Road - P - BUS - Urban - Diesel - Euro 5 (2009-14),67125.0,2009,,2010,,0.100000001490116
+348,1,9,940,Road - P - BUS - Urban - Electricity - Euro 7 (2020-24),3356.0,2020,,2021,,0.100000001490116
+349,1,9,941,Road - P - BUS - Urban - Electricity - Euro 8 (2025-29),3356.0,2025,,2026,,0.100000001490116
+350,1,9,950,Road - P - BUS - Urban - Bioethanol(85)-petrol(15) blend - Standard 2,0.100000001490116,2020,,2025,,0.100000001490116
+351,1,9,970,Road - P - BUS - Urban - Diesel - Euro 1 (1992-96),16667.0,1992,,1993,,0.100000001490116
+352,1,9,980,Road - P - BUS - Urban - Diesel - Euro 2 (1996-2001),67125.0,1996,,1997,,0.100000001490116
+353,1,9,981,Road - P - BUS - Urban - Diesel - Euro 5 (2009-14) - PHEV,33.560001373291,2009,,2014,,0.100000001490116
+354,1,9,982,Road - P - BUS - Urban - Diesel - Euro 6 (2015-19) - PHEV,335.630004882813,2015,,2019,,0.100000001490116
+355,1,9,983,Road - P - BUS - Urban - Diesel - Euro 7 (2020-24) - PHEV,3356.30004882813,2020,,2024,,0.100000001490116
+356,1,9,984,Road - P - BUS - Urban - Diesel - Euro 8 (2025-29) - PHEV,6712.5,2025,,2029,,0.100000001490116
+357,1,9,985,Road - P - BUS - Urban - Diesel - Euro 9 (2030-34) - PHEV,6712.5,2030,,2031,,0.100000001490116
+358,1,9,986,Road - P - BUS - Urban - Diesel - Euro 10 (2035-39) - PHEV,6712.5,2035,,2036,,0.100000001490116
+359,1,9,987,Road - P - BUS - Urban - Diesel - Euro 11 (2040-44) - PHEV,6712.5,2040,,2041,,0.100000001490116
+360,1,9,988,Road - P - BUS - Urban - Diesel - Euro 12 (2045-50) - PHEV,6712.5,2045,,2046,,0.100000001490116
+361,1,9,990,Road - P - BUS - Urban - Compressed Natural Gas - Euro 4 (2005-09),0.0,2005,,2008,,0.100000001490116
+362,1,9,991,Road - P - BUS - Urban - Compressed Natural Gas - Euro 5 (2009-14),33.5625,2009,,2014,,0.100000001490116
+363,1,9,992,Road - P - BUS - Urban - Compressed Natural Gas - Euro 6 (2015-19),0.0,2015,,2018,,0.100000001490116
+364,1,9,993,Road - P - BUS - Urban - Compressed Natural Gas - Euro 7 (2020-24),0.0,2020,,2022,,0.100000001490116
+365,1,9,994,Road - P - BUS - Urban - Compressed Natural Gas - Euro 8 (2025-29),0.0,2025,,2027,,0.100000001490116
+366,1,9,995,Road - P - BUS - Urban - Compressed Natural Gas - Euro 9 (2030-34),0.0,2030,,2031,,0.100000001490116
+367,1,9,996,Road - P - BUS - Urban - Compressed Natural Gas - Euro 10 (2035-39),0.0,2035,,2036,,0.100000001490116
+368,1,9,997,Road - P - BUS - Urban - Compressed Natural Gas - Euro 11 (2040-44),0.0,2040,,2041,,0.100000001490116
+369,1,9,998,Road - P - BUS - Urban - Compressed Natural Gas - Euro 12 (2045-50),0.0,2045,,2046,,0.100000001490116
+370,1,9,1000,Road - P - BUS - Urban - Liquified Petroleum Gas - Euro 4 (2005-09),0.0,2005,,2006,,0.100000001490116
+371,1,9,1001,Road - P - BUS - Urban - Liquified Petroleum Gas - Euro 5 (2009-14),0.0,2009,,2010,,0.100000001490116
+372,1,9,1002,Road - P - BUS - Urban - Liquified Petroleum Gas - Euro 6 (2015-19),0.0,2015,,2016,,0.100000001490116
+373,1,9,1003,Road - P - BUS - Urban - Liquified Petroleum Gas - Euro 7 (2020-24),0.0,2020,,2021,,0.100000001490116
+374,1,9,1004,Road - P - BUS - Urban - Liquified Petroleum Gas - Euro 8 (2025-29),0.0,2025,,2026,,0.100000001490116
+375,1,9,1005,Road - P - BUS - Urban - Liquified Petroleum Gas - Euro 9 (2030-34),0.0,2030,,2031,,0.100000001490116
+376,1,9,1006,Road - P - BUS - Urban - Liquified Petroleum Gas - Euro 10 (2035-39),0.0,2035,,2036,,0.100000001490116
+377,1,9,1007,Road - P - BUS - Urban - Liquified Petroleum Gas - Euro 11 (2040-44),0.0,2040,,2041,,0.100000001490116
+378,1,9,1008,Road - P - BUS - Urban - Liquified Petroleum Gas - Euro 12 (2045-50),0.0,2045,,2046,,0.100000001490116
+379,1,9,1010,Road - P - BUS - Urban - Electricity - Euro 9 (2030-34),3356.0,2030,,2031,,0.100000001490116
+380,1,9,1030,Road - P - BUS - Urban - Electricity - Euro 10 (2035-39),3356.0,2035,,2036,,0.100000001490116
+381,1,9,1031,Road - P - BUS - Urban - Electricity - Euro 11 (2040-44),3356.0,2040,,2041,,0.100000001490116
+382,1,9,1040,Road - P - BUS - Urban - Diesel - Euro 3 (2001-05),67125.0,2000,,2001,,0.100000001490116
+383,1,9,1041,"Road - P - BUS - Urban - Biodiesel (FT, synthetic) - Standard 1",34.0,1990,,1995,,0.100000001490116
+384,1,9,1050,Road - P - BUS - Coach - Compressed Natural Gas - Euro 4 (2005-09),0.0,2005,,2008,,0.100000001490116
+385,1,9,1051,Road - P - BUS - Coach - Compressed Natural Gas - Euro 5 (2009-14),0.0,2009,,2014,,0.100000001490116
+386,1,9,1052,Road - P - BUS - Coach - Compressed Natural Gas - Euro 6 (2015-19),0.0,2015,,2018,,0.100000001490116
+387,1,9,1053,Road - P - BUS - Coach - Compressed Natural Gas - Euro 7 (2020-24),0.0,2020,,2022,,0.100000001490116
+388,1,9,1054,Road - P - BUS - Coach - Compressed Natural Gas - Euro 8 (2025-29),0.0,2025,,2027,,0.100000001490116
+389,1,9,1055,Road - P - BUS - Coach - Compressed Natural Gas - Euro 9 (2030-34),0.0,2030,,2031,,0.100000001490116
+390,1,9,1056,Road - P - BUS - Coach - Compressed Natural Gas - Euro 10 (2035-39),0.0,2035,,2036,,0.100000001490116
+391,1,9,1057,Road - P - BUS - Coach - Compressed Natural Gas - Euro 11 (2040-44),0.0,2040,,2041,,0.100000001490116
+392,1,9,1058,Road - P - BUS - Coach - Compressed Natural Gas - Euro 12 (2045-50),0.0,2045,,2046,,0.100000001490116
+393,1,9,1060,Road - P - BUS - Coach - Liquified Petroleum Gas - Euro 4 (2005-09),0.0,2005,,2006,,0.100000001490116
+394,1,9,1061,Road - P - BUS - Coach - Liquified Petroleum Gas - Euro 5 (2009-14),0.0,2009,,2010,,0.100000001490116
+395,1,9,1062,Road - P - BUS - Coach - Liquified Petroleum Gas - Euro 6 (2015-19),0.0,2015,,2016,,0.100000001490116
+396,1,9,1063,Road - P - BUS - Coach - Liquified Petroleum Gas - Euro 7 (2020-24),0.0,2020,,2021,,0.100000001490116
+397,1,9,1064,Road - P - BUS - Coach - Liquified Petroleum Gas - Euro 8 (2025-29),0.0,2025,,2026,,0.100000001490116
+398,1,9,1065,Road - P - BUS - Coach - Liquified Petroleum Gas - Euro 9 (2030-34),0.0,2030,,2031,,0.100000001490116
+399,1,9,1066,Road - P - BUS - Coach - Liquified Petroleum Gas - Euro 10 (2035-39),0.0,2035,,2036,,0.100000001490116
+400,1,9,1067,Road - P - BUS - Coach - Liquified Petroleum Gas - Euro 11 (2040-44),0.0,2040,,2041,,0.100000001490116
+401,1,9,1068,Road - P - BUS - Coach - Liquified Petroleum Gas - Euro 12 (2045-50),0.0,2045,,2046,,0.100000001490116
+402,1,9,1110,Road - P - BUS - Urban - Bioethanol(85)-petrol(15) blend - Standard 1,0.100000001490116,2010,,2015,,0.100000001490116
+403,1,9,1111,Road - P - BUS - Urban - Bioethanol(85)-petrol(15) blend - Standard 3,0.100000001490116,2030,,2035,,0.100000001490116
+404,1,9,1121,Road - P - BUS - Urban - Diesel - Euro 6 (2015-19),67125.0,2015,,2016,,0.100000001490116
+405,1,9,1122,Road - P - BUS - Urban - Diesel - Euro 7 (2020-24),67125.0,2020,,2021,,0.100000001490116
+406,1,9,1123,Road - P - BUS - Urban - Diesel - Euro 8 (2025-29),67125.0,2025,,2026,,0.100000001490116
+407,1,9,1124,Road - P - BUS - Urban - Diesel - Euro 9 (2030-34),67125.0,2030,,2031,,0.100000001490116
+408,1,9,1125,Road - P - BUS - Urban - Diesel - Euro 10 (2035-39),67125.0,2035,,2036,,0.100000001490116
+409,1,9,1126,Road - P - BUS - Urban - Diesel - Euro 11 (2040-44),67125.0,2040,,2041,,0.100000001490116
+410,1,9,1127,Road - P - BUS - Urban - Diesel - Euro 12 (2045-50),67125.0,2045,,2046,,0.100000001490116
+411,1,9,1130,Road - P - BUS - Urban - Diesel - Euro 4 (2005-09),67125.0,2005,,2006,,0.100000001490116
+412,1,9,1131,"Road - P - BUS - Urban - Biodiesel (FT, synthetic) - Standard 2",67.0,2005,,2010,,0.100000001490116
+413,1,9,1132,Road - P - BUS - Urban - Diesel - Euro 4 (2005-09) - HEV,16781.0,2005,,2008,,0.100000001490116
+414,1,9,1133,Road - P - BUS - Urban - Electricity - Euro 12 (2045-50),3356.0,2045,,2046,,0.100000001490116
+415,1,9,1134,Road - P - BUS - Urban - Gaseous Hydrogen - Fuel Cell,0.100000001490116,2015,,2016,,0.150000005960464
+416,1,9,1135,Road - P - BUS - Urban - Gaseous Hydrogen - Fuel Cell,0.100000001490116,2020,,2021,,0.150000005960464
+417,1,9,1136,Road - P - BUS - Urban - Gaseous Hydrogen - Fuel Cell,0.100000001490116,2025,,2026,,0.150000005960464
+418,1,9,1137,Road - P - BUS - Urban - Gaseous Hydrogen - Fuel Cell,0.100000001490116,2030,,2031,,0.150000005960464
+419,1,9,1138,Road - P - BUS - Urban - Gaseous Hydrogen - Fuel Cell,0.100000001490116,2035,,2036,,0.150000005960464
+420,1,9,1139,Road - P - BUS - Urban - Gaseous Hydrogen - Fuel Cell,0.100000001490116,2040,,2041,,0.150000005960464
+421,1,9,1141,"Road - P - BUS - Urban - Biodiesel (FT, synthetic) - Standard 3",67.0,2020,,2025,,0.100000001490116
+422,1,9,1142,Road - P - BUS - Urban - Diesel - Euro 5 (2009-14) - HEV,33.560001373291,2009,,2012,,0.100000001490116
+423,1,9,1143,Road - P - BUS - Urban - Diesel - Euro 6 (2015-19) - HEV,335.630004882813,2015,,2017,,0.100000001490116
+424,1,9,1144,Road - P - BUS - Urban - Diesel - Euro 7 (2020-24) - HEV,3356.30004882813,2020,,2021,,0.100000001490116
+425,1,9,1145,Road - P - BUS - Urban - Diesel - Euro 8 (2025-29) - HEV,6712.5,2025,,2026,,0.100000001490116
+426,1,9,1146,Road - P - BUS - Urban - Diesel - Euro 9 (2030-34) - HEV,6712.5,2030,,2031,,0.100000001490116
+427,1,9,1147,Road - P - BUS - Urban - Diesel - Euro 10 (2035-39) - HEV,6712.5,2035,,2036,,0.100000001490116
+428,1,9,1148,Road - P - BUS - Urban - Diesel - Euro 11 (2040-44) - HEV,6712.5,2040,,2041,,0.100000001490116
+429,1,9,1149,Road - P - BUS - Urban - Diesel - Euro 12 (2045-50) - HEV,6712.5,2045,,2046,,0.100000001490116
+430,1,9,1150,Road - P - BUS - Coach - Electricity - Euro 4 (2005-09),0.400000005960464,1995,,2000,,0.100000001490116
+431,1,9,1151,Road - P - BUS - Coach - Electricity - Euro 5 (2009-14),4.0,2009,,2014,,0.100000001490116
+432,1,9,1152,Road - P - BUS - Coach - Diesel - Conventional (pre-EURO),6111.0,1980,,1981,,0.100000001490116
+433,1,9,1153,Road - P - BUS - Coach - Diesel - Euro 5 (2009-14),8138.0,2009,,2010,,0.100000001490116
+434,1,9,1155,Road - P - BUS - Coach - Electricity - Euro 6 (2015-19),40.7000007629395,2015,,2020,,0.100000001490116
+435,1,9,1156,Road - P - BUS - Coach - Electricity - Euro 7 (2020-24),407.0,2020,,2025,,0.100000001490116
+436,1,9,1158,Road - P - BUS - Coach - Diesel - Euro 1 (1992-96),2027.0,1992,,1993,,0.100000001490116
+437,1,9,1159,Road - P - BUS - Coach - Diesel - Euro 2 (1996-2001),8138.0,1996,,1997,,0.100000001490116
+438,1,9,1161,Road - P - BUS - Coach - Electricity - Euro 8 (2025-29),407.0,2025,,2026,,0.100000001490116
+439,1,9,1162,Road - P - BUS - Coach - Electricity - Euro 9 (2030-34),407.0,2030,,2031,,0.100000001490116
+440,1,9,1163,Road - P - BUS - Coach - Diesel - Euro 3 (2001-05),8138.0,2000,,2001,,0.100000001490116
+441,1,9,1164,"Road - P - BUS - Coach - Biodiesel (FT, synthetic) - Standard 1",8.0,1990,,1995,,0.100000001490116
+442,1,9,1166,Road - P - BUS - Coach - Diesel - Euro 4 (2005-09),8138.0,2005,,2006,,0.100000001490116
+443,1,9,1167,"Road - P - BUS - Coach - Biodiesel (FT, synthetic) - Standard 2",8.0,2005,,2010,,0.100000001490116
+444,1,9,1168,Road - P - BUS - Coach - Diesel - Euro 4 (2005-09) - HEV,0.100000001490116,2005,,2006,,0.100000001490116
+445,1,9,1169,Road - P - BUS - Coach - Electricity - Euro 10 (2035-39),407.0,2035,,2036,,0.100000001490116
+446,1,9,1170,Road - P - BUS - Coach - Gaseous Hydrogen - Fuel Cell,0.100000001490116,2015,,2019,,0.150000005960464
+447,1,9,1171,Road - P - BUS - Coach - Diesel - Euro 6 (2015-19),8138.0,2015,,2016,,0.100000001490116
+448,1,9,1172,Road - P - BUS - Coach - Diesel - Euro 7 (2020-24),8138.0,2020,,2021,,0.100000001490116
+449,1,9,1173,Road - P - BUS - Coach - Diesel - Euro 8 (2025-29),8138.0,2025,,2026,,0.100000001490116
+450,1,9,1174,Road - P - BUS - Coach - Diesel - Euro 9 (2030-34),8138.0,2030,,2031,,0.100000001490116
+451,1,9,1175,Road - P - BUS - Coach - Diesel - Euro 10 (2035-39),8138.0,2035,,2036,,0.100000001490116
+452,1,9,1176,Road - P - BUS - Coach - Diesel - Euro 11 (2040-44),8138.0,2040,,2041,,0.100000001490116
+453,1,9,1177,Road - P - BUS - Coach - Diesel - Euro 12 (2045-50),8138.0,2045,,2046,,0.100000001490116
+454,1,9,1179,"Road - P - BUS - Coach - Biodiesel (FT, synthetic) - Standard 3",8.0,2020,,2025,,0.100000001490116
+455,1,9,1180,Road - P - BUS - Coach - Diesel - Euro 5 (2009-14) - HEV,0.800000011920929,2009,,2010,,0.100000001490116
+456,1,9,1181,Road - P - BUS - Coach - Diesel - Euro 6 (2015-19) - HEV,81.4000015258789,2015,,2018,,0.100000001490116
+457,1,9,1182,Road - P - BUS - Coach - Diesel - Euro 7 (2020-24) - HEV,813.799987792969,2020,,2022,,0.100000001490116
+458,1,9,1183,Road - P - BUS - Coach - Diesel - Euro 8 (2025-29) - HEV,813.799987792969,2025,,2026,,0.100000001490116
+459,1,9,1184,Road - P - BUS - Coach - Diesel - Euro 9 (2030-34) - HEV,813.799987792969,2030,,2031,,0.100000001490116
+460,1,9,1185,Road - P - BUS - Coach - Diesel - Euro 10 (2035-39) - HEV,813.799987792969,2035,,2036,,0.100000001490116
+461,1,9,1186,Road - P - BUS - Coach - Diesel - Euro 11 (2040-44) - HEV,813.799987792969,2040,,2041,,0.100000001490116
+462,1,9,1187,Road - P - BUS - Coach - Diesel - Euro 12 (2045-50) - HEV,813.799987792969,2045,,2046,,0.100000001490116
+463,1,9,1188,Road - P - BUS - Coach - Electricity - Euro 11 (2040-44),407.0,2040,,2041,,0.100000001490116
+464,1,9,1189,Road - P - BUS - Coach - Electricity - Euro 12 (2045-50),407.0,2045,,2046,,0.100000001490116
+465,1,9,1190,Road - P - BUS - Coach - Gaseous Hydrogen - Fuel Cell,0.100000001490116,2020,,2024,,0.150000005960464
+466,1,9,1191,Road - P - BUS - Coach - Gaseous Hydrogen - Fuel Cell,0.100000001490116,2025,,2026,,0.150000005960464
+467,1,9,1192,Road - P - BUS - Coach - Gaseous Hydrogen - Fuel Cell,0.100000001490116,2030,,2031,,0.150000005960464
+468,1,9,1193,Road - P - BUS - Coach - Gaseous Hydrogen - Fuel Cell,0.100000001490116,2035,,2036,,0.150000005960464
+469,1,9,1194,Road - P - BUS - Coach - Gaseous Hydrogen - Fuel Cell,0.100000001490116,2040,,2041,,0.150000005960464
+470,1,9,1200,Road - F - TRUCK - PanelSideVan - Diesel - Conventional (pre-EURO),860749.0,1980,,1981,,0.100000001490116
+471,1,9,1220,Road - F - TRUCK - PanelSideVan - Diesel - Euro 5 (2009-14),1267203.0,2009,,2010,,0.100000001490116
+472,1,9,1221,Road - F - TRUCK - PanelSideVan - Diesel - Euro 5 (2009-14) - HEV,126.72029876709,2009,,2013,,0.100000001490116
+473,1,9,1222,Road - F - TRUCK - PanelSideVan - Diesel - Euro 6 (2015-19) - HEV,63360.1484375,2015,,2018,,0.100000001490116
+474,1,9,1223,Road - F - TRUCK - PanelSideVan - Diesel - Euro 7 (2020-24) - HEV,12672.0302734375,2020,,2021,,0.100000001490116
+475,1,9,1224,Road - F - TRUCK - PanelSideVan - Diesel - Euro 8 (2025-29) - HEV,25344.060546875,2025,,2026,,0.100000001490116
+476,1,9,1225,Road - F - TRUCK - PanelSideVan - Diesel - Euro 9 (2030-34) - HEV,50688.12109375,2030,,2031,,0.100000001490116
+477,1,9,1226,Road - F - TRUCK - PanelSideVan - Diesel - Euro 10 (2035-39) - HEV,50688.12109375,2035,,2036,,0.100000001490116
+478,1,9,1227,Road - F - TRUCK - PanelSideVan - Diesel - Euro 11 (2040-44) - HEV,50688.12109375,2040,,2041,,0.100000001490116
+479,1,9,1228,Road - F - TRUCK - PanelSideVan - Diesel - Euro 12 (2045-50) - HEV,50688.12109375,2045,,2046,,0.100000001490116
+480,1,9,1230,Road - F - TRUCK - PanelSideVan - Bioethanol(85)-petrol(15) blend - Euro 4 (2005-09),0.100000001490116,2005,,2009,,0.100000001490116
+481,1,9,1240,Road - F - TRUCK - PanelSideVan - Liquified Petroleum Gas - Euro 3 (2001-05),6336.01513671875,2001,,2002,,0.100000001490116
+482,1,9,1250,Road - F - TRUCK - PanelSideVan - Compressed Natural Gas - Euro 4 (2005-09),0.0,2005,,2008,,0.100000001490116
+483,1,9,1251,Road - F - TRUCK - PanelSideVan - Compressed Natural Gas - Euro 5 (2009-14),126.72029876709,2009,,2014,,0.100000001490116
+484,1,9,1252,Road - F - TRUCK - PanelSideVan - Compressed Natural Gas - Euro 6 (2015-19),126.72029876709,2015,,2018,,0.100000001490116
+485,1,9,1253,Road - F - TRUCK - PanelSideVan - Compressed Natural Gas - Euro 7 (2020-24),126.72029876709,2020,,2022,,0.100000001490116
+486,1,9,1254,Road - F - TRUCK - PanelSideVan - Compressed Natural Gas - Euro 8 (2025-29),126.72029876709,2025,,2027,,0.100000001490116
+487,1,9,1255,Road - F - TRUCK - PanelSideVan - Compressed Natural Gas - Euro 9 (2030-34),126.72029876709,2030,,2031,,0.100000001490116
+488,1,9,1256,Road - F - TRUCK - PanelSideVan - Compressed Natural Gas - Euro 10 (2035-39),126.72029876709,2035,,2036,,0.100000001490116
+489,1,9,1257,Road - F - TRUCK - PanelSideVan - Compressed Natural Gas - Euro 11 (2040-44),126.72029876709,2040,,2041,,0.100000001490116
+490,1,9,1258,Road - F - TRUCK - PanelSideVan - Compressed Natural Gas - Euro 12 (2045-50),126.72029876709,2045,,2046,,0.100000001490116
+491,1,9,1260,Road - F - TRUCK - PanelSideVan - Liquified Petroleum Gas - Euro 4 (2005-09),0.0,2005,,2006,,0.100000001490116
+492,1,9,1261,Road - F - TRUCK - PanelSideVan - Liquified Petroleum Gas - Euro 5 (2009-14),126.72029876709,2009,,2010,,0.100000001490116
+493,1,9,1262,Road - F - TRUCK - PanelSideVan - Liquified Petroleum Gas - Euro 6 (2015-19),126.72029876709,2015,,2016,,0.100000001490116
+494,1,9,1263,Road - F - TRUCK - PanelSideVan - Liquified Petroleum Gas - Euro 7 (2020-24),126.72029876709,2020,,2021,,0.100000001490116
+495,1,9,1264,Road - F - TRUCK - PanelSideVan - Liquified Petroleum Gas - Euro 8 (2025-29),126.72029876709,2025,,2026,,0.100000001490116
+496,1,9,1265,Road - F - TRUCK - PanelSideVan - Liquified Petroleum Gas - Euro 9 (2030-34),126.72029876709,2030,,2031,,0.100000001490116
+497,1,9,1266,Road - F - TRUCK - PanelSideVan - Liquified Petroleum Gas - Euro 10 (2035-39),126.72029876709,2035,,2036,,0.100000001490116
+498,1,9,1267,Road - F - TRUCK - PanelSideVan - Liquified Petroleum Gas - Euro 11 (2040-44),126.72029876709,2040,,2041,,0.100000001490116
+499,1,9,1268,Road - F - TRUCK - PanelSideVan - Liquified Petroleum Gas - Euro 12 (2045-50),126.72029876709,2045,,2046,,0.100000001490116
+500,1,9,1280,Road - F - TRUCK - PanelSideVan - Electricity - Euro 6 (2015-19),126720.296875,2015,,2020,,0.100000001490116
+501,1,9,1300,Road - F - TRUCK - PanelSideVan - Electricity - Euro 3 (2001-05),0.100000001490116,1995,,2000,,0.100000001490116
+502,1,9,1301,Road - F - TRUCK - PanelSideVan - Diesel - Euro 5 (2009-14) - PHEV,126.72029876709,2009,,2014,,0.100000001490116
+503,1,9,1302,Road - F - TRUCK - PanelSideVan - Diesel - Euro 6 (2015-19) - PHEV,63360.1484375,2015,,2019,,0.100000001490116
+504,1,9,1303,Road - F - TRUCK - PanelSideVan - Diesel - Euro 7 (2020-24) - PHEV,12672.0302734375,2020,,2024,,0.100000001490116
+505,1,9,1304,Road - F - TRUCK - PanelSideVan - Diesel - Euro 8 (2025-29) - PHEV,25344.060546875,2025,,2026,,0.100000001490116
+506,1,9,1305,Road - F - TRUCK - PanelSideVan - Diesel - Euro 9 (2030-34) - PHEV,50688.12109375,2030,,2031,,0.100000001490116
+507,1,9,1306,Road - F - TRUCK - PanelSideVan - Diesel - Euro 10 (2035-39) - PHEV,50688.12109375,2035,,2036,,0.100000001490116
+508,1,9,1307,Road - F - TRUCK - PanelSideVan - Diesel - Euro 11 (2040-44) - PHEV,50688.12109375,2040,,2041,,0.100000001490116
+509,1,9,1308,Road - F - TRUCK - PanelSideVan - Diesel - Euro 12 (2045-50) - PHEV,50688.12109375,2045,,2046,,0.100000001490116
+510,1,9,1320,Road - F - TRUCK - PanelSideVan - Diesel - Euro 1 (1992-96),406454.0,1994,,1995,,0.100000001490116
+511,1,9,1340,Road - F - TRUCK - PanelSideVan - Diesel - Euro 2 (1996-2001),1267203.0,1998,,1999,,0.100000001490116
+512,1,9,1360,Road - F - TRUCK - PanelSideVan - Electricity - Euro 4 (2005-09),1267.0,2005,,2015,,0.100000001490116
+513,1,9,1365,Road - F - TRUCK - PanelSideVan - Electricity - Euro 5 (2009-14),1267.20300292969,2009,,2014,,0.100000001490116
+514,1,9,1370,Road - F - TRUCK - PanelSideVan - Gaseous Hydrogen - Fuel Cell  - vintage  2020 to  2025,0.100000001490116,2020,,2025,,0.100000001490116
+515,1,9,1371,Road - F - TRUCK - PanelSideVan - Gaseous Hydrogen - Fuel Cell  - vintage  2025 to  2030,0.100000001490116,2025,,2030,,0.100000001490116
+516,1,9,1372,Road - F - TRUCK - PanelSideVan - Gaseous Hydrogen - Fuel Cell  - vintage  2030 to  2035,0.100000001490116,2030,,2035,,0.100000001490116
+517,1,9,1373,Road - F - TRUCK - PanelSideVan - Gaseous Hydrogen - Fuel Cell  - vintage  2035 to  2040,0.100000001490116,2035,,2040,,0.100000001490116
+518,1,9,1374,Road - F - TRUCK - PanelSideVan - Gaseous Hydrogen - Fuel Cell  - vintage  2040 to  2045,0.100000001490116,2040,,2045,,0.100000001490116
+519,1,9,1375,Road - F - TRUCK - PanelSideVan - Gaseous Hydrogen - Fuel Cell  - vintage  2045 to 2050,0.100000001490116,2045,,2050,,0.100000001490116
+520,1,9,1390,Road - F - TRUCK - PanelSideVan - Diesel - Euro 3 (2001-05),1267203.0,2001,,2002,,0.100000001490116
+521,1,9,1391,"Road - F - TRUCK - PanelSideVan - Biodiesel (FT, synthetic) - Euro 4 (2005-09)",12.6700000762939,2005,,2009,,0.100000001490116
+522,1,9,1410,Road - F - TRUCK - PanelSideVan - Gasoline - Conventional (pre-EURO),688913.0,1980,,1981,,0.100000001490116
+523,1,9,1440,Road - F - TRUCK - PanelSideVan - Electricity - Euro 7 (2020-24),126720.296875,2020,,2021,,0.100000001490116
+524,1,9,1450,Road - F - TRUCK - PanelSideVan - Gasoline - Euro 1 (1992-96),310680.0,1994,,1995,,0.100000001490116
+525,1,9,1451,Road - F - TRUCK - PanelSideVan - Gasoline - Euro 2 (1996-2001),999592.0,1998,,1999,,0.100000001490116
+526,1,9,1452,Road - F - TRUCK - PanelSideVan - Gasoline - Euro 3 (2001-05),999592.0,2001,,2002,,0.100000001490116
+527,1,9,1453,Road - F - TRUCK - PanelSideVan - Gasoline - Euro 4 (2005-09),126720.296875,2005,,2006,,0.100000001490116
+528,1,9,1460,Road - F - TRUCK - PanelSideVan - Diesel - Euro 4 (2005-09),1267203.0,2005,,2006,,0.100000001490116
+529,1,9,1461,"Road - F - TRUCK - PanelSideVan - Biodiesel (FT, synthetic) - Euro 5 (2009-14)",126.72029876709,2009,,2014,,0.100000001490116
+530,1,9,1462,Road - F - TRUCK - PanelSideVan - Diesel - Euro 4 (2005-09) - HEV,0.100000001490116,2005,,2006,,0.100000001490116
+531,1,9,1463,Road - F - TRUCK - PanelSideVan - Electricity - Euro 8 (2025-29),253440.59375,2025,,2026,,0.100000001490116
+532,1,9,1464,Road - F - TRUCK - PanelSideVan - Diesel - Euro 6 (2015-19),1267203.0,2015,,2016,,0.100000001490116
+533,1,9,1465,Road - F - TRUCK - PanelSideVan - Diesel - Euro 7 (2020-24),1267203.0,2020,,2021,,0.100000001490116
+534,1,9,1466,Road - F - TRUCK - PanelSideVan - Diesel - Euro 8 (2025-29),1267203.0,2025,,2026,,0.100000001490116
+535,1,9,1467,Road - F - TRUCK - PanelSideVan - Diesel - Euro 9 (2030-34),1267203.0,2030,,2031,,0.100000001490116
+536,1,9,1468,Road - F - TRUCK - PanelSideVan - Diesel - Euro 10 (2035-39),1267203.0,2035,,2036,,0.100000001490116
+537,1,9,1469,Road - F - TRUCK - PanelSideVan - Diesel - Euro 11 (2040-44),1267203.0,2040,,2041,,0.100000001490116
+538,1,9,1470,Road - F - TRUCK - PanelSideVan - Diesel - Euro 12 (2045-50),1267203.0,2045,,2046,,0.100000001490116
+539,1,9,1471,Road - F - TRUCK - PanelSideVan - Gasoline - Euro 5 (2009-14),63360.1484375,2009,,2010,,0.100000001490116
+540,1,9,1472,Road - F - TRUCK - PanelSideVan - Gasoline - Euro 6 (2015-19),12672.0302734375,2015,,2016,,0.100000001490116
+541,1,9,1473,Road - F - TRUCK - PanelSideVan - Gasoline - Euro 7 (2020-24),12672.0302734375,2020,,2021,,0.100000001490116
+542,1,9,1474,Road - F - TRUCK - PanelSideVan - Gasoline - Euro 8 (2025-29),12672.0302734375,2025,,2026,,0.100000001490116
+543,1,9,1475,Road - F - TRUCK - PanelSideVan - Gasoline - Euro 9 (2030-34),12672.0302734375,2030,,2031,,0.100000001490116
+544,1,9,1476,Road - F - TRUCK - PanelSideVan - Gasoline - Euro 10 (2035-39),12672.0302734375,2035,,2036,,0.100000001490116
+545,1,9,1477,Road - F - TRUCK - PanelSideVan - Gasoline - Euro 11 (2040-44),12672.0302734375,2040,,2041,,0.100000001490116
+546,1,9,1478,Road - F - TRUCK - PanelSideVan - Gasoline - Euro 12 (2045-50),12672.0302734375,2045,,2046,,0.100000001490116
+547,1,9,1480,"Road - F - TRUCK - PanelSideVan - Biodiesel (FT, synthetic) - Euro 6 (2015-19)",126.72029876709,2015,,2019,,0.100000001490116
+548,1,9,1481,"Road - F - TRUCK - PanelSideVan - Biodiesel (FT, synthetic) - Euro 7 (2020-24)",126.72029876709,2020,,2021,,0.100000001490116
+549,1,9,1482,"Road - F - TRUCK - PanelSideVan - Biodiesel (FT, synthetic) - Euro 8 (2025-29)",126.72029876709,2025,,2026,,0.100000001490116
+550,1,9,1483,"Road - F - TRUCK - PanelSideVan - Biodiesel (FT, synthetic) - Euro 9 (2030-34)",126.72029876709,2030,,2031,,0.100000001490116
+551,1,9,1484,"Road - F - TRUCK - PanelSideVan - Biodiesel (FT, synthetic) - Euro 10 (2035-39)",126.72029876709,2035,,2036,,0.100000001490116
+552,1,9,1485,"Road - F - TRUCK - PanelSideVan - Biodiesel (FT, synthetic) - Euro 11 (2040-44)",126.72029876709,2040,,2041,,0.100000001490116
+553,1,9,1486,"Road - F - TRUCK - PanelSideVan - Biodiesel (FT, synthetic) - Euro 12 (2045-50)",126.72029876709,2045,,2046,,0.100000001490116
+554,1,9,1510,Road - F - TRUCK - PanelSideVan - Bioethanol(85)-petrol(15) blend - Euro 5 (2009-14),126.72029876709,2009,,2014,,0.100000001490116
+555,1,9,1511,Road - F - TRUCK - PanelSideVan - Bioethanol(85)-petrol(15) blend - Euro 6 (2015-19),126.72029876709,2015,,2016,,0.100000001490116
+556,1,9,1512,Road - F - TRUCK - PanelSideVan - Bioethanol(85)-petrol(15) blend - Euro 7 (2020-24),126.72029876709,2020,,2021,,0.100000001490116
+557,1,9,1513,Road - F - TRUCK - PanelSideVan - Bioethanol(85)-petrol(15) blend - Euro 8 (2025-29),126.72029876709,2025,,2026,,0.100000001490116
+558,1,9,1514,Road - F - TRUCK - PanelSideVan - Bioethanol(85)-petrol(15) blend - Euro 9 (2030-34),126.72029876709,2030,,2031,,0.100000001490116
+559,1,9,1515,Road - F - TRUCK - PanelSideVan - Bioethanol(85)-petrol(15) blend - Euro 10 (2035-39),126.72029876709,2035,,2036,,0.100000001490116
+560,1,9,1516,Road - F - TRUCK - PanelSideVan - Bioethanol(85)-petrol(15) blend - Euro 11 (2040-44),126.72029876709,2040,,2041,,0.100000001490116
+561,1,9,1517,Road - F - TRUCK - PanelSideVan - Bioethanol(85)-petrol(15) blend - Euro 12 (2045-50),126.72029876709,2045,,2046,,0.100000001490116
+562,1,9,1520,Road - F - TRUCK - Medium - Diesel - Conventional (pre-EURO),104672.0,1980,,1981,,0.100000001490116
+563,1,9,1530,Road - F - TRUCK - Medium - Diesel - Euro 5 (2009-14),153755.0,2009,,2010,,0.100000001490116
+564,1,9,1540,Road - F - TRUCK - Medium - Compressed Natural Gas - Euro 4 (2005-09),0.0,2005,,2008,,0.100000001490116
+565,1,9,1541,Road - F - TRUCK - Medium - Compressed Natural Gas - Euro 5 (2009-14),0.0,2009,,2014,,0.100000001490116
+566,1,9,1542,Road - F - TRUCK - Medium - Compressed Natural Gas - Euro 6 (2015-19),0.0,2015,,2018,,0.100000001490116
+567,1,9,1543,Road - F - TRUCK - Medium - Compressed Natural Gas - Euro 7 (2020-24),0.0,2020,,2022,,0.100000001490116
+568,1,9,1544,Road - F - TRUCK - Medium - Compressed Natural Gas - Euro 8 (2025-29),0.0,2025,,2027,,0.100000001490116
+569,1,9,1545,Road - F - TRUCK - Medium - Compressed Natural Gas - Euro 9 (2030-34),0.0,2030,,2031,,0.100000001490116
+570,1,9,1546,Road - F - TRUCK - Medium - Compressed Natural Gas - Euro 10 (2035-39),0.0,2035,,2036,,0.100000001490116
+571,1,9,1547,Road - F - TRUCK - Medium - Compressed Natural Gas - Euro 11 (2040-44),0.0,2040,,2041,,0.100000001490116
+572,1,9,1548,Road - F - TRUCK - Medium - Compressed Natural Gas - Euro 12 (2045-50),0.0,2045,,2046,,0.100000001490116
+573,1,9,1550,Road - F - TRUCK - Medium - Liquified Petroleum Gas - Euro 3 (2001-05),2460.080078125,2000,,2001,,0.100000001490116
+574,1,9,1551,Road - F - TRUCK - Medium - Liquified Petroleum Gas - Euro 4 (2005-09),0.0,2005,,2006,,0.100000001490116
+575,1,9,1552,Road - F - TRUCK - Medium - Liquified Petroleum Gas - Euro 5 (2009-14),0.0,2009,,2010,,0.100000001490116
+576,1,9,1553,Road - F - TRUCK - Medium - Liquified Petroleum Gas - Euro 6 (2015-19),0.0,2015,,2016,,0.100000001490116
+577,1,9,1554,Road - F - TRUCK - Medium - Liquified Petroleum Gas - Euro 7 (2020-24),0.0,2020,,2021,,0.100000001490116
+578,1,9,1555,Road - F - TRUCK - Medium - Liquified Petroleum Gas - Euro 8 (2025-29),0.0,2025,,2026,,0.100000001490116
+579,1,9,1556,Road - F - TRUCK - Medium - Liquified Petroleum Gas - Euro 9 (2030-34),0.0,2030,,2031,,0.100000001490116
+580,1,9,1557,Road - F - TRUCK - Medium - Liquified Petroleum Gas - Euro 10 (2035-39),0.0,2035,,2036,,0.100000001490116
+581,1,9,1558,Road - F - TRUCK - Medium - Liquified Petroleum Gas - Euro 11 (2040-44),0.0,2040,,2041,,0.100000001490116
+582,1,9,1559,Road - F - TRUCK - Medium - Liquified Petroleum Gas - Euro 12 (2045-50),0.0,2045,,2046,,0.100000001490116
+583,1,9,1560,Road - F - TRUCK - Medium - Diesel - Euro 1 (1992-96),49083.0,1992,,1993,,0.100000001490116
+584,1,9,1570,Road - F - TRUCK - Medium - Diesel - Euro 2 (1996-2001),153755.0,1996,,1997,,0.100000001490116
+585,1,9,1590,Road - F - TRUCK - Medium - Diesel - Euro 3 (2001-05),153755.0,2000,,2001,,0.100000001490116
+586,1,9,1591,"Road - F - TRUCK - Medium - Biodiesel (FT, synthetic) - Euro 4 (2005-09)",15.3800001144409,2005,,2009,,0.100000001490116
+587,1,9,1592,"Road - F - TRUCK - Medium - Biodiesel (FT, synthetic) - Euro 5 (2009-14)",153.800003051758,2009,,2015,,0.100000001490116
+588,1,9,1593,Road - F - TRUCK - Medium - Gaseous Hydrogen - Fuel Cell,0.100000001490116,2020,,2024,,0.150000005960464
+589,1,9,1594,Road - F - TRUCK - Medium - Gaseous Hydrogen - Fuel Cell,0.100000001490116,2025,,2026,,0.150000005960464
+590,1,9,1595,Road - F - TRUCK - Medium - Gaseous Hydrogen - Fuel Cell,0.100000001490116,2030,,2031,,0.150000005960464
+591,1,9,1596,Road - F - TRUCK - Medium - Gaseous Hydrogen - Fuel Cell,0.100000001490116,2035,,2036,,0.150000005960464
+592,1,9,1597,Road - F - TRUCK - Medium - Gaseous Hydrogen - Fuel Cell,0.100000001490116,2040,,2041,,0.150000005960464
+593,1,9,1598,Road - F - TRUCK - Medium - Gaseous Hydrogen - Fuel Cell,0.100000001490116,2045,,2046,,0.150000005960464
+594,1,9,1599,Road - F - TRUCK - PanelSideVan - Electricity - Euro 9 (2030-34),506881.1875,2030,,2031,,0.100000001490116
+595,1,9,1600,Road - F - TRUCK - PanelSideVan - Electricity - Euro 10 (2035-39),506881.1875,2035,,2036,,0.100000001490116
+596,1,9,1601,Road - F - TRUCK - PanelSideVan - Electricity - Euro 11 (2040-44),506881.1875,2040,,2041,,0.100000001490116
+597,1,9,1602,Road - F - TRUCK - PanelSideVan - Electricity - Euro 12 (2045-50),506881.1875,2045,,2046,,0.100000001490116
+598,1,9,1603,Road - F - TRUCK - Medium - Electricity - Standard 1,1922.0,2015,,2020,,0.100000001490116
+599,1,9,1604,Road - F - TRUCK - Medium - Electricity - Standard 2,7688.0,2025,,2030,,0.100000001490116
+600,1,9,1605,Road - F - TRUCK - Medium - Electricity - Standard 3,7688.0,2035,,2036,,0.100000001490116
+601,1,9,1610,Road - F - TRUCK - Medium - Diesel - Euro 4 (2005-09),153755.0,2005,,2006,,0.100000001490116
+602,1,9,1611,"Road - F - TRUCK - Medium - Biodiesel (FT, synthetic) - Euro 7 (2020-24)",1538.0,2020,,2025,,0.100000001490116
+603,1,9,1612,Road - F - TRUCK - Medium - Diesel - Euro 5 (2009-14) - HEV,15376.0,2009,,2014,,0.100000001490116
+604,1,9,1613,Road - F - TRUCK - Medium - Liquefied Hydrogen - Euro 4 (2005-09),0.100000001490116,2010,,2015,,0.150000005960464
+605,1,9,1614,"Road - F - TRUCK - Medium - Biodiesel (FT, synthetic) - Euro 9 (2030-34)",1538.0,2030,,2035,,0.100000001490116
+606,1,9,1615,Road - F - TRUCK - Medium - Diesel - Euro 6 (2015-19),153755.0,2015,,2016,,0.100000001490116
+607,1,9,1616,Road - F - TRUCK - Medium - Diesel - Euro 7 (2020-24),153755.0,2020,,2021,,0.100000001490116
+608,1,9,1617,Road - F - TRUCK - Medium - Diesel - Euro 8 (2025-29),153755.0,2025,,2026,,0.100000001490116
+609,1,9,1618,Road - F - TRUCK - Medium - Diesel - Euro 9 (2030-34),153755.0,2030,,2031,,0.100000001490116
+610,1,9,1619,Road - F - TRUCK - Medium - Diesel - Euro 10 (2035-39),153755.0,2035,,2036,,0.100000001490116
+611,1,9,1620,Road - F - TRUCK - Medium - Diesel - Euro 11 (2040-44),153755.0,2040,,2041,,0.100000001490116
+612,1,9,1621,Road - F - TRUCK - Medium - Diesel - Euro 12 (2045-50),153755.0,2045,,2046,,0.100000001490116
+613,1,9,1630,Road - F - TRUCK - Heavy - Diesel - Conventional (pre-EURO),162767.0,1980,,1981,,0.100000001490116
+614,1,9,1640,Road - F - TRUCK - Heavy - Diesel - Euro 5 (2009-14),239197.0,2009,,2010,,0.100000001490116
+615,1,9,1650,Road - F - TRUCK - Heavy - Diesel - Euro 1 (1992-96),76430.0,1992,,1993,,0.100000001490116
+616,1,9,1660,Road - F - TRUCK - Heavy - Diesel - Euro 2 (1996-2001),239197.0,1996,,1997,,0.100000001490116
+617,1,9,1670,Road - F - TRUCK - Heavy - Diesel - Euro 3 (2001-05),239197.0,2000,,2001,,0.100000001490116
+618,1,9,1671,"Road - F - TRUCK - Heavy - Biodiesel (FT, synthetic) - Euro 4 (2005-09)",23.9200000762939,2005,,2009,,0.100000001490116
+619,1,9,1675,Road - F - TRUCK - Heavy - Diesel - Euro 5 (2009-14) - HEV,2392.0,2009,,2014,,0.100000001490116
+620,1,9,1680,"Road - F - TRUCK - Heavy - Biodiesel (FT, synthetic) - Euro 5 (2009-14)",239.199996948242,2009,,2015,,0.100000001490116
+621,1,9,1681,Road - F - TRUCK - Heavy - Gaseous Hydrogen - Fuel Cell,0.100000001490116,2020,,2024,,0.150000005960464
+622,1,9,1682,Road - F - TRUCK - Heavy - Diesel - Euro 4 (2005-09),239197.0,2005,,2006,,0.100000001490116
+623,1,9,1683,"Road - F - TRUCK - Heavy - Biodiesel (FT, synthetic) - Euro 7 (2020-24)",2392.0,2020,,2025,,0.100000001490116
+624,1,9,1684,Road - F - TRUCK - Heavy - Diesel - Euro 7 (2020-24) - HEV,23920.0,2020,,2025,,0.100000001490116
+625,1,9,1685,Road - F - TRUCK - Heavy - Liquefied Hydrogen - Euro 4 (2005-09),0.100000001490116,2010,,2015,,0.150000005960464
+626,1,9,1686,"Road - F - TRUCK - Heavy - Biodiesel (FT, synthetic) - Euro 9 (2030-34)",2392.0,2030,,2035,,0.100000001490116
+627,1,9,1690,Road - F - TRUCK - Heavy - Diesel - Euro 6 (2015-19),239197.0,2015,,2016,,0.100000001490116
+628,1,9,1691,Road - F - TRUCK - Heavy - Diesel - Euro 7 (2020-24),239197.0,2020,,2021,,0.100000001490116
+629,1,9,1692,Road - F - TRUCK - Heavy - Diesel - Euro 8 (2025-29),239197.0,2025,,2026,,0.100000001490116
+630,1,9,1693,Road - F - TRUCK - Heavy - Diesel - Euro 9 (2030-34),239197.0,2030,,2031,,0.100000001490116
+631,1,9,1694,Road - F - TRUCK - Heavy - Diesel - Euro 10 (2035-39),239197.0,2035,,2036,,0.100000001490116
+632,1,9,1695,Road - F - TRUCK - Heavy - Diesel - Euro 11 (2040-44),239197.0,2040,,2041,,0.100000001490116
+633,1,9,1696,Road - F - TRUCK - Heavy - Diesel - Euro 12 (2045-50),239197.0,2045,,2046,,0.100000001490116
+634,1,9,1697,Road - F - TRUCK - Heavy - Gaseous Hydrogen - Fuel Cell,2392.0,2025,,2029,,0.150000005960464
+635,1,9,1698,Road - F - TRUCK - Heavy - Gaseous Hydrogen - Fuel Cell,2392.0,2030,,2031,,0.150000005960464
+636,1,9,1699,Road - F - TRUCK - Heavy - Gaseous Hydrogen - Fuel Cell,2392.0,2035,,2036,,0.150000005960464
+637,1,9,1700,Road - F - TRUCK - Heavy - Gaseous Hydrogen - Fuel Cell,2392.0,2040,,2041,,0.150000005960464
+638,1,9,1701,Road - F - TRUCK - Heavy - Gaseous Hydrogen - Fuel Cell,2392.0,2045,,2046,,0.150000005960464
+639,1,9,1702,Road - P - CAR - Medium - Electricity - Euro 6 (2015-19),2639.0,2015,,2020,,0.300000011920929
+640,1,9,1703,Road - P - CAR - Medium - Electricity - Euro 7 (2020-24),2639.0,2020,,2025,,0.300000011920929
+641,1,9,1704,Road - P - CAR - Medium - Electricity - Euro 8 (2025-29),2639.0,2025,,2026,,0.300000011920929
+642,1,9,1705,Road - P - CAR - Medium - Electricity - Euro 9 (2030-34),2639.0,2030,,2031,,0.300000011920929
+643,1,9,1706,Road - P - CAR - Medium - Electricity - Euro 10 (2035-39),2639.0,2035,,2036,,0.300000011920929
+644,1,9,1707,Road - P - CAR - Medium - Electricity - Euro 11 (2040-44),2639.0,2040,,2041,,0.300000011920929
+645,1,9,1708,Road - P - CAR - Medium - Electricity - Euro 12 (2045-50),2639.0,2045,,2046,,0.300000011920929
+646,1,9,1720,Road - F - TRUCK - Heavy - Compressed Natural Gas - Euro 4 (2005-09),0.0,2005,,2008,,0.100000001490116
+647,1,9,1721,Road - F - TRUCK - Heavy - Compressed Natural Gas - Euro 5 (2009-14),0.0,2009,,2014,,0.100000001490116
+648,1,9,1722,Road - F - TRUCK - Heavy - Compressed Natural Gas - Euro 6 (2015-19),0.0,2015,,2018,,0.100000001490116
+649,1,9,1723,Road - F - TRUCK - Heavy - Compressed Natural Gas - Euro 7 (2020-24),0.0,2020,,2022,,0.100000001490116
+650,1,9,1724,Road - F - TRUCK - Heavy - Compressed Natural Gas - Euro 8 (2025-29),0.0,2025,,2027,,0.100000001490116
+651,1,9,1725,Road - F - TRUCK - Heavy - Compressed Natural Gas - Euro 9 (2030-34),0.0,2030,,2031,,0.100000001490116
+652,1,9,1726,Road - F - TRUCK - Heavy - Compressed Natural Gas - Euro 10 (2035-39),0.0,2035,,2036,,0.100000001490116
+653,1,9,1727,Road - F - TRUCK - Heavy - Compressed Natural Gas - Euro 11 (2040-44),0.0,2040,,2041,,0.100000001490116
+654,1,9,1728,Road - F - TRUCK - Heavy - Compressed Natural Gas - Euro 12 (2045-50),0.0,2045,,2046,,0.100000001490116
+655,1,9,1730,Road - F - TRUCK - Heavy - Liquified Petroleum Gas - Euro 3 (2001-05),3827.15209960938,2000,,2001,,0.100000001490116
+656,1,9,1731,Road - F - TRUCK - Heavy - Liquified Petroleum Gas - Euro 4 (2005-09),0.0,2005,,2006,,0.100000001490116
+657,1,9,1732,Road - F - TRUCK - Heavy - Liquified Petroleum Gas - Euro 5 (2009-14),0.0,2009,,2010,,0.100000001490116
+658,1,9,1733,Road - F - TRUCK - Heavy - Liquified Petroleum Gas - Euro 6 (2015-19),0.0,2015,,2016,,0.100000001490116
+659,1,9,1734,Road - F - TRUCK - Heavy - Liquified Petroleum Gas - Euro 7 (2020-24),0.0,2020,,2021,,0.100000001490116
+660,1,9,1735,Road - F - TRUCK - Heavy - Liquified Petroleum Gas - Euro 8 (2025-29),0.0,2025,,2026,,0.100000001490116
+661,1,9,1736,Road - F - TRUCK - Heavy - Liquified Petroleum Gas - Euro 9 (2030-34),0.0,2030,,2031,,0.100000001490116
+662,1,9,1737,Road - F - TRUCK - Heavy - Liquified Petroleum Gas - Euro 10 (2035-39),0.0,2035,,2036,,0.100000001490116
+663,1,9,1738,Road - F - TRUCK - Heavy - Liquified Petroleum Gas - Euro 11 (2040-44),0.0,2040,,2041,,0.100000001490116
+664,1,9,1739,Road - F - TRUCK - Heavy - Liquified Petroleum Gas - Euro 12 (2045-50),0.0,2045,,2046,,0.100000001490116
+665,1,9,2010,Rail - P - TRAIN - Light - Diesel - Standard 1,0.00999999977648258,1980,,1981,,0.100000001490116
+666,1,9,2020,Rail - P - TRAIN - Light - Electricity - Standard 1,1068.0,1980,1068.0,1981,,0.100000001490116
+667,1,9,2030,Rail - P - TRAIN - Light - Electricity - Standard 2,1068.0,2000,,2001,,0.100000001490116
+668,1,9,2040,Rail - P - TRAIN - Light - Diesel - Standard 2,0.00999999977648258,2000,,2001,,0.100000001490116
+669,1,9,2050,Rail - P - TRAIN - Light - Electricity - Standard 3,1068.0,2015,,2016,,0.100000001490116
+670,1,9,2060,Rail - P - TRAIN - Light - Diesel - Standard 3,0.00999999977648258,2015,,2016,,0.100000001490116
+671,1,9,2070,Rail - F - TRAIN - Regional - Diesel - Standard 1,962.0,1980,962.0,1981,,0.100000001490116
+672,1,9,2080,Rail - P - TRAIN - Regional - Diesel - Standard 1,3785.0,1980,3785.0,1981,,0.100000001490116
+673,1,9,2090,Rail - F - TRAIN - Regional - Electricity - Standard 1,106.0,1980,106.0,1981,,0.100000001490116
+674,1,9,2100,Rail - P - TRAIN - Regional - Electricity - Standard 1,3014.0,1980,3014.0,1981,,0.100000001490116
+675,1,9,2110,Rail - P - TRAIN - Regional - Electricity - Standard 2,3014.0,2000,,2001,,0.100000001490116
+676,1,9,2120,Rail - P - TRAIN - Regional - Diesel - Standard 2,3785.0,2000,,2001,,0.100000001490116
+677,1,9,2130,Rail - F - TRAIN - Regional - Diesel - Standard 2,962.0,2000,,2001,,0.100000001490116
+678,1,9,2140,Rail - F - TRAIN - Regional - Electricity - Standard 2,106.0,2000,,2001,,0.100000001490116
+679,1,9,2150,Rail - P - TRAIN - Regional - Diesel - Standard 3,3785.0,2015,,2016,,0.100000001490116
+680,1,9,2160,Rail - P - TRAIN - Regional - Electricity - Standard 3,3014.0,2015,,2016,,0.100000001490116
+681,1,9,2170,Rail - F - TRAIN - Regional - Diesel - Standard 3,962.0,2015,,2016,,0.100000001490116
+682,1,9,2180,Rail - F - TRAIN - Regional - Electricity - Standard 3,106.0,2015,,2016,,0.100000001490116
+683,1,9,2190,Rail - P - TRAIN - National - Diesel - Standard 1,634.0,1980,634.0,1981,,0.100000001490116
+684,1,9,2200,Rail - F - TRAIN - National - Electricity - Standard 1,317.0,1980,,1981,,0.100000001490116
+685,1,9,2210,Rail - P - TRAIN - National - Electricity - Standard 1,317.0,1980,317.0,1981,,0.100000001490116
+686,1,9,2220,Rail - F - TRAIN - National - Diesel - Standard 1,0.00999999977648258,1980,,1981,,0.100000001490116
+687,1,9,2230,Rail - F - TRAIN - National - Diesel - Standard 2,0.00999999977648258,2000,,2001,,0.100000001490116
+688,1,9,2240,Rail - P - TRAIN - National - Diesel - Standard 2,634.0,2000,,2001,,0.100000001490116
+689,1,9,2250,Rail - P - TRAIN - National - Electricity - Standard 2,317.0,2000,,2001,,0.100000001490116
+690,1,9,2260,Rail - F - TRAIN - National - Electricity - Standard 2,317.0,2000,,2001,,0.100000001490116
+691,1,9,2270,Rail - P - TRAIN - National - Electricity - Standard 3,317.0,2015,,2016,,0.100000001490116
+692,1,9,2280,Rail - F - TRAIN - National - Electricity - Standard 3,317.0,2015,,2016,,0.100000001490116
+693,1,9,2290,Rail - F - TRAIN - National - Diesel - Standard 3,0.00999999977648258,2015,,2016,,0.100000001490116
+694,1,9,2300,Rail - P - TRAIN - National - Diesel - Standard 3,634.0,2015,,2016,,0.100000001490116
+695,1,9,2310,Rail - P - TRAIN - High Speed - Electricity - Standard 1,317.0,1990,,1991,,0.100000001490116
+696,1,9,2320,Rail - P - TRAIN - High Speed - Electricity - Standard 2,317.0,2000,,2004,,0.100000001490116
+697,1,9,2330,Rail - P - TRAIN - High Speed - Electricity - Standard 3,317.0,2015,,2016,,0.100000001490116
+698,1,9,3010,Water - F - SHIP - River - Diesel - Standard 1,340.0,1980,340.0,1981,,0.100000001490116
+699,1,9,3020,Water - F - SHIP - River - Diesel - Standard 2,340.0,2010,,2011,,0.100000001490116
+700,1,9,3030,Water - F - SHIP - Coastal - Diesel - Standard 1,161.0,1980,161.0,1981,,0.100000001490116
+701,1,9,3040,Water - F - SHIP - Coastal - Diesel - Standard 2,161.0,2010,,2011,,0.100000001490116
+702,1,9,3050,Water - F - SHIP - Maritime - Diesel - Standard 1,100.0,1980,100.0,1981,,0.100000001490116
+703,1,9,3060,Water - F - SHIP - Maritime - Diesel - Standard 2,100.0,2010,,2011,,0.100000001490116
+704,1,9,4010,Air - P - PLANE - General Aviation - Aviation fuel (Jet A-1) - Standard 1,30.0,1980,30.0,1981,,0.100000001490116
+705,1,9,4040,Air - F - PLANE - Short Distance - Aviation fuel (Jet A-1) - Standard 1,21.0,1985,21.0,1986,,0.100000001490116
+706,1,9,4050,Air - P - PLANE - Short Distance - Aviation fuel (Jet A-1) - Standard 1,272.0,1985,272.0,1986,,0.100000001490116
+707,1,9,4060,Air - F - PLANE - Short Distance - Aviation fuel (Jet A-1) - Standard 2,21.0,2005,,2006,,0.100000001490116
+708,1,9,4070,Air - P - PLANE - Short Distance - Aviation fuel (Jet A-1) - Standard 2,272.0,2005,,2006,,0.100000001490116
+709,1,9,4080,Air - P - PLANE - Short Distance - Electricity - Euro 8 (2025-29),68.0,2025,,2030,,0.100000001490116
+710,1,9,4081,Air - P - PLANE - Short Distance - Electricity - Euro 10 (2035-39),136.0,2035,,2040,,0.100000001490116
+711,1,9,4082,Air - P - PLANE - Short Distance - Electricity - Euro 12 (2045 onwards),136.0,2045,,2050,,0.100000001490116
+712,1,9,4090,Air - F - PLANE - Short Distance - Aviation fuel (Jet A-1) - Euro 6 (2015-19),21.0,2015,,2016,,0.100000001490116
+713,1,9,4091,Air - F - PLANE - Short Distance - Aviation fuel (Jet A-1) - Euro 8 (2025-29),21.0,2025,,2026,,0.100000001490116
+714,1,9,4092,Air - F - PLANE - Short Distance - Aviation fuel (Jet A-1) - Euro 10 (2035-39),21.0,2035,,2036,,0.100000001490116
+715,1,9,4093,Air - F - PLANE - Short Distance - Aviation fuel (Jet A-1) - Euro 12 (2045-50),21.0,2045,,2046,,0.100000001490116
+716,1,9,4100,Air - P - PLANE - Short Distance - Aviation fuel (Jet A-1) - Euro 6 (2015-19),272.0,2015,,2016,,0.100000001490116
+717,1,9,4101,Air - P - PLANE - Short Distance - Aviation fuel (Jet A-1) - Euro 8 (2025-29),272.0,2025,,2026,,0.100000001490116
+718,1,9,4102,Air - P - PLANE - Short Distance - Aviation fuel (Jet A-1) - Euro 10 (2035-39),272.0,2035,,2036,,0.100000001490116
+719,1,9,4103,Air - P - PLANE - Short Distance - Aviation fuel (Jet A-1) - Euro 12 (2045-50),272.0,2045,,2046,,0.100000001490116
+720,1,9,4110,Air - P - PLANE - Short Distance - Electricity - Euro 8 (2025-29),2.5,2025,,2030,,0.100000001490116
+721,1,9,4111,Air - P - PLANE - Short Distance - Electricity - Euro 10 (2035-39),5.0,2035,,2040,,0.100000001490116
+722,1,9,4112,Air - P - PLANE - Short Distance - Electricity - Euro 12 (2045 onwards),5.0,2045,,2050,,0.100000001490116
+723,1,9,4120,Air - F - PLANE - Middle Distance - Aviation fuel (Jet A-1) - Standard 1,42.0,1985,42.0,1986,,0.100000001490116
+724,1,9,4130,Air - P - PLANE - Middle Distance - Aviation fuel (Jet A-1) - Standard 1,275.0,1985,275.0,1986,,0.100000001490116
+725,1,9,4140,Air - F - PLANE - Middle Distance - Aviation fuel (Jet A-1) - Standard 2,42.0,2005,,2006,,0.100000001490116
+726,1,9,4150,Air - P - PLANE - Middle Distance - Aviation fuel (Jet A-1) - Standard 2,275.0,2005,,2006,,0.100000001490116
+727,1,9,4160,Air - F - PLANE - Middle Distance - Liquefied Hydrogen - Standard 3,11.0,2025,,2030,,0.100000001490116
+728,1,9,4161,Air - F - PLANE - Middle Distance - Liquefied Hydrogen - Euro 10 (2035-39),21.0,2035,,2040,,0.100000001490116
+729,1,9,4162,Air - F - PLANE - Middle Distance - Liquefied Hydrogen - Euro 12 (2045-50),21.0,2045,,2050,,0.100000001490116
+730,1,9,4170,Air - F - PLANE - Middle Distance - Aviation fuel (Jet A-1) - Euro 6 (2015-19),42.0,2015,,2016,,0.100000001490116
+731,1,9,4171,Air - F - PLANE - Middle Distance - Aviation fuel (Jet A-1) - Euro 8 (2025-29),42.0,2025,,2026,,0.100000001490116
+732,1,9,4172,Air - F - PLANE - Middle Distance - Aviation fuel (Jet A-1) - Euro 10 (2035-39),42.0,2035,,2036,,0.100000001490116
+733,1,9,4173,Air - F - PLANE - Middle Distance - Aviation fuel (Jet A-1) - Euro 12 (2045-50),42.0,2045,,2046,,0.100000001490116
+734,1,9,4180,Air - P - PLANE - Middle Distance - Liquefied Hydrogen - Standard 3,69.0,2025,,2030,,0.100000001490116
+735,1,9,4181,Air - P - PLANE - Middle Distance - Liquefied Hydrogen - Euro 10 (2035-39),138.0,2035,,2040,,0.100000001490116
+736,1,9,4182,Air - P - PLANE - Middle Distance - Liquefied Hydrogen - Euro 12 (2045-50),138.0,2045,,2050,,0.100000001490116
+737,1,9,4190,Air - P - PLANE - Middle Distance - Aviation fuel (Jet A-1) - Euro 6 (2015-19),275.0,2015,,2016,,0.100000001490116
+738,1,9,4191,Air - P - PLANE - Middle Distance - Aviation fuel (Jet A-1) - Euro 8 (2025-29),275.0,2025,,2026,,0.100000001490116
+739,1,9,4192,Air - P - PLANE - Middle Distance - Aviation fuel (Jet A-1) - Euro 10 (2035-39),275.0,2035,,2036,,0.100000001490116
+740,1,9,4193,Air - P - PLANE - Middle Distance - Aviation fuel (Jet A-1) - Euro 12 (2045-50),275.0,2045,,2046,,0.100000001490116
+741,1,9,4200,Air - F - PLANE - Long Distance - Aviation fuel (Jet A-1) - Standard 1,14.0,1985,14.0,1986,,0.100000001490116
+742,1,9,4210,Air - P - PLANE - Long Distance - Aviation fuel (Jet A-1) - Standard 1,85.0,1985,85.0,1986,,0.100000001490116
+743,1,9,4220,Air - P - PLANE - Long Distance - Aviation fuel (Jet A-1) - Standard 2,85.0,2005,,2006,,0.100000001490116
+744,1,9,4230,Air - F - PLANE - Long Distance - Aviation fuel (Jet A-1) - Standard 2,14.0,2005,,2006,,0.100000001490116
+745,1,9,4240,Air - P - PLANE - Long Distance - Liquefied Hydrogen - Standard 3,21.0,2025,,2030,,0.100000001490116
+746,1,9,4241,Air - P - PLANE - Long Distance - Liquefied Hydrogen - Euro 10 (2035-39),43.0,2035,,2040,,0.100000001490116
+747,1,9,4242,Air - P - PLANE - Long Distance - Liquefied Hydrogen - Euro 12 (2045-50),43.0,2045,,2050,,0.100000001490116
+748,1,9,4250,Air - P - PLANE - Long Distance - Aviation fuel (Jet A-1) - Euro 6 (2015-19),85.0,2015,,2016,,0.100000001490116
+749,1,9,4251,Air - P - PLANE - Long Distance - Aviation fuel (Jet A-1) - Euro 8 (2025-29),85.0,2025,,2026,,0.100000001490116
+750,1,9,4252,Air - P - PLANE - Long Distance - Aviation fuel (Jet A-1) - Euro 10 (2035-39),85.0,2035,,2036,,0.100000001490116
+751,1,9,4253,Air - P - PLANE - Long Distance - Aviation fuel (Jet A-1) - Euro 12 (2045-50),85.0,2045,,2046,,0.100000001490116
+752,1,9,4260,Air - F - PLANE - Long Distance - Liquefied Hydrogen - Standard 3,4.0,2025,,2030,,0.100000001490116
+753,1,9,4261,Air - F - PLANE - Long Distance - Liquefied Hydrogen - Euro 10 (2035-39),7.0,2035,,2040,,0.100000001490116
+754,1,9,4262,Air - F - PLANE - Long Distance - Liquefied Hydrogen - Euro 12 (2045-50),7.0,2045,,2050,,0.100000001490116
+755,1,9,4270,Air - F - PLANE - Long Distance - Aviation fuel (Jet A-1) - Euro 6 (2015-19),14.0,2015,,2016,,0.100000001490116
+756,1,9,4271,Air - F - PLANE - Long Distance - Aviation fuel (Jet A-1) - Euro 8 (2025-29),14.0,2025,,2026,,0.100000001490116
+757,1,9,4272,Air - F - PLANE - Long Distance - Aviation fuel (Jet A-1) - Euro 10 (2035-39),14.0,2035,,2036,,0.100000001490116
+758,1,9,4273,Air - F - PLANE - Long Distance - Aviation fuel (Jet A-1) - Euro 12 (2045-50),14.0,2045,,2046,,0.100000001490116
+759,1,9,4275,Air - P - PLANE - Supersonic - Aviation fuel (Jet A-1) - Standard 1,7.0,1980,7.0,1981,,0.100000001490116
+760,1,9,4280,Air - F - PLANE - Supersonic - Aviation fuel (Jet A-1) - Standard 2,1.0,2005,,2006,,0.100000001490116
+761,1,9,4281,Air - F - PLANE - Supersonic - Aviation fuel (Jet A-1) - Euro 6 (2015-19),1.0,2015,,2016,,0.100000001490116
+762,1,9,4282,Air - F - PLANE - Supersonic - Aviation fuel (Jet A-1) - Euro 8 (2025-29),1.0,2025,,2026,,0.100000001490116
+763,1,9,4283,Air - F - PLANE - Supersonic - Aviation fuel (Jet A-1) - Euro 10 (2035-39),1.0,2035,,2036,,0.100000001490116
+764,1,9,4284,Air - F - PLANE - Supersonic - Aviation fuel (Jet A-1) - Euro 12 (2045-50),1.0,2045,,2046,,0.100000001490116
+765,1,9,4290,Air - P - PLANE - Supersonic - Aviation fuel (Jet A-1) - Standard 2,1.0,2005,,2006,,0.100000001490116
+766,1,9,4291,Air - P - PLANE - Supersonic - Aviation fuel (Jet A-1) - Euro 6 (2015-19),1.0,2015,,2016,,0.100000001490116
+767,1,9,4292,Air - P - PLANE - Supersonic - Aviation fuel (Jet A-1) - Euro 8 (2025-29),1.0,2025,,2026,,0.100000001490116
+768,1,9,4293,Air - P - PLANE - Supersonic - Aviation fuel (Jet A-1) - Euro 10 (2035-39),1.0,2035,,2036,,0.100000001490116
+769,1,9,4294,Air - P - PLANE - Supersonic - Aviation fuel (Jet A-1) - Euro 12 (2045-50),1.0,2045,,2046,,0.100000001490116
+770,1,9,4310,Air - F - PLANE - Supersonic - Liquefied Hydrogen - Standard 3,0.00999999977648258,2025,,2030,,0.100000001490116
+771,1,9,4311,Air - F - PLANE - Supersonic - Liquefied Hydrogen - Euro 10 (2035-39),0.00999999977648258,2035,,2040,,0.100000001490116
+772,1,9,4312,Air - F - PLANE - Supersonic - Liquefied Hydrogen - Euro 12 (2045-50),0.00999999977648258,2045,,2050,,0.100000001490116
+773,1,9,4320,Air - P - PLANE - Supersonic - Liquefied Hydrogen - Standard 3,0.00999999977648258,2025,,2030,,0.100000001490116
+774,1,9,4321,Air - P - PLANE - Supersonic - Liquefied Hydrogen - Euro 10 (2035-39),0.00999999977648258,2035,,2040,,0.100000001490116
+775,1,9,4322,Air - P - PLANE - Supersonic - Liquefied Hydrogen - Euro 12 (2045-50),0.00999999977648258,2045,,2050,,0.100000001490116
+776,1,9,5000,Road - F - TRUCK - CarDerivedVan - Gasoline - Euro 1 (1992-96)  - vintage  1994 to  1998,310680.0,1994,,1995,,0.100000001490116
+777,1,9,5001,Road - F - TRUCK - CarDerivedVan - Gasoline - Euro 2 (1996-2001)  - vintage  1998 to  2001,999592.0,1998,,1999,,0.100000001490116
+778,1,9,5002,Road - F - TRUCK - CarDerivedVan - Gasoline - Euro 3 (2001-05)  - vintage  2001 to  2005,999592.0,2001,,2002,,0.100000001490116
+779,1,9,5003,Road - F - TRUCK - CarDerivedVan - Gasoline - Euro 4 (2005-09)  - vintage  2005 to  2009,126720.296875,2005,,2006,,0.100000001490116
+780,1,9,5004,Road - F - TRUCK - CarDerivedVan - Gasoline - Euro 5 (2009-14)  - vintage  2009 to  2015,63360.1484375,2009,,2010,,0.100000001490116
+781,1,9,5005,Road - F - TRUCK - CarDerivedVan - Gasoline - Euro 6 (2015-19)  - vintage  2015 to  2020,12672.0302734375,2015,,2016,,0.100000001490116
+782,1,9,5006,Road - F - TRUCK - CarDerivedVan - Gasoline - Euro 7 (2020-24)  - vintage  2020 to  2025,12672.0302734375,2020,,2021,,0.100000001490116
+783,1,9,5007,Road - F - TRUCK - CarDerivedVan - Gasoline - Euro 8 (2025-29)  - vintage  2025 to  2030,12672.0302734375,2025,,2026,,0.100000001490116
+784,1,9,5008,Road - F - TRUCK - CarDerivedVan - Gasoline - Euro 9 (2030-34)  - vintage  2030 to  2035,12672.0302734375,2030,,2031,,0.100000001490116
+785,1,9,5009,Road - F - TRUCK - CarDerivedVan - Gasoline - Euro 10 (2035-39)  - vintage  2035 to  2040,12672.0302734375,2035,,2036,,0.100000001490116
+786,1,9,5010,Road - F - TRUCK - CarDerivedVan - Gasoline - Euro 11 (2040-44)  - vintage  2040 to  2045,12672.0302734375,2040,,2041,,0.100000001490116
+787,1,9,5011,Road - F - TRUCK - CarDerivedVan - Gasoline - Euro 12 (2045-50)  - vintage  2045 to 2050,12672.0302734375,2045,,2046,,0.100000001490116
+788,1,9,5012,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 1 (1992-96)  - vintage  1994 to  1998,406454.0,1994,,1995,,0.100000001490116
+789,1,9,5013,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 2 (1996-2001)  - vintage  1998 to  2001,1267203.0,1998,,1999,,0.100000001490116
+790,1,9,5014,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 3 (2001-05)  - vintage  2001 to  2005,1267203.0,2001,,2002,,0.100000001490116
+791,1,9,5015,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 4 (2005-09)  - vintage  2005 to  2009,1267203.0,2005,,2006,,0.100000001490116
+792,1,9,5016,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 5 (2009-14)  - vintage  2009 to  2015,1267203.0,2009,,2010,,0.100000001490116
+793,1,9,5017,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 6 (2015-19)  - vintage  2015 to  2020,1267203.0,2015,,2016,,0.100000001490116
+794,1,9,5018,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 7 (2020-24)  - vintage  2020 to  2025,1267203.0,2020,,2021,,0.100000001490116
+795,1,9,5019,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 8 (2025-29)  - vintage  2025 to  2030,1267203.0,2025,,2026,,0.100000001490116
+796,1,9,5020,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 9 (2030-34)  - vintage  2030 to  2035,1267203.0,2030,,2031,,0.100000001490116
+797,1,9,5021,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 10 (2035-39)  - vintage  2035 to  2040,1267203.0,2035,,2036,,0.100000001490116
+798,1,9,5022,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 11 (2040-44)  - vintage  2040 to  2045,1267203.0,2040,,2041,,0.100000001490116
+799,1,9,5023,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 12 (2045-50)  - vintage  2045 to 2050,1267203.0,2045,,2046,,0.100000001490116
+800,1,9,5024,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 4 (2005-09) - HEV - vintage  2005 to  2009,0.100000001490116,2005,,2006,,0.100000001490116
+801,1,9,5025,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 5 (2009-14) - HEV - vintage  2009 to  2015,126.72029876709,2009,,2010,,0.100000001490116
+802,1,9,5026,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 6 (2015-19) - HEV - vintage  2015 to  2020,63360.1484375,2015,,2016,,0.100000001490116
+803,1,9,5027,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 7 (2020-24) - HEV - vintage  2020 to  2025,12672.0302734375,2020,,2021,,0.100000001490116
+804,1,9,5028,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 8 (2025-29) - HEV - vintage  2025 to  2030,25344.060546875,2025,,2026,,0.100000001490116
+805,1,9,5029,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 9 (2030-34) - HEV - vintage  2030 to  2035,50688.12109375,2030,,2031,,0.100000001490116
+806,1,9,5030,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 10 (2035-39) - HEV - vintage  2035 to  2040,50688.12109375,2035,,2036,,0.100000001490116
+807,1,9,5031,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 11 (2040-44) - HEV - vintage  2040 to  2045,50688.12109375,2040,,2041,,0.100000001490116
+808,1,9,5032,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 12 (2045-50) - HEV - vintage  2045 to 2050,50688.12109375,2045,,2046,,0.100000001490116
+809,1,9,5033,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 5 (2009-14)  - PHEV - vintage  2009 to  2015,126.72029876709,2009,,2010,,0.100000001490116
+810,1,9,5034,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 6 (2015-19)  - PHEV - vintage  2015 to  2020,63360.1484375,2015,,2016,,0.100000001490116
+811,1,9,5035,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 7 (2020-24)  - PHEV - vintage  2020 to  2025,12672.0302734375,2020,,2021,,0.100000001490116
+812,1,9,5036,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 8 (2025-29)  - PHEV - vintage  2025 to  2030,25344.060546875,2025,,2026,,0.100000001490116
+813,1,9,5037,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 9 (2030-34)  - PHEV - vintage  2030 to  2035,50688.12109375,2030,,2031,,0.100000001490116
+814,1,9,5038,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 10 (2035-39)  - PHEV - vintage  2035 to  2040,50688.12109375,2035,,2036,,0.100000001490116
+815,1,9,5039,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 11 (2040-44)  - PHEV - vintage  2040 to  2045,50688.12109375,2040,,2041,,0.100000001490116
+816,1,9,5040,Road - F - TRUCK - CarDerivedVan - Diesel - Euro 12 (2045-50)  - PHEV - vintage  2045 to 2050,50688.12109375,2045,,2046,,0.100000001490116
+817,1,9,5041,Road - F - TRUCK - CarDerivedVan - Liquified Petroleum Gas - Euro 3 (2001-05)  - vintage  2001 to  2005,6336.01513671875,2001,,2002,,0.100000001490116
+818,1,9,5042,Road - F - TRUCK - CarDerivedVan - Liquified Petroleum Gas - Euro 4 (2005-09)  - vintage  2005 to  2009,0.0,2005,,2006,,0.100000001490116
+819,1,9,5043,Road - F - TRUCK - CarDerivedVan - Liquified Petroleum Gas - Euro 5 (2009-14)  - vintage  2009 to  2015,126.72029876709,2009,,2010,,0.100000001490116
+820,1,9,5044,Road - F - TRUCK - CarDerivedVan - Liquified Petroleum Gas - Euro 6 (2015-19)  - vintage  2015 to  2020,126.72029876709,2015,,2016,,0.100000001490116
+821,1,9,5045,Road - F - TRUCK - CarDerivedVan - Liquified Petroleum Gas - Euro 7 (2020-24)  - vintage  2020 to  2025,126.72029876709,2020,,2021,,0.100000001490116
+822,1,9,5046,Road - F - TRUCK - CarDerivedVan - Liquified Petroleum Gas - Euro 8 (2025-29)  - vintage  2025 to  2030,126.72029876709,2025,,2026,,0.100000001490116
+823,1,9,5047,Road - F - TRUCK - CarDerivedVan - Liquified Petroleum Gas - Euro 9 (2030-34)  - vintage  2030 to  2035,126.72029876709,2030,,2031,,0.100000001490116
+824,1,9,5048,Road - F - TRUCK - CarDerivedVan - Liquified Petroleum Gas - Euro 10 (2035-39)  - vintage  2035 to  2040,126.72029876709,2035,,2036,,0.100000001490116
+825,1,9,5049,Road - F - TRUCK - CarDerivedVan - Liquified Petroleum Gas - Euro 11 (2040-44)  - vintage  2040 to  2045,126.72029876709,2040,,2041,,0.100000001490116
+826,1,9,5050,Road - F - TRUCK - CarDerivedVan - Liquified Petroleum Gas - Euro 12 (2045-50)  - vintage  2045 to 2050,126.72029876709,2045,,2046,,0.100000001490116
+827,1,9,5051,Road - F - TRUCK - CarDerivedVan - Bioethanol(85)-petrol(15) blend - Euro 4 (2005-09)  - vintage  2005 to  2009,0.100000001490116,2005,,2006,,0.100000001490116
+828,1,9,5052,Road - F - TRUCK - CarDerivedVan - Bioethanol(85)-petrol(15) blend - Euro 5 (2009-14)  - vintage  2009 to  2015,126.72029876709,2009,,2010,,0.100000001490116
+829,1,9,5053,Road - F - TRUCK - CarDerivedVan - Bioethanol(85)-petrol(15) blend - Euro 6 (2015-19)  - vintage  2015 to  2020,126.72029876709,2015,,2016,,0.100000001490116
+830,1,9,5054,Road - F - TRUCK - CarDerivedVan - Bioethanol(85)-petrol(15) blend - Euro 7 (2020-24)  - vintage  2020 to  2025,126.72029876709,2020,,2021,,0.100000001490116
+831,1,9,5055,Road - F - TRUCK - CarDerivedVan - Bioethanol(85)-petrol(15) blend - Euro 8 (2025-29)  - vintage  2025 to  2030,126.72029876709,2025,,2026,,0.100000001490116
+832,1,9,5056,Road - F - TRUCK - CarDerivedVan - Bioethanol(85)-petrol(15) blend - Euro 9 (2030-34)  - vintage  2030 to  2035,126.72029876709,2030,,2031,,0.100000001490116
+833,1,9,5057,Road - F - TRUCK - CarDerivedVan - Bioethanol(85)-petrol(15) blend - Euro 10 (2035-39)  - vintage  2035 to  2040,126.72029876709,2035,,2036,,0.100000001490116
+834,1,9,5058,Road - F - TRUCK - CarDerivedVan - Bioethanol(85)-petrol(15) blend - Euro 11 (2040-44)  - vintage  2040 to  2045,126.72029876709,2040,,2041,,0.100000001490116
+835,1,9,5059,Road - F - TRUCK - CarDerivedVan - Bioethanol(85)-petrol(15) blend - Euro 12 (2045-50)  - vintage  2045 to 2050,126.72029876709,2045,,2046,,0.100000001490116
+836,1,9,5060,"Road - F - TRUCK - CarDerivedVan - Biodiesel (FT, synthetic) - Euro 4 (2005-09)  - vintage  2005 to  2009",12.6700000762939,2005,,2006,,0.100000001490116
+837,1,9,5061,"Road - F - TRUCK - CarDerivedVan - Biodiesel (FT, synthetic) - Euro 5 (2009-14)  - vintage  2009 to  2015",126.72029876709,2009,,2010,,0.100000001490116
+838,1,9,5062,"Road - F - TRUCK - CarDerivedVan - Biodiesel (FT, synthetic) - Euro 6 (2015-19)  - vintage  2015 to  2020",126.72029876709,2015,,2016,,0.100000001490116
+839,1,9,5063,"Road - F - TRUCK - CarDerivedVan - Biodiesel (FT, synthetic) - Euro 7 (2020-24)  - vintage  2020 to  2025",126.72029876709,2020,,2021,,0.100000001490116
+840,1,9,5064,"Road - F - TRUCK - CarDerivedVan - Biodiesel (FT, synthetic) - Euro 8 (2025-29)  - vintage  2025 to  2030",126.72029876709,2025,,2026,,0.100000001490116
+841,1,9,5065,"Road - F - TRUCK - CarDerivedVan - Biodiesel (FT, synthetic) - Euro 9 (2030-34)  - vintage  2030 to  2035",126.72029876709,2030,,2031,,0.100000001490116
+842,1,9,5066,"Road - F - TRUCK - CarDerivedVan - Biodiesel (FT, synthetic) - Euro 10 (2035-39)  - vintage  2035 to  2040",126.72029876709,2035,,2036,,0.100000001490116
+843,1,9,5067,"Road - F - TRUCK - CarDerivedVan - Biodiesel (FT, synthetic) - Euro 11 (2040-44)  - vintage  2040 to  2045",126.72029876709,2040,,2041,,0.100000001490116
+844,1,9,5068,"Road - F - TRUCK - CarDerivedVan - Biodiesel (FT, synthetic) - Euro 12 (2045-50)  - vintage  2045 to 2050",126.72029876709,2045,,2046,,0.100000001490116
+845,1,9,5069,Road - F - TRUCK - CarDerivedVan - Compressed Natural Gas - Euro 4 (2005-09)  - vintage  2005 to  2009,0.0,2005,,2006,,0.100000001490116
+846,1,9,5070,Road - F - TRUCK - CarDerivedVan - Compressed Natural Gas - Euro 5 (2009-14)  - vintage  2009 to  2015,126.72029876709,2009,,2010,,0.100000001490116
+847,1,9,5071,Road - F - TRUCK - CarDerivedVan - Compressed Natural Gas - Euro 6 (2015-19)  - vintage  2015 to  2020,126.72029876709,2015,,2016,,0.100000001490116
+848,1,9,5072,Road - F - TRUCK - CarDerivedVan - Compressed Natural Gas - Euro 7 (2020-24)  - vintage  2020 to  2025,126.72029876709,2020,,2021,,0.100000001490116
+849,1,9,5073,Road - F - TRUCK - CarDerivedVan - Compressed Natural Gas - Euro 8 (2025-29)  - vintage  2025 to  2030,126.72029876709,2025,,2026,,0.100000001490116
+850,1,9,5074,Road - F - TRUCK - CarDerivedVan - Compressed Natural Gas - Euro 9 (2030-34)  - vintage  2030 to  2035,126.72029876709,2030,,2031,,0.100000001490116
+851,1,9,5075,Road - F - TRUCK - CarDerivedVan - Compressed Natural Gas - Euro 10 (2035-39)  - vintage  2035 to  2040,126.72029876709,2035,,2036,,0.100000001490116
+852,1,9,5076,Road - F - TRUCK - CarDerivedVan - Compressed Natural Gas - Euro 11 (2040-44)  - vintage  2040 to  2045,126.72029876709,2040,,2041,,0.100000001490116
+853,1,9,5077,Road - F - TRUCK - CarDerivedVan - Compressed Natural Gas - Euro 12 (2045-50)  - vintage  2045 to 2050,126.72029876709,2045,,2046,,0.100000001490116
+854,1,9,5078,Road - F - TRUCK - CarDerivedVan - Electricity - Euro 3 (2001-05)  - vintage  2001 to  2005,0.100000001490116,2001,,2002,,0.100000001490116
+855,1,9,5079,Road - F - TRUCK - CarDerivedVan - Electricity - Euro 4 (2005-09)  - vintage  2005 to  2009,1267.0,2005,,2006,,0.100000001490116
+856,1,9,5080,Road - F - TRUCK - CarDerivedVan - Electricity - Euro 5 (2009-14)  - vintage  2009 to  2015,1267.20300292969,2009,,2010,,0.100000001490116
+857,1,9,5081,Road - F - TRUCK - CarDerivedVan - Electricity - Euro 6 (2015-19)  - vintage  2015 to  2020,126720.296875,2015,,2016,,0.100000001490116
+858,1,9,5082,Road - F - TRUCK - CarDerivedVan - Electricity - Euro 7 (2020-24)  - vintage  2020 to  2025,126720.296875,2020,,2021,,0.100000001490116
+859,1,9,5083,Road - F - TRUCK - CarDerivedVan - Electricity - Euro 8 (2025-29)  - vintage  2025 to  2030,253440.59375,2025,,2026,,0.100000001490116
+860,1,9,5084,Road - F - TRUCK - CarDerivedVan - Electricity - Euro 9 (2030-34)  - vintage  2030 to  2035,506881.1875,2030,,2031,,0.100000001490116
+861,1,9,5085,Road - F - TRUCK - CarDerivedVan - Electricity - Euro 10 (2035-39)  - vintage  2035 to  2040,506881.1875,2035,,2036,,0.100000001490116
+862,1,9,5086,Road - F - TRUCK - CarDerivedVan - Electricity - Euro 11 (2040-44)  - vintage  2040 to  2045,506881.1875,2040,,2041,,0.100000001490116
+863,1,9,5087,Road - F - TRUCK - CarDerivedVan - Electricity - Euro 12 (2045-50)  - vintage  2045 to 2050,506881.1875,2045,,2046,,0.100000001490116
+864,1,9,5088,Road - F - TRUCK - CarDerivedVan - Gaseous Hydrogen - Fuel Cell  - vintage  2020 to  2025,0.100000001490116,2020,,2021,,0.100000001490116
+865,1,9,5089,Road - F - TRUCK - CarDerivedVan - Gaseous Hydrogen - Fuel Cell  - vintage  2025 to  2030,0.100000001490116,2025,,2026,,0.100000001490116
+866,1,9,5090,Road - F - TRUCK - CarDerivedVan - Gaseous Hydrogen - Fuel Cell  - vintage  2030 to  2035,0.100000001490116,2030,,2031,,0.100000001490116
+867,1,9,5091,Road - F - TRUCK - CarDerivedVan - Gaseous Hydrogen - Fuel Cell  - vintage  2035 to  2040,0.100000001490116,2035,,2036,,0.100000001490116
+868,1,9,5092,Road - F - TRUCK - CarDerivedVan - Gaseous Hydrogen - Fuel Cell  - vintage  2040 to  2045,0.100000001490116,2040,,2041,,0.100000001490116
+869,1,9,5093,Road - F - TRUCK - CarDerivedVan - Gaseous Hydrogen - Fuel Cell  - vintage  2045 to 2050,0.100000001490116,2045,,2046,,0.100000001490116
+870,1,9,5200,Road - F - TRUCK - Pickup4x4Van - Gasoline - Euro 1 (1992-96)  - vintage  1994 to  1998,310680.0,1994,,1995,,0.100000001490116
+871,1,9,5201,Road - F - TRUCK - Pickup4x4Van - Gasoline - Euro 2 (1996-2001)  - vintage  1998 to  2001,999592.0,1998,,1999,,0.100000001490116
+872,1,9,5202,Road - F - TRUCK - Pickup4x4Van - Gasoline - Euro 3 (2001-05)  - vintage  2001 to  2005,999592.0,2001,,2002,,0.100000001490116
+873,1,9,5203,Road - F - TRUCK - Pickup4x4Van - Gasoline - Euro 4 (2005-09)  - vintage  2005 to  2009,126720.296875,2005,,2006,,0.100000001490116
+874,1,9,5204,Road - F - TRUCK - Pickup4x4Van - Gasoline - Euro 5 (2009-14)  - vintage  2009 to  2015,63360.1484375,2009,,2010,,0.100000001490116
+875,1,9,5205,Road - F - TRUCK - Pickup4x4Van - Gasoline - Euro 6 (2015-19)  - vintage  2015 to  2020,12672.0302734375,2015,,2016,,0.100000001490116
+876,1,9,5206,Road - F - TRUCK - Pickup4x4Van - Gasoline - Euro 7 (2020-24)  - vintage  2020 to  2025,12672.0302734375,2020,,2021,,0.100000001490116
+877,1,9,5207,Road - F - TRUCK - Pickup4x4Van - Gasoline - Euro 8 (2025-29)  - vintage  2025 to  2030,12672.0302734375,2025,,2026,,0.100000001490116
+878,1,9,5208,Road - F - TRUCK - Pickup4x4Van - Gasoline - Euro 9 (2030-34)  - vintage  2030 to  2035,12672.0302734375,2030,,2031,,0.100000001490116
+879,1,9,5209,Road - F - TRUCK - Pickup4x4Van - Gasoline - Euro 10 (2035-39)  - vintage  2035 to  2040,12672.0302734375,2035,,2036,,0.100000001490116
+880,1,9,5210,Road - F - TRUCK - Pickup4x4Van - Gasoline - Euro 11 (2040-44)  - vintage  2040 to  2045,12672.0302734375,2040,,2041,,0.100000001490116
+881,1,9,5211,Road - F - TRUCK - Pickup4x4Van - Gasoline - Euro 12 (2045-50)  - vintage  2045 to 2050,12672.0302734375,2045,,2046,,0.100000001490116
+882,1,9,5212,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 1 (1992-96)  - vintage  1994 to  1998,406454.0,1994,,1995,,0.100000001490116
+883,1,9,5213,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 2 (1996-2001)  - vintage  1998 to  2001,1267203.0,1998,,1999,,0.100000001490116
+884,1,9,5214,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 3 (2001-05)  - vintage  2001 to  2005,1267203.0,2001,,2002,,0.100000001490116
+885,1,9,5215,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 4 (2005-09)  - vintage  2005 to  2009,1267203.0,2005,,2006,,0.100000001490116
+886,1,9,5216,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 5 (2009-14)  - vintage  2009 to  2015,1267203.0,2009,,2010,,0.100000001490116
+887,1,9,5217,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 6 (2015-19)  - vintage  2015 to  2020,1267203.0,2015,,2016,,0.100000001490116
+888,1,9,5218,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 7 (2020-24)  - vintage  2020 to  2025,1267203.0,2020,,2021,,0.100000001490116
+889,1,9,5219,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 8 (2025-29)  - vintage  2025 to  2030,1267203.0,2025,,2026,,0.100000001490116
+890,1,9,5220,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 9 (2030-34)  - vintage  2030 to  2035,1267203.0,2030,,2031,,0.100000001490116
+891,1,9,5221,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 10 (2035-39)  - vintage  2035 to  2040,1267203.0,2035,,2036,,0.100000001490116
+892,1,9,5222,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 11 (2040-44)  - vintage  2040 to  2045,1267203.0,2040,,2041,,0.100000001490116
+893,1,9,5223,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 12 (2045-50)  - vintage  2045 to 2050,1267203.0,2045,,2046,,0.100000001490116
+894,1,9,5224,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 4 (2005-09) - HEV - vintage  2005 to  2009,0.100000001490116,2005,,2006,,0.100000001490116
+895,1,9,5225,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 5 (2009-14) - HEV - vintage  2009 to  2015,126.72029876709,2009,,2010,,0.100000001490116
+896,1,9,5226,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 6 (2015-19) - HEV - vintage  2015 to  2020,63360.1484375,2015,,2016,,0.100000001490116
+897,1,9,5227,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 7 (2020-24) - HEV - vintage  2020 to  2025,12672.0302734375,2020,,2021,,0.100000001490116
+898,1,9,5228,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 8 (2025-29) - HEV - vintage  2025 to  2030,25344.060546875,2025,,2026,,0.100000001490116
+899,1,9,5229,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 9 (2030-34) - HEV - vintage  2030 to  2035,50688.12109375,2030,,2031,,0.100000001490116
+900,1,9,5230,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 10 (2035-39) - HEV - vintage  2035 to  2040,50688.12109375,2035,,2036,,0.100000001490116
+901,1,9,5231,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 11 (2040-44) - HEV - vintage  2040 to  2045,50688.12109375,2040,,2041,,0.100000001490116
+902,1,9,5232,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 12 (2045-50) - HEV - vintage  2045 to 2050,50688.12109375,2045,,2046,,0.100000001490116
+903,1,9,5233,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 5 (2009-14)  - PHEV - vintage  2009 to  2015,126.72029876709,2009,,2010,,0.100000001490116
+904,1,9,5234,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 6 (2015-19)  - PHEV - vintage  2015 to  2020,63360.1484375,2015,,2016,,0.100000001490116
+905,1,9,5235,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 7 (2020-24)  - PHEV - vintage  2020 to  2025,12672.0302734375,2020,,2021,,0.100000001490116
+906,1,9,5236,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 8 (2025-29)  - PHEV - vintage  2025 to  2030,25344.060546875,2025,,2026,,0.100000001490116
+907,1,9,5237,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 9 (2030-34)  - PHEV - vintage  2030 to  2035,50688.12109375,2030,,2031,,0.100000001490116
+908,1,9,5238,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 10 (2035-39)  - PHEV - vintage  2035 to  2040,50688.12109375,2035,,2036,,0.100000001490116
+909,1,9,5239,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 11 (2040-44)  - PHEV - vintage  2040 to  2045,50688.12109375,2040,,2041,,0.100000001490116
+910,1,9,5240,Road - F - TRUCK - Pickup4x4Van - Diesel - Euro 12 (2045-50)  - PHEV - vintage  2045 to 2050,50688.12109375,2045,,2046,,0.100000001490116
+911,1,9,5241,Road - F - TRUCK - Pickup4x4Van - Liquified Petroleum Gas - Euro 3 (2001-05)  - vintage  2001 to  2005,6336.01513671875,2001,,2002,,0.100000001490116
+912,1,9,5242,Road - F - TRUCK - Pickup4x4Van - Liquified Petroleum Gas - Euro 4 (2005-09)  - vintage  2005 to  2009,0.0,2005,,2006,,0.100000001490116
+913,1,9,5243,Road - F - TRUCK - Pickup4x4Van - Liquified Petroleum Gas - Euro 5 (2009-14)  - vintage  2009 to  2015,126.72029876709,2009,,2010,,0.100000001490116
+914,1,9,5244,Road - F - TRUCK - Pickup4x4Van - Liquified Petroleum Gas - Euro 6 (2015-19)  - vintage  2015 to  2020,126.72029876709,2015,,2016,,0.100000001490116
+915,1,9,5245,Road - F - TRUCK - Pickup4x4Van - Liquified Petroleum Gas - Euro 7 (2020-24)  - vintage  2020 to  2025,126.72029876709,2020,,2021,,0.100000001490116
+916,1,9,5246,Road - F - TRUCK - Pickup4x4Van - Liquified Petroleum Gas - Euro 8 (2025-29)  - vintage  2025 to  2030,126.72029876709,2025,,2026,,0.100000001490116
+917,1,9,5247,Road - F - TRUCK - Pickup4x4Van - Liquified Petroleum Gas - Euro 9 (2030-34)  - vintage  2030 to  2035,126.72029876709,2030,,2031,,0.100000001490116
+918,1,9,5248,Road - F - TRUCK - Pickup4x4Van - Liquified Petroleum Gas - Euro 10 (2035-39)  - vintage  2035 to  2040,126.72029876709,2035,,2036,,0.100000001490116
+919,1,9,5249,Road - F - TRUCK - Pickup4x4Van - Liquified Petroleum Gas - Euro 11 (2040-44)  - vintage  2040 to  2045,126.72029876709,2040,,2041,,0.100000001490116
+920,1,9,5250,Road - F - TRUCK - Pickup4x4Van - Liquified Petroleum Gas - Euro 12 (2045-50)  - vintage  2045 to 2050,126.72029876709,2045,,2046,,0.100000001490116
+921,1,9,5251,Road - F - TRUCK - Pickup4x4Van - Bioethanol(85)-petrol(15) blend - Euro 4 (2005-09)  - vintage  2005 to  2009,0.100000001490116,2005,,2006,,0.100000001490116
+922,1,9,5252,Road - F - TRUCK - Pickup4x4Van - Bioethanol(85)-petrol(15) blend - Euro 5 (2009-14)  - vintage  2009 to  2015,126.72029876709,2009,,2010,,0.100000001490116
+923,1,9,5253,Road - F - TRUCK - Pickup4x4Van - Bioethanol(85)-petrol(15) blend - Euro 6 (2015-19)  - vintage  2015 to  2020,126.72029876709,2015,,2016,,0.100000001490116
+924,1,9,5254,Road - F - TRUCK - Pickup4x4Van - Bioethanol(85)-petrol(15) blend - Euro 7 (2020-24)  - vintage  2020 to  2025,126.72029876709,2020,,2021,,0.100000001490116
+925,1,9,5255,Road - F - TRUCK - Pickup4x4Van - Bioethanol(85)-petrol(15) blend - Euro 8 (2025-29)  - vintage  2025 to  2030,126.72029876709,2025,,2026,,0.100000001490116
+926,1,9,5256,Road - F - TRUCK - Pickup4x4Van - Bioethanol(85)-petrol(15) blend - Euro 9 (2030-34)  - vintage  2030 to  2035,126.72029876709,2030,,2031,,0.100000001490116
+927,1,9,5257,Road - F - TRUCK - Pickup4x4Van - Bioethanol(85)-petrol(15) blend - Euro 10 (2035-39)  - vintage  2035 to  2040,126.72029876709,2035,,2036,,0.100000001490116
+928,1,9,5258,Road - F - TRUCK - Pickup4x4Van - Bioethanol(85)-petrol(15) blend - Euro 11 (2040-44)  - vintage  2040 to  2045,126.72029876709,2040,,2041,,0.100000001490116
+929,1,9,5259,Road - F - TRUCK - Pickup4x4Van - Bioethanol(85)-petrol(15) blend - Euro 12 (2045-50)  - vintage  2045 to 2050,126.72029876709,2045,,2046,,0.100000001490116
+930,1,9,5260,"Road - F - TRUCK - Pickup4x4Van - Biodiesel (FT, synthetic) - Euro 4 (2005-09)  - vintage  2005 to  2009",12.6700000762939,2005,,2006,,0.100000001490116
+931,1,9,5261,"Road - F - TRUCK - Pickup4x4Van - Biodiesel (FT, synthetic) - Euro 5 (2009-14)  - vintage  2009 to  2015",126.72029876709,2009,,2010,,0.100000001490116
+932,1,9,5262,"Road - F - TRUCK - Pickup4x4Van - Biodiesel (FT, synthetic) - Euro 6 (2015-19)  - vintage  2015 to  2020",126.72029876709,2015,,2016,,0.100000001490116
+933,1,9,5263,"Road - F - TRUCK - Pickup4x4Van - Biodiesel (FT, synthetic) - Euro 7 (2020-24)  - vintage  2020 to  2025",126.72029876709,2020,,2021,,0.100000001490116
+934,1,9,5264,"Road - F - TRUCK - Pickup4x4Van - Biodiesel (FT, synthetic) - Euro 8 (2025-29)  - vintage  2025 to  2030",126.72029876709,2025,,2026,,0.100000001490116
+935,1,9,5265,"Road - F - TRUCK - Pickup4x4Van - Biodiesel (FT, synthetic) - Euro 9 (2030-34)  - vintage  2030 to  2035",126.72029876709,2030,,2031,,0.100000001490116
+936,1,9,5266,"Road - F - TRUCK - Pickup4x4Van - Biodiesel (FT, synthetic) - Euro 10 (2035-39)  - vintage  2035 to  2040",126.72029876709,2035,,2036,,0.100000001490116
+937,1,9,5267,"Road - F - TRUCK - Pickup4x4Van - Biodiesel (FT, synthetic) - Euro 11 (2040-44)  - vintage  2040 to  2045",126.72029876709,2040,,2041,,0.100000001490116
+938,1,9,5268,"Road - F - TRUCK - Pickup4x4Van - Biodiesel (FT, synthetic) - Euro 12 (2045-50)  - vintage  2045 to 2050",126.72029876709,2045,,2046,,0.100000001490116
+939,1,9,5269,Road - F - TRUCK - Pickup4x4Van - Compressed Natural Gas - Euro 4 (2005-09)  - vintage  2005 to  2009,0.0,2005,,2006,,0.100000001490116
+940,1,9,5270,Road - F - TRUCK - Pickup4x4Van - Compressed Natural Gas - Euro 5 (2009-14)  - vintage  2009 to  2015,126.72029876709,2009,,2010,,0.100000001490116
+941,1,9,5271,Road - F - TRUCK - Pickup4x4Van - Compressed Natural Gas - Euro 6 (2015-19)  - vintage  2015 to  2020,126.72029876709,2015,,2016,,0.100000001490116
+942,1,9,5272,Road - F - TRUCK - Pickup4x4Van - Compressed Natural Gas - Euro 7 (2020-24)  - vintage  2020 to  2025,126.72029876709,2020,,2021,,0.100000001490116
+943,1,9,5273,Road - F - TRUCK - Pickup4x4Van - Compressed Natural Gas - Euro 8 (2025-29)  - vintage  2025 to  2030,126.72029876709,2025,,2026,,0.100000001490116
+944,1,9,5274,Road - F - TRUCK - Pickup4x4Van - Compressed Natural Gas - Euro 9 (2030-34)  - vintage  2030 to  2035,126.72029876709,2030,,2031,,0.100000001490116
+945,1,9,5275,Road - F - TRUCK - Pickup4x4Van - Compressed Natural Gas - Euro 10 (2035-39)  - vintage  2035 to  2040,126.72029876709,2035,,2036,,0.100000001490116
+946,1,9,5276,Road - F - TRUCK - Pickup4x4Van - Compressed Natural Gas - Euro 11 (2040-44)  - vintage  2040 to  2045,126.72029876709,2040,,2041,,0.100000001490116
+947,1,9,5277,Road - F - TRUCK - Pickup4x4Van - Compressed Natural Gas - Euro 12 (2045-50)  - vintage  2045 to 2050,126.72029876709,2045,,2046,,0.100000001490116
+948,1,9,5278,Road - F - TRUCK - Pickup4x4Van - Electricity - Euro 3 (2001-05)  - vintage  2001 to  2005,0.100000001490116,2001,,2002,,0.100000001490116
+949,1,9,5279,Road - F - TRUCK - Pickup4x4Van - Electricity - Euro 4 (2005-09)  - vintage  2005 to  2009,1267.0,2005,,2006,,0.100000001490116
+950,1,9,5280,Road - F - TRUCK - Pickup4x4Van - Electricity - Euro 5 (2009-14)  - vintage  2009 to  2015,1267.20300292969,2009,,2010,,0.100000001490116
+951,1,9,5281,Road - F - TRUCK - Pickup4x4Van - Electricity - Euro 6 (2015-19)  - vintage  2015 to  2020,126720.296875,2015,,2016,,0.100000001490116
+952,1,9,5282,Road - F - TRUCK - Pickup4x4Van - Electricity - Euro 7 (2020-24)  - vintage  2020 to  2025,126720.296875,2020,,2021,,0.100000001490116
+953,1,9,5283,Road - F - TRUCK - Pickup4x4Van - Electricity - Euro 8 (2025-29)  - vintage  2025 to  2030,253440.59375,2025,,2026,,0.100000001490116
+954,1,9,5284,Road - F - TRUCK - Pickup4x4Van - Electricity - Euro 9 (2030-34)  - vintage  2030 to  2035,506881.1875,2030,,2031,,0.100000001490116
+955,1,9,5285,Road - F - TRUCK - Pickup4x4Van - Electricity - Euro 10 (2035-39)  - vintage  2035 to  2040,506881.1875,2035,,2036,,0.100000001490116
+956,1,9,5286,Road - F - TRUCK - Pickup4x4Van - Electricity - Euro 11 (2040-44)  - vintage  2040 to  2045,506881.1875,2040,,2041,,0.100000001490116
+957,1,9,5287,Road - F - TRUCK - Pickup4x4Van - Electricity - Euro 12 (2045-50)  - vintage  2045 to 2050,506881.1875,2045,,2046,,0.100000001490116
+958,1,9,5288,Road - F - TRUCK - Pickup4x4Van - Gaseous Hydrogen - Fuel Cell  - vintage  2020 to  2025,0.100000001490116,2020,,2021,,0.100000001490116
+959,1,9,5289,Road - F - TRUCK - Pickup4x4Van - Gaseous Hydrogen - Fuel Cell  - vintage  2025 to  2030,0.100000001490116,2025,,2026,,0.100000001490116
+960,1,9,5290,Road - F - TRUCK - Pickup4x4Van - Gaseous Hydrogen - Fuel Cell  - vintage  2030 to  2035,0.100000001490116,2030,,2031,,0.100000001490116
+961,1,9,5291,Road - F - TRUCK - Pickup4x4Van - Gaseous Hydrogen - Fuel Cell  - vintage  2035 to  2040,0.100000001490116,2035,,2036,,0.100000001490116
+962,1,9,5292,Road - F - TRUCK - Pickup4x4Van - Gaseous Hydrogen - Fuel Cell  - vintage  2040 to  2045,0.100000001490116,2040,,2041,,0.100000001490116
+963,1,9,5293,Road - F - TRUCK - Pickup4x4Van - Gaseous Hydrogen - Fuel Cell  - vintage  2045 to 2050,0.100000001490116,2045,,2046,,0.100000001490116
+964,1,9,5400,Road - F - TRUCK - DropAndTipVan - Gasoline - Euro 1 (1992-96)  - vintage  1994 to  1998,310680.0,1994,,1995,,0.100000001490116
+965,1,9,5401,Road - F - TRUCK - DropAndTipVan - Gasoline - Euro 2 (1996-2001)  - vintage  1998 to  2001,999592.0,1998,,1999,,0.100000001490116
+966,1,9,5402,Road - F - TRUCK - DropAndTipVan - Gasoline - Euro 3 (2001-05)  - vintage  2001 to  2005,999592.0,2001,,2002,,0.100000001490116
+967,1,9,5403,Road - F - TRUCK - DropAndTipVan - Gasoline - Euro 4 (2005-09)  - vintage  2005 to  2009,126720.296875,2005,,2006,,0.100000001490116
+968,1,9,5404,Road - F - TRUCK - DropAndTipVan - Gasoline - Euro 5 (2009-14)  - vintage  2009 to  2015,63360.1484375,2009,,2010,,0.100000001490116
+969,1,9,5405,Road - F - TRUCK - DropAndTipVan - Gasoline - Euro 6 (2015-19)  - vintage  2015 to  2020,12672.0302734375,2015,,2016,,0.100000001490116
+970,1,9,5406,Road - F - TRUCK - DropAndTipVan - Gasoline - Euro 7 (2020-24)  - vintage  2020 to  2025,12672.0302734375,2020,,2021,,0.100000001490116
+971,1,9,5407,Road - F - TRUCK - DropAndTipVan - Gasoline - Euro 8 (2025-29)  - vintage  2025 to  2030,12672.0302734375,2025,,2026,,0.100000001490116
+972,1,9,5408,Road - F - TRUCK - DropAndTipVan - Gasoline - Euro 9 (2030-34)  - vintage  2030 to  2035,12672.0302734375,2030,,2031,,0.100000001490116
+973,1,9,5409,Road - F - TRUCK - DropAndTipVan - Gasoline - Euro 10 (2035-39)  - vintage  2035 to  2040,12672.0302734375,2035,,2036,,0.100000001490116
+974,1,9,5410,Road - F - TRUCK - DropAndTipVan - Gasoline - Euro 11 (2040-44)  - vintage  2040 to  2045,12672.0302734375,2040,,2041,,0.100000001490116
+975,1,9,5411,Road - F - TRUCK - DropAndTipVan - Gasoline - Euro 12 (2045-50)  - vintage  2045 to 2050,12672.0302734375,2045,,2046,,0.100000001490116
+976,1,9,5412,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 1 (1992-96)  - vintage  1994 to  1998,406454.0,1994,,1995,,0.100000001490116
+977,1,9,5413,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 2 (1996-2001)  - vintage  1998 to  2001,1267203.0,1998,,1999,,0.100000001490116
+978,1,9,5414,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 3 (2001-05)  - vintage  2001 to  2005,1267203.0,2001,,2002,,0.100000001490116
+979,1,9,5415,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 4 (2005-09)  - vintage  2005 to  2009,1267203.0,2005,,2006,,0.100000001490116
+980,1,9,5416,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 5 (2009-14)  - vintage  2009 to  2015,1267203.0,2009,,2010,,0.100000001490116
+981,1,9,5417,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 6 (2015-19)  - vintage  2015 to  2020,1267203.0,2015,,2016,,0.100000001490116
+982,1,9,5418,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 7 (2020-24)  - vintage  2020 to  2025,1267203.0,2020,,2021,,0.100000001490116
+983,1,9,5419,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 8 (2025-29)  - vintage  2025 to  2030,1267203.0,2025,,2026,,0.100000001490116
+984,1,9,5420,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 9 (2030-34)  - vintage  2030 to  2035,1267203.0,2030,,2031,,0.100000001490116
+985,1,9,5421,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 10 (2035-39)  - vintage  2035 to  2040,1267203.0,2035,,2036,,0.100000001490116
+986,1,9,5422,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 11 (2040-44)  - vintage  2040 to  2045,1267203.0,2040,,2041,,0.100000001490116
+987,1,9,5423,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 12 (2045-50)  - vintage  2045 to 2050,1267203.0,2045,,2046,,0.100000001490116
+988,1,9,5424,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 4 (2005-09) - HEV - vintage  2005 to  2009,0.100000001490116,2005,,2006,,0.100000001490116
+989,1,9,5425,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 5 (2009-14) - HEV - vintage  2009 to  2015,126.72029876709,2009,,2010,,0.100000001490116
+990,1,9,5426,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 6 (2015-19) - HEV - vintage  2015 to  2020,63360.1484375,2015,,2016,,0.100000001490116
+991,1,9,5427,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 7 (2020-24) - HEV - vintage  2020 to  2025,12672.0302734375,2020,,2021,,0.100000001490116
+992,1,9,5428,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 8 (2025-29) - HEV - vintage  2025 to  2030,25344.060546875,2025,,2026,,0.100000001490116
+993,1,9,5429,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 9 (2030-34) - HEV - vintage  2030 to  2035,50688.12109375,2030,,2031,,0.100000001490116
+994,1,9,5430,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 10 (2035-39) - HEV - vintage  2035 to  2040,50688.12109375,2035,,2036,,0.100000001490116
+995,1,9,5431,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 11 (2040-44) - HEV - vintage  2040 to  2045,50688.12109375,2040,,2041,,0.100000001490116
+996,1,9,5432,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 12 (2045-50) - HEV - vintage  2045 to 2050,50688.12109375,2045,,2046,,0.100000001490116
+997,1,9,5433,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 5 (2009-14)  - PHEV - vintage  2009 to  2015,126.72029876709,2009,,2010,,0.100000001490116
+998,1,9,5434,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 6 (2015-19)  - PHEV - vintage  2015 to  2020,63360.1484375,2015,,2016,,0.100000001490116
+999,1,9,5435,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 7 (2020-24)  - PHEV - vintage  2020 to  2025,12672.0302734375,2020,,2021,,0.100000001490116
+1000,1,9,5436,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 8 (2025-29)  - PHEV - vintage  2025 to  2030,25344.060546875,2025,,2026,,0.100000001490116
+1001,1,9,5437,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 9 (2030-34)  - PHEV - vintage  2030 to  2035,50688.12109375,2030,,2031,,0.100000001490116
+1002,1,9,5438,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 10 (2035-39)  - PHEV - vintage  2035 to  2040,50688.12109375,2035,,2036,,0.100000001490116
+1003,1,9,5439,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 11 (2040-44)  - PHEV - vintage  2040 to  2045,50688.12109375,2040,,2041,,0.100000001490116
+1004,1,9,5440,Road - F - TRUCK - DropAndTipVan - Diesel - Euro 12 (2045-50)  - PHEV - vintage  2045 to 2050,50688.12109375,2045,,2046,,0.100000001490116
+1005,1,9,5441,Road - F - TRUCK - DropAndTipVan - Liquified Petroleum Gas - Euro 3 (2001-05)  - vintage  2001 to  2005,6336.01513671875,2001,,2002,,0.100000001490116
+1006,1,9,5442,Road - F - TRUCK - DropAndTipVan - Liquified Petroleum Gas - Euro 4 (2005-09)  - vintage  2005 to  2009,0.0,2005,,2006,,0.100000001490116
+1007,1,9,5443,Road - F - TRUCK - DropAndTipVan - Liquified Petroleum Gas - Euro 5 (2009-14)  - vintage  2009 to  2015,126.72029876709,2009,,2010,,0.100000001490116
+1008,1,9,5444,Road - F - TRUCK - DropAndTipVan - Liquified Petroleum Gas - Euro 6 (2015-19)  - vintage  2015 to  2020,126.72029876709,2015,,2016,,0.100000001490116
+1009,1,9,5445,Road - F - TRUCK - DropAndTipVan - Liquified Petroleum Gas - Euro 7 (2020-24)  - vintage  2020 to  2025,126.72029876709,2020,,2021,,0.100000001490116
+1010,1,9,5446,Road - F - TRUCK - DropAndTipVan - Liquified Petroleum Gas - Euro 8 (2025-29)  - vintage  2025 to  2030,126.72029876709,2025,,2026,,0.100000001490116
+1011,1,9,5447,Road - F - TRUCK - DropAndTipVan - Liquified Petroleum Gas - Euro 9 (2030-34)  - vintage  2030 to  2035,126.72029876709,2030,,2031,,0.100000001490116
+1012,1,9,5448,Road - F - TRUCK - DropAndTipVan - Liquified Petroleum Gas - Euro 10 (2035-39)  - vintage  2035 to  2040,126.72029876709,2035,,2036,,0.100000001490116
+1013,1,9,5449,Road - F - TRUCK - DropAndTipVan - Liquified Petroleum Gas - Euro 11 (2040-44)  - vintage  2040 to  2045,126.72029876709,2040,,2041,,0.100000001490116
+1014,1,9,5450,Road - F - TRUCK - DropAndTipVan - Liquified Petroleum Gas - Euro 12 (2045-50)  - vintage  2045 to 2050,126.72029876709,2045,,2046,,0.100000001490116
+1015,1,9,5451,Road - F - TRUCK - DropAndTipVan - Bioethanol(85)-petrol(15) blend - Euro 4 (2005-09)  - vintage  2005 to  2009,0.100000001490116,2005,,2006,,0.100000001490116
+1016,1,9,5452,Road - F - TRUCK - DropAndTipVan - Bioethanol(85)-petrol(15) blend - Euro 5 (2009-14)  - vintage  2009 to  2015,126.72029876709,2009,,2010,,0.100000001490116
+1017,1,9,5453,Road - F - TRUCK - DropAndTipVan - Bioethanol(85)-petrol(15) blend - Euro 6 (2015-19)  - vintage  2015 to  2020,126.72029876709,2015,,2016,,0.100000001490116
+1018,1,9,5454,Road - F - TRUCK - DropAndTipVan - Bioethanol(85)-petrol(15) blend - Euro 7 (2020-24)  - vintage  2020 to  2025,126.72029876709,2020,,2021,,0.100000001490116
+1019,1,9,5455,Road - F - TRUCK - DropAndTipVan - Bioethanol(85)-petrol(15) blend - Euro 8 (2025-29)  - vintage  2025 to  2030,126.72029876709,2025,,2026,,0.100000001490116
+1020,1,9,5456,Road - F - TRUCK - DropAndTipVan - Bioethanol(85)-petrol(15) blend - Euro 9 (2030-34)  - vintage  2030 to  2035,126.72029876709,2030,,2031,,0.100000001490116
+1021,1,9,5457,Road - F - TRUCK - DropAndTipVan - Bioethanol(85)-petrol(15) blend - Euro 10 (2035-39)  - vintage  2035 to  2040,126.72029876709,2035,,2036,,0.100000001490116
+1022,1,9,5458,Road - F - TRUCK - DropAndTipVan - Bioethanol(85)-petrol(15) blend - Euro 11 (2040-44)  - vintage  2040 to  2045,126.72029876709,2040,,2041,,0.100000001490116
+1023,1,9,5459,Road - F - TRUCK - DropAndTipVan - Bioethanol(85)-petrol(15) blend - Euro 12 (2045-50)  - vintage  2045 to 2050,126.72029876709,2045,,2046,,0.100000001490116
+1024,1,9,5460,"Road - F - TRUCK - DropAndTipVan - Biodiesel (FT, synthetic) - Euro 4 (2005-09)  - vintage  2005 to  2009",12.6700000762939,2005,,2006,,0.100000001490116
+1025,1,9,5461,"Road - F - TRUCK - DropAndTipVan - Biodiesel (FT, synthetic) - Euro 5 (2009-14)  - vintage  2009 to  2015",126.72029876709,2009,,2010,,0.100000001490116
+1026,1,9,5462,"Road - F - TRUCK - DropAndTipVan - Biodiesel (FT, synthetic) - Euro 6 (2015-19)  - vintage  2015 to  2020",126.72029876709,2015,,2016,,0.100000001490116
+1027,1,9,5463,"Road - F - TRUCK - DropAndTipVan - Biodiesel (FT, synthetic) - Euro 7 (2020-24)  - vintage  2020 to  2025",126.72029876709,2020,,2021,,0.100000001490116
+1028,1,9,5464,"Road - F - TRUCK - DropAndTipVan - Biodiesel (FT, synthetic) - Euro 8 (2025-29)  - vintage  2025 to  2030",126.72029876709,2025,,2026,,0.100000001490116
+1029,1,9,5465,"Road - F - TRUCK - DropAndTipVan - Biodiesel (FT, synthetic) - Euro 9 (2030-34)  - vintage  2030 to  2035",126.72029876709,2030,,2031,,0.100000001490116
+1030,1,9,5466,"Road - F - TRUCK - DropAndTipVan - Biodiesel (FT, synthetic) - Euro 10 (2035-39)  - vintage  2035 to  2040",126.72029876709,2035,,2036,,0.100000001490116
+1031,1,9,5467,"Road - F - TRUCK - DropAndTipVan - Biodiesel (FT, synthetic) - Euro 11 (2040-44)  - vintage  2040 to  2045",126.72029876709,2040,,2041,,0.100000001490116
+1032,1,9,5468,"Road - F - TRUCK - DropAndTipVan - Biodiesel (FT, synthetic) - Euro 12 (2045-50)  - vintage  2045 to 2050",126.72029876709,2045,,2046,,0.100000001490116
+1033,1,9,5469,Road - F - TRUCK - DropAndTipVan - Compressed Natural Gas - Euro 4 (2005-09)  - vintage  2005 to  2009,0.0,2005,,2006,,0.100000001490116
+1034,1,9,5470,Road - F - TRUCK - DropAndTipVan - Compressed Natural Gas - Euro 5 (2009-14)  - vintage  2009 to  2015,126.72029876709,2009,,2010,,0.100000001490116
+1035,1,9,5471,Road - F - TRUCK - DropAndTipVan - Compressed Natural Gas - Euro 6 (2015-19)  - vintage  2015 to  2020,126.72029876709,2015,,2016,,0.100000001490116
+1036,1,9,5472,Road - F - TRUCK - DropAndTipVan - Compressed Natural Gas - Euro 7 (2020-24)  - vintage  2020 to  2025,126.72029876709,2020,,2021,,0.100000001490116
+1037,1,9,5473,Road - F - TRUCK - DropAndTipVan - Compressed Natural Gas - Euro 8 (2025-29)  - vintage  2025 to  2030,126.72029876709,2025,,2026,,0.100000001490116
+1038,1,9,5474,Road - F - TRUCK - DropAndTipVan - Compressed Natural Gas - Euro 9 (2030-34)  - vintage  2030 to  2035,126.72029876709,2030,,2031,,0.100000001490116
+1039,1,9,5475,Road - F - TRUCK - DropAndTipVan - Compressed Natural Gas - Euro 10 (2035-39)  - vintage  2035 to  2040,126.72029876709,2035,,2036,,0.100000001490116
+1040,1,9,5476,Road - F - TRUCK - DropAndTipVan - Compressed Natural Gas - Euro 11 (2040-44)  - vintage  2040 to  2045,126.72029876709,2040,,2041,,0.100000001490116
+1041,1,9,5477,Road - F - TRUCK - DropAndTipVan - Compressed Natural Gas - Euro 12 (2045-50)  - vintage  2045 to 2050,126.72029876709,2045,,2046,,0.100000001490116
+1042,1,9,5478,Road - F - TRUCK - DropAndTipVan - Electricity - Euro 3 (2001-05)  - vintage  2001 to  2005,0.100000001490116,2001,,2002,,0.100000001490116
+1043,1,9,5479,Road - F - TRUCK - DropAndTipVan - Electricity - Euro 4 (2005-09)  - vintage  2005 to  2009,1267.0,2005,,2006,,0.100000001490116
+1044,1,9,5480,Road - F - TRUCK - DropAndTipVan - Electricity - Euro 5 (2009-14)  - vintage  2009 to  2015,1267.20300292969,2009,,2010,,0.100000001490116
+1045,1,9,5481,Road - F - TRUCK - DropAndTipVan - Electricity - Euro 6 (2015-19)  - vintage  2015 to  2020,126720.296875,2015,,2016,,0.100000001490116
+1046,1,9,5482,Road - F - TRUCK - DropAndTipVan - Electricity - Euro 7 (2020-24)  - vintage  2020 to  2025,126720.296875,2020,,2021,,0.100000001490116
+1047,1,9,5483,Road - F - TRUCK - DropAndTipVan - Electricity - Euro 8 (2025-29)  - vintage  2025 to  2030,253440.59375,2025,,2026,,0.100000001490116
+1048,1,9,5484,Road - F - TRUCK - DropAndTipVan - Electricity - Euro 9 (2030-34)  - vintage  2030 to  2035,506881.1875,2030,,2031,,0.100000001490116
+1049,1,9,5485,Road - F - TRUCK - DropAndTipVan - Electricity - Euro 10 (2035-39)  - vintage  2035 to  2040,506881.1875,2035,,2036,,0.100000001490116
+1050,1,9,5486,Road - F - TRUCK - DropAndTipVan - Electricity - Euro 11 (2040-44)  - vintage  2040 to  2045,506881.1875,2040,,2041,,0.100000001490116
+1051,1,9,5487,Road - F - TRUCK - DropAndTipVan - Electricity - Euro 12 (2045-50)  - vintage  2045 to 2050,506881.1875,2045,,2046,,0.100000001490116
+1052,1,9,5488,Road - F - TRUCK - DropAndTipVan - Gaseous Hydrogen - Fuel Cell  - vintage  2020 to  2025,0.100000001490116,2020,,2021,,0.100000001490116
+1053,1,9,5489,Road - F - TRUCK - DropAndTipVan - Gaseous Hydrogen - Fuel Cell  - vintage  2025 to  2030,0.100000001490116,2025,,2026,,0.100000001490116
+1054,1,9,5490,Road - F - TRUCK - DropAndTipVan - Gaseous Hydrogen - Fuel Cell  - vintage  2030 to  2035,0.100000001490116,2030,,2031,,0.100000001490116
+1055,1,9,5491,Road - F - TRUCK - DropAndTipVan - Gaseous Hydrogen - Fuel Cell  - vintage  2035 to  2040,0.100000001490116,2035,,2036,,0.100000001490116
+1056,1,9,5492,Road - F - TRUCK - DropAndTipVan - Gaseous Hydrogen - Fuel Cell  - vintage  2040 to  2045,0.100000001490116,2040,,2041,,0.100000001490116
+1057,1,9,5493,Road - F - TRUCK - DropAndTipVan - Gaseous Hydrogen - Fuel Cell  - vintage  2045 to 2050,0.100000001490116,2045,,2046,,0.100000001490116
+1058,1,9,5600,Road - F - TRUCK - BoxLutonInsVan - Gasoline - Euro 1 (1992-96)  - vintage  1994 to  1998,310680.0,1994,,1995,,0.100000001490116
+1059,1,9,5601,Road - F - TRUCK - BoxLutonInsVan - Gasoline - Euro 2 (1996-2001)  - vintage  1998 to  2001,999592.0,1998,,1999,,0.100000001490116
+1060,1,9,5602,Road - F - TRUCK - BoxLutonInsVan - Gasoline - Euro 3 (2001-05)  - vintage  2001 to  2005,999592.0,2001,,2002,,0.100000001490116
+1061,1,9,5603,Road - F - TRUCK - BoxLutonInsVan - Gasoline - Euro 4 (2005-09)  - vintage  2005 to  2009,126720.296875,2005,,2006,,0.100000001490116
+1062,1,9,5604,Road - F - TRUCK - BoxLutonInsVan - Gasoline - Euro 5 (2009-14)  - vintage  2009 to  2015,63360.1484375,2009,,2010,,0.100000001490116
+1063,1,9,5605,Road - F - TRUCK - BoxLutonInsVan - Gasoline - Euro 6 (2015-19)  - vintage  2015 to  2020,12672.0302734375,2015,,2016,,0.100000001490116
+1064,1,9,5606,Road - F - TRUCK - BoxLutonInsVan - Gasoline - Euro 7 (2020-24)  - vintage  2020 to  2025,12672.0302734375,2020,,2021,,0.100000001490116
+1065,1,9,5607,Road - F - TRUCK - BoxLutonInsVan - Gasoline - Euro 8 (2025-29)  - vintage  2025 to  2030,12672.0302734375,2025,,2026,,0.100000001490116
+1066,1,9,5608,Road - F - TRUCK - BoxLutonInsVan - Gasoline - Euro 9 (2030-34)  - vintage  2030 to  2035,12672.0302734375,2030,,2031,,0.100000001490116
+1067,1,9,5609,Road - F - TRUCK - BoxLutonInsVan - Gasoline - Euro 10 (2035-39)  - vintage  2035 to  2040,12672.0302734375,2035,,2036,,0.100000001490116
+1068,1,9,5610,Road - F - TRUCK - BoxLutonInsVan - Gasoline - Euro 11 (2040-44)  - vintage  2040 to  2045,12672.0302734375,2040,,2041,,0.100000001490116
+1069,1,9,5611,Road - F - TRUCK - BoxLutonInsVan - Gasoline - Euro 12 (2045-50)  - vintage  2045 to 2050,12672.0302734375,2045,,2046,,0.100000001490116
+1070,1,9,5612,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 1 (1992-96)  - vintage  1994 to  1998,406454.0,1994,,1995,,0.100000001490116
+1071,1,9,5613,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 2 (1996-2001)  - vintage  1998 to  2001,1267203.0,1998,,1999,,0.100000001490116
+1072,1,9,5614,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 3 (2001-05)  - vintage  2001 to  2005,1267203.0,2001,,2002,,0.100000001490116
+1073,1,9,5615,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 4 (2005-09)  - vintage  2005 to  2009,1267203.0,2005,,2006,,0.100000001490116
+1074,1,9,5616,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 5 (2009-14)  - vintage  2009 to  2015,1267203.0,2009,,2010,,0.100000001490116
+1075,1,9,5617,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 6 (2015-19)  - vintage  2015 to  2020,1267203.0,2015,,2016,,0.100000001490116
+1076,1,9,5618,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 7 (2020-24)  - vintage  2020 to  2025,1267203.0,2020,,2021,,0.100000001490116
+1077,1,9,5619,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 8 (2025-29)  - vintage  2025 to  2030,1267203.0,2025,,2026,,0.100000001490116
+1078,1,9,5620,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 9 (2030-34)  - vintage  2030 to  2035,1267203.0,2030,,2031,,0.100000001490116
+1079,1,9,5621,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 10 (2035-39)  - vintage  2035 to  2040,1267203.0,2035,,2036,,0.100000001490116
+1080,1,9,5622,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 11 (2040-44)  - vintage  2040 to  2045,1267203.0,2040,,2041,,0.100000001490116
+1081,1,9,5623,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 12 (2045-50)  - vintage  2045 to 2050,1267203.0,2045,,2046,,0.100000001490116
+1082,1,9,5624,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 4 (2005-09) - HEV - vintage  2005 to  2009,0.100000001490116,2005,,2006,,0.100000001490116
+1083,1,9,5625,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 5 (2009-14) - HEV - vintage  2009 to  2015,126.72029876709,2009,,2010,,0.100000001490116
+1084,1,9,5626,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 6 (2015-19) - HEV - vintage  2015 to  2020,63360.1484375,2015,,2016,,0.100000001490116
+1085,1,9,5627,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 7 (2020-24) - HEV - vintage  2020 to  2025,12672.0302734375,2020,,2021,,0.100000001490116
+1086,1,9,5628,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 8 (2025-29) - HEV - vintage  2025 to  2030,25344.060546875,2025,,2026,,0.100000001490116
+1087,1,9,5629,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 9 (2030-34) - HEV - vintage  2030 to  2035,50688.12109375,2030,,2031,,0.100000001490116
+1088,1,9,5630,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 10 (2035-39) - HEV - vintage  2035 to  2040,50688.12109375,2035,,2036,,0.100000001490116
+1089,1,9,5631,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 11 (2040-44) - HEV - vintage  2040 to  2045,50688.12109375,2040,,2041,,0.100000001490116
+1090,1,9,5632,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 12 (2045-50) - HEV - vintage  2045 to 2050,50688.12109375,2045,,2046,,0.100000001490116
+1091,1,9,5633,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 5 (2009-14)  - PHEV - vintage  2009 to  2015,126.72029876709,2009,,2010,,0.100000001490116
+1092,1,9,5634,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 6 (2015-19)  - PHEV - vintage  2015 to  2020,63360.1484375,2015,,2016,,0.100000001490116
+1093,1,9,5635,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 7 (2020-24)  - PHEV - vintage  2020 to  2025,12672.0302734375,2020,,2021,,0.100000001490116
+1094,1,9,5636,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 8 (2025-29)  - PHEV - vintage  2025 to  2030,25344.060546875,2025,,2026,,0.100000001490116
+1095,1,9,5637,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 9 (2030-34)  - PHEV - vintage  2030 to  2035,50688.12109375,2030,,2031,,0.100000001490116
+1096,1,9,5638,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 10 (2035-39)  - PHEV - vintage  2035 to  2040,50688.12109375,2035,,2036,,0.100000001490116
+1097,1,9,5639,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 11 (2040-44)  - PHEV - vintage  2040 to  2045,50688.12109375,2040,,2041,,0.100000001490116
+1098,1,9,5640,Road - F - TRUCK - BoxLutonInsVan - Diesel - Euro 12 (2045-50)  - PHEV - vintage  2045 to 2050,50688.12109375,2045,,2046,,0.100000001490116
+1099,1,9,5641,Road - F - TRUCK - BoxLutonInsVan - Liquified Petroleum Gas - Euro 3 (2001-05)  - vintage  2001 to  2005,6336.01513671875,2001,,2002,,0.100000001490116
+1100,1,9,5642,Road - F - TRUCK - BoxLutonInsVan - Liquified Petroleum Gas - Euro 4 (2005-09)  - vintage  2005 to  2009,0.0,2005,,2006,,0.100000001490116
+1101,1,9,5643,Road - F - TRUCK - BoxLutonInsVan - Liquified Petroleum Gas - Euro 5 (2009-14)  - vintage  2009 to  2015,126.72029876709,2009,,2010,,0.100000001490116
+1102,1,9,5644,Road - F - TRUCK - BoxLutonInsVan - Liquified Petroleum Gas - Euro 6 (2015-19)  - vintage  2015 to  2020,126.72029876709,2015,,2016,,0.100000001490116
+1103,1,9,5645,Road - F - TRUCK - BoxLutonInsVan - Liquified Petroleum Gas - Euro 7 (2020-24)  - vintage  2020 to  2025,126.72029876709,2020,,2021,,0.100000001490116
+1104,1,9,5646,Road - F - TRUCK - BoxLutonInsVan - Liquified Petroleum Gas - Euro 8 (2025-29)  - vintage  2025 to  2030,126.72029876709,2025,,2026,,0.100000001490116
+1105,1,9,5647,Road - F - TRUCK - BoxLutonInsVan - Liquified Petroleum Gas - Euro 9 (2030-34)  - vintage  2030 to  2035,126.72029876709,2030,,2031,,0.100000001490116
+1106,1,9,5648,Road - F - TRUCK - BoxLutonInsVan - Liquified Petroleum Gas - Euro 10 (2035-39)  - vintage  2035 to  2040,126.72029876709,2035,,2036,,0.100000001490116
+1107,1,9,5649,Road - F - TRUCK - BoxLutonInsVan - Liquified Petroleum Gas - Euro 11 (2040-44)  - vintage  2040 to  2045,126.72029876709,2040,,2041,,0.100000001490116
+1108,1,9,5650,Road - F - TRUCK - BoxLutonInsVan - Liquified Petroleum Gas - Euro 12 (2045-50)  - vintage  2045 to 2050,126.72029876709,2045,,2046,,0.100000001490116
+1109,1,9,5651,Road - F - TRUCK - BoxLutonInsVan - Bioethanol(85)-petrol(15) blend - Euro 4 (2005-09)  - vintage  2005 to  2009,0.100000001490116,2005,,2006,,0.100000001490116
+1110,1,9,5652,Road - F - TRUCK - BoxLutonInsVan - Bioethanol(85)-petrol(15) blend - Euro 5 (2009-14)  - vintage  2009 to  2015,126.72029876709,2009,,2010,,0.100000001490116
+1111,1,9,5653,Road - F - TRUCK - BoxLutonInsVan - Bioethanol(85)-petrol(15) blend - Euro 6 (2015-19)  - vintage  2015 to  2020,126.72029876709,2015,,2016,,0.100000001490116
+1112,1,9,5654,Road - F - TRUCK - BoxLutonInsVan - Bioethanol(85)-petrol(15) blend - Euro 7 (2020-24)  - vintage  2020 to  2025,126.72029876709,2020,,2021,,0.100000001490116
+1113,1,9,5655,Road - F - TRUCK - BoxLutonInsVan - Bioethanol(85)-petrol(15) blend - Euro 8 (2025-29)  - vintage  2025 to  2030,126.72029876709,2025,,2026,,0.100000001490116
+1114,1,9,5656,Road - F - TRUCK - BoxLutonInsVan - Bioethanol(85)-petrol(15) blend - Euro 9 (2030-34)  - vintage  2030 to  2035,126.72029876709,2030,,2031,,0.100000001490116
+1115,1,9,5657,Road - F - TRUCK - BoxLutonInsVan - Bioethanol(85)-petrol(15) blend - Euro 10 (2035-39)  - vintage  2035 to  2040,126.72029876709,2035,,2036,,0.100000001490116
+1116,1,9,5658,Road - F - TRUCK - BoxLutonInsVan - Bioethanol(85)-petrol(15) blend - Euro 11 (2040-44)  - vintage  2040 to  2045,126.72029876709,2040,,2041,,0.100000001490116
+1117,1,9,5659,Road - F - TRUCK - BoxLutonInsVan - Bioethanol(85)-petrol(15) blend - Euro 12 (2045-50)  - vintage  2045 to 2050,126.72029876709,2045,,2046,,0.100000001490116
+1118,1,9,5660,"Road - F - TRUCK - BoxLutonInsVan - Biodiesel (FT, synthetic) - Euro 4 (2005-09)  - vintage  2005 to  2009",12.6700000762939,2005,,2006,,0.100000001490116
+1119,1,9,5661,"Road - F - TRUCK - BoxLutonInsVan - Biodiesel (FT, synthetic) - Euro 5 (2009-14)  - vintage  2009 to  2015",126.72029876709,2009,,2010,,0.100000001490116
+1120,1,9,5662,"Road - F - TRUCK - BoxLutonInsVan - Biodiesel (FT, synthetic) - Euro 6 (2015-19)  - vintage  2015 to  2020",126.72029876709,2015,,2016,,0.100000001490116
+1121,1,9,5663,"Road - F - TRUCK - BoxLutonInsVan - Biodiesel (FT, synthetic) - Euro 7 (2020-24)  - vintage  2020 to  2025",126.72029876709,2020,,2021,,0.100000001490116
+1122,1,9,5664,"Road - F - TRUCK - BoxLutonInsVan - Biodiesel (FT, synthetic) - Euro 8 (2025-29)  - vintage  2025 to  2030",126.72029876709,2025,,2026,,0.100000001490116
+1123,1,9,5665,"Road - F - TRUCK - BoxLutonInsVan - Biodiesel (FT, synthetic) - Euro 9 (2030-34)  - vintage  2030 to  2035",126.72029876709,2030,,2031,,0.100000001490116
+1124,1,9,5666,"Road - F - TRUCK - BoxLutonInsVan - Biodiesel (FT, synthetic) - Euro 10 (2035-39)  - vintage  2035 to  2040",126.72029876709,2035,,2036,,0.100000001490116
+1125,1,9,5667,"Road - F - TRUCK - BoxLutonInsVan - Biodiesel (FT, synthetic) - Euro 11 (2040-44)  - vintage  2040 to  2045",126.72029876709,2040,,2041,,0.100000001490116
+1126,1,9,5668,"Road - F - TRUCK - BoxLutonInsVan - Biodiesel (FT, synthetic) - Euro 12 (2045-50)  - vintage  2045 to 2050",126.72029876709,2045,,2046,,0.100000001490116
+1127,1,9,5669,Road - F - TRUCK - BoxLutonInsVan - Compressed Natural Gas - Euro 4 (2005-09)  - vintage  2005 to  2009,0.0,2005,,2006,,0.100000001490116
+1128,1,9,5670,Road - F - TRUCK - BoxLutonInsVan - Compressed Natural Gas - Euro 5 (2009-14)  - vintage  2009 to  2015,126.72029876709,2009,,2010,,0.100000001490116
+1129,1,9,5671,Road - F - TRUCK - BoxLutonInsVan - Compressed Natural Gas - Euro 6 (2015-19)  - vintage  2015 to  2020,126.72029876709,2015,,2016,,0.100000001490116
+1130,1,9,5672,Road - F - TRUCK - BoxLutonInsVan - Compressed Natural Gas - Euro 7 (2020-24)  - vintage  2020 to  2025,126.72029876709,2020,,2021,,0.100000001490116
+1131,1,9,5673,Road - F - TRUCK - BoxLutonInsVan - Compressed Natural Gas - Euro 8 (2025-29)  - vintage  2025 to  2030,126.72029876709,2025,,2026,,0.100000001490116
+1132,1,9,5674,Road - F - TRUCK - BoxLutonInsVan - Compressed Natural Gas - Euro 9 (2030-34)  - vintage  2030 to  2035,126.72029876709,2030,,2031,,0.100000001490116
+1133,1,9,5675,Road - F - TRUCK - BoxLutonInsVan - Compressed Natural Gas - Euro 10 (2035-39)  - vintage  2035 to  2040,126.72029876709,2035,,2036,,0.100000001490116
+1134,1,9,5676,Road - F - TRUCK - BoxLutonInsVan - Compressed Natural Gas - Euro 11 (2040-44)  - vintage  2040 to  2045,126.72029876709,2040,,2041,,0.100000001490116
+1135,1,9,5677,Road - F - TRUCK - BoxLutonInsVan - Compressed Natural Gas - Euro 12 (2045-50)  - vintage  2045 to 2050,126.72029876709,2045,,2046,,0.100000001490116
+1136,1,9,5678,Road - F - TRUCK - BoxLutonInsVan - Electricity - Euro 3 (2001-05)  - vintage  2001 to  2005,0.100000001490116,2001,,2002,,0.100000001490116
+1137,1,9,5679,Road - F - TRUCK - BoxLutonInsVan - Electricity - Euro 4 (2005-09)  - vintage  2005 to  2009,1267.0,2005,,2006,,0.100000001490116
+1138,1,9,5680,Road - F - TRUCK - BoxLutonInsVan - Electricity - Euro 5 (2009-14)  - vintage  2009 to  2015,1267.20300292969,2009,,2010,,0.100000001490116
+1139,1,9,5681,Road - F - TRUCK - BoxLutonInsVan - Electricity - Euro 6 (2015-19)  - vintage  2015 to  2020,126720.296875,2015,,2016,,0.100000001490116
+1140,1,9,5682,Road - F - TRUCK - BoxLutonInsVan - Electricity - Euro 7 (2020-24)  - vintage  2020 to  2025,126720.296875,2020,,2021,,0.100000001490116
+1141,1,9,5683,Road - F - TRUCK - BoxLutonInsVan - Electricity - Euro 8 (2025-29)  - vintage  2025 to  2030,253440.59375,2025,,2026,,0.100000001490116
+1142,1,9,5684,Road - F - TRUCK - BoxLutonInsVan - Electricity - Euro 9 (2030-34)  - vintage  2030 to  2035,506881.1875,2030,,2031,,0.100000001490116
+1143,1,9,5685,Road - F - TRUCK - BoxLutonInsVan - Electricity - Euro 10 (2035-39)  - vintage  2035 to  2040,506881.1875,2035,,2036,,0.100000001490116
+1144,1,9,5686,Road - F - TRUCK - BoxLutonInsVan - Electricity - Euro 11 (2040-44)  - vintage  2040 to  2045,506881.1875,2040,,2041,,0.100000001490116
+1145,1,9,5687,Road - F - TRUCK - BoxLutonInsVan - Electricity - Euro 12 (2045-50)  - vintage  2045 to 2050,506881.1875,2045,,2046,,0.100000001490116
+1146,1,9,5688,Road - F - TRUCK - BoxLutonInsVan - Gaseous Hydrogen - Fuel Cell  - vintage  2020 to  2025,0.100000001490116,2020,,2021,,0.100000001490116
+1147,1,9,5689,Road - F - TRUCK - BoxLutonInsVan - Gaseous Hydrogen - Fuel Cell  - vintage  2025 to  2030,0.100000001490116,2025,,2026,,0.100000001490116
+1148,1,9,5690,Road - F - TRUCK - BoxLutonInsVan - Gaseous Hydrogen - Fuel Cell  - vintage  2030 to  2035,0.100000001490116,2030,,2031,,0.100000001490116
+1149,1,9,5691,Road - F - TRUCK - BoxLutonInsVan - Gaseous Hydrogen - Fuel Cell  - vintage  2035 to  2040,0.100000001490116,2035,,2036,,0.100000001490116
+1150,1,9,5692,Road - F - TRUCK - BoxLutonInsVan - Gaseous Hydrogen - Fuel Cell  - vintage  2040 to  2045,0.100000001490116,2040,,2041,,0.100000001490116
+1151,1,9,5693,Road - F - TRUCK - BoxLutonInsVan - Gaseous Hydrogen - Fuel Cell  - vintage  2045 to 2050,0.100000001490116,2045,,2046,,0.100000001490116
+1152,1,9,5800,Road - F - TRUCK - OtherVan - Gasoline - Euro 1 (1992-96)  - vintage  1994 to  1998,310680.0,1994,,1995,,0.100000001490116
+1153,1,9,5801,Road - F - TRUCK - OtherVan - Gasoline - Euro 2 (1996-2001)  - vintage  1998 to  2001,999592.0,1998,,1999,,0.100000001490116
+1154,1,9,5802,Road - F - TRUCK - OtherVan - Gasoline - Euro 3 (2001-05)  - vintage  2001 to  2005,999592.0,2001,,2002,,0.100000001490116
+1155,1,9,5803,Road - F - TRUCK - OtherVan - Gasoline - Euro 4 (2005-09)  - vintage  2005 to  2009,126720.296875,2005,,2006,,0.100000001490116
+1156,1,9,5804,Road - F - TRUCK - OtherVan - Gasoline - Euro 5 (2009-14)  - vintage  2009 to  2015,63360.1484375,2009,,2010,,0.100000001490116
+1157,1,9,5805,Road - F - TRUCK - OtherVan - Gasoline - Euro 6 (2015-19)  - vintage  2015 to  2020,12672.0302734375,2015,,2016,,0.100000001490116
+1158,1,9,5806,Road - F - TRUCK - OtherVan - Gasoline - Euro 7 (2020-24)  - vintage  2020 to  2025,12672.0302734375,2020,,2021,,0.100000001490116
+1159,1,9,5807,Road - F - TRUCK - OtherVan - Gasoline - Euro 8 (2025-29)  - vintage  2025 to  2030,12672.0302734375,2025,,2026,,0.100000001490116
+1160,1,9,5808,Road - F - TRUCK - OtherVan - Gasoline - Euro 9 (2030-34)  - vintage  2030 to  2035,12672.0302734375,2030,,2031,,0.100000001490116
+1161,1,9,5809,Road - F - TRUCK - OtherVan - Gasoline - Euro 10 (2035-39)  - vintage  2035 to  2040,12672.0302734375,2035,,2036,,0.100000001490116
+1162,1,9,5810,Road - F - TRUCK - OtherVan - Gasoline - Euro 11 (2040-44)  - vintage  2040 to  2045,12672.0302734375,2040,,2041,,0.100000001490116
+1163,1,9,5811,Road - F - TRUCK - OtherVan - Gasoline - Euro 12 (2045-50)  - vintage  2045 to 2050,12672.0302734375,2045,,2046,,0.100000001490116
+1164,1,9,5812,Road - F - TRUCK - OtherVan - Diesel - Euro 1 (1992-96)  - vintage  1994 to  1998,406454.0,1994,,1995,,0.100000001490116
+1165,1,9,5813,Road - F - TRUCK - OtherVan - Diesel - Euro 2 (1996-2001)  - vintage  1998 to  2001,1267203.0,1998,,1999,,0.100000001490116
+1166,1,9,5814,Road - F - TRUCK - OtherVan - Diesel - Euro 3 (2001-05)  - vintage  2001 to  2005,1267203.0,2001,,2002,,0.100000001490116
+1167,1,9,5815,Road - F - TRUCK - OtherVan - Diesel - Euro 4 (2005-09)  - vintage  2005 to  2009,1267203.0,2005,,2006,,0.100000001490116
+1168,1,9,5816,Road - F - TRUCK - OtherVan - Diesel - Euro 5 (2009-14)  - vintage  2009 to  2015,1267203.0,2009,,2010,,0.100000001490116
+1169,1,9,5817,Road - F - TRUCK - OtherVan - Diesel - Euro 6 (2015-19)  - vintage  2015 to  2020,1267203.0,2015,,2016,,0.100000001490116
+1170,1,9,5818,Road - F - TRUCK - OtherVan - Diesel - Euro 7 (2020-24)  - vintage  2020 to  2025,1267203.0,2020,,2021,,0.100000001490116
+1171,1,9,5819,Road - F - TRUCK - OtherVan - Diesel - Euro 8 (2025-29)  - vintage  2025 to  2030,1267203.0,2025,,2026,,0.100000001490116
+1172,1,9,5820,Road - F - TRUCK - OtherVan - Diesel - Euro 9 (2030-34)  - vintage  2030 to  2035,1267203.0,2030,,2031,,0.100000001490116
+1173,1,9,5821,Road - F - TRUCK - OtherVan - Diesel - Euro 10 (2035-39)  - vintage  2035 to  2040,1267203.0,2035,,2036,,0.100000001490116
+1174,1,9,5822,Road - F - TRUCK - OtherVan - Diesel - Euro 11 (2040-44)  - vintage  2040 to  2045,1267203.0,2040,,2041,,0.100000001490116
+1175,1,9,5823,Road - F - TRUCK - OtherVan - Diesel - Euro 12 (2045-50)  - vintage  2045 to 2050,1267203.0,2045,,2046,,0.100000001490116
+1176,1,9,5824,Road - F - TRUCK - OtherVan - Diesel - Euro 4 (2005-09) - HEV - vintage  2005 to  2009,0.100000001490116,2005,,2006,,0.100000001490116
+1177,1,9,5825,Road - F - TRUCK - OtherVan - Diesel - Euro 5 (2009-14) - HEV - vintage  2009 to  2015,126.72029876709,2009,,2010,,0.100000001490116
+1178,1,9,5826,Road - F - TRUCK - OtherVan - Diesel - Euro 6 (2015-19) - HEV - vintage  2015 to  2020,63360.1484375,2015,,2016,,0.100000001490116
+1179,1,9,5827,Road - F - TRUCK - OtherVan - Diesel - Euro 7 (2020-24) - HEV - vintage  2020 to  2025,12672.0302734375,2020,,2021,,0.100000001490116
+1180,1,9,5828,Road - F - TRUCK - OtherVan - Diesel - Euro 8 (2025-29) - HEV - vintage  2025 to  2030,25344.060546875,2025,,2026,,0.100000001490116
+1181,1,9,5829,Road - F - TRUCK - OtherVan - Diesel - Euro 9 (2030-34) - HEV - vintage  2030 to  2035,50688.12109375,2030,,2031,,0.100000001490116
+1182,1,9,5830,Road - F - TRUCK - OtherVan - Diesel - Euro 10 (2035-39) - HEV - vintage  2035 to  2040,50688.12109375,2035,,2036,,0.100000001490116
+1183,1,9,5831,Road - F - TRUCK - OtherVan - Diesel - Euro 11 (2040-44) - HEV - vintage  2040 to  2045,50688.12109375,2040,,2041,,0.100000001490116
+1184,1,9,5832,Road - F - TRUCK - OtherVan - Diesel - Euro 12 (2045-50) - HEV - vintage  2045 to 2050,50688.12109375,2045,,2046,,0.100000001490116
+1185,1,9,5833,Road - F - TRUCK - OtherVan - Diesel - Euro 5 (2009-14)  - PHEV - vintage  2009 to  2015,126.72029876709,2009,,2010,,0.100000001490116
+1186,1,9,5834,Road - F - TRUCK - OtherVan - Diesel - Euro 6 (2015-19)  - PHEV - vintage  2015 to  2020,63360.1484375,2015,,2016,,0.100000001490116
+1187,1,9,5835,Road - F - TRUCK - OtherVan - Diesel - Euro 7 (2020-24)  - PHEV - vintage  2020 to  2025,12672.0302734375,2020,,2021,,0.100000001490116
+1188,1,9,5836,Road - F - TRUCK - OtherVan - Diesel - Euro 8 (2025-29)  - PHEV - vintage  2025 to  2030,25344.060546875,2025,,2026,,0.100000001490116
+1189,1,9,5837,Road - F - TRUCK - OtherVan - Diesel - Euro 9 (2030-34)  - PHEV - vintage  2030 to  2035,50688.12109375,2030,,2031,,0.100000001490116
+1190,1,9,5838,Road - F - TRUCK - OtherVan - Diesel - Euro 10 (2035-39)  - PHEV - vintage  2035 to  2040,50688.12109375,2035,,2036,,0.100000001490116
+1191,1,9,5839,Road - F - TRUCK - OtherVan - Diesel - Euro 11 (2040-44)  - PHEV - vintage  2040 to  2045,50688.12109375,2040,,2041,,0.100000001490116
+1192,1,9,5840,Road - F - TRUCK - OtherVan - Diesel - Euro 12 (2045-50)  - PHEV - vintage  2045 to 2050,50688.12109375,2045,,2046,,0.100000001490116
+1193,1,9,5841,Road - F - TRUCK - OtherVan - Liquified Petroleum Gas - Euro 3 (2001-05)  - vintage  2001 to  2005,6336.01513671875,2001,,2002,,0.100000001490116
+1194,1,9,5842,Road - F - TRUCK - OtherVan - Liquified Petroleum Gas - Euro 4 (2005-09)  - vintage  2005 to  2009,0.0,2005,,2006,,0.100000001490116
+1195,1,9,5843,Road - F - TRUCK - OtherVan - Liquified Petroleum Gas - Euro 5 (2009-14)  - vintage  2009 to  2015,126.72029876709,2009,,2010,,0.100000001490116
+1196,1,9,5844,Road - F - TRUCK - OtherVan - Liquified Petroleum Gas - Euro 6 (2015-19)  - vintage  2015 to  2020,126.72029876709,2015,,2016,,0.100000001490116
+1197,1,9,5845,Road - F - TRUCK - OtherVan - Liquified Petroleum Gas - Euro 7 (2020-24)  - vintage  2020 to  2025,126.72029876709,2020,,2021,,0.100000001490116
+1198,1,9,5846,Road - F - TRUCK - OtherVan - Liquified Petroleum Gas - Euro 8 (2025-29)  - vintage  2025 to  2030,126.72029876709,2025,,2026,,0.100000001490116
+1199,1,9,5847,Road - F - TRUCK - OtherVan - Liquified Petroleum Gas - Euro 9 (2030-34)  - vintage  2030 to  2035,126.72029876709,2030,,2031,,0.100000001490116
+1200,1,9,5848,Road - F - TRUCK - OtherVan - Liquified Petroleum Gas - Euro 10 (2035-39)  - vintage  2035 to  2040,126.72029876709,2035,,2036,,0.100000001490116
+1201,1,9,5849,Road - F - TRUCK - OtherVan - Liquified Petroleum Gas - Euro 11 (2040-44)  - vintage  2040 to  2045,126.72029876709,2040,,2041,,0.100000001490116
+1202,1,9,5850,Road - F - TRUCK - OtherVan - Liquified Petroleum Gas - Euro 12 (2045-50)  - vintage  2045 to 2050,126.72029876709,2045,,2046,,0.100000001490116
+1203,1,9,5851,Road - F - TRUCK - OtherVan - Bioethanol(85)-petrol(15) blend - Euro 4 (2005-09)  - vintage  2005 to  2009,0.100000001490116,2005,,2006,,0.100000001490116
+1204,1,9,5852,Road - F - TRUCK - OtherVan - Bioethanol(85)-petrol(15) blend - Euro 5 (2009-14)  - vintage  2009 to  2015,126.72029876709,2009,,2010,,0.100000001490116
+1205,1,9,5853,Road - F - TRUCK - OtherVan - Bioethanol(85)-petrol(15) blend - Euro 6 (2015-19)  - vintage  2015 to  2020,126.72029876709,2015,,2016,,0.100000001490116
+1206,1,9,5854,Road - F - TRUCK - OtherVan - Bioethanol(85)-petrol(15) blend - Euro 7 (2020-24)  - vintage  2020 to  2025,126.72029876709,2020,,2021,,0.100000001490116
+1207,1,9,5855,Road - F - TRUCK - OtherVan - Bioethanol(85)-petrol(15) blend - Euro 8 (2025-29)  - vintage  2025 to  2030,126.72029876709,2025,,2026,,0.100000001490116
+1208,1,9,5856,Road - F - TRUCK - OtherVan - Bioethanol(85)-petrol(15) blend - Euro 9 (2030-34)  - vintage  2030 to  2035,126.72029876709,2030,,2031,,0.100000001490116
+1209,1,9,5857,Road - F - TRUCK - OtherVan - Bioethanol(85)-petrol(15) blend - Euro 10 (2035-39)  - vintage  2035 to  2040,126.72029876709,2035,,2036,,0.100000001490116
+1210,1,9,5858,Road - F - TRUCK - OtherVan - Bioethanol(85)-petrol(15) blend - Euro 11 (2040-44)  - vintage  2040 to  2045,126.72029876709,2040,,2041,,0.100000001490116
+1211,1,9,5859,Road - F - TRUCK - OtherVan - Bioethanol(85)-petrol(15) blend - Euro 12 (2045-50)  - vintage  2045 to 2050,126.72029876709,2045,,2046,,0.100000001490116
+1212,1,9,5860,"Road - F - TRUCK - OtherVan - Biodiesel (FT, synthetic) - Euro 4 (2005-09)  - vintage  2005 to  2009",12.6700000762939,2005,,2006,,0.100000001490116
+1213,1,9,5861,"Road - F - TRUCK - OtherVan - Biodiesel (FT, synthetic) - Euro 5 (2009-14)  - vintage  2009 to  2015",126.72029876709,2009,,2010,,0.100000001490116
+1214,1,9,5862,"Road - F - TRUCK - OtherVan - Biodiesel (FT, synthetic) - Euro 6 (2015-19)  - vintage  2015 to  2020",126.72029876709,2015,,2016,,0.100000001490116
+1215,1,9,5863,"Road - F - TRUCK - OtherVan - Biodiesel (FT, synthetic) - Euro 7 (2020-24)  - vintage  2020 to  2025",126.72029876709,2020,,2021,,0.100000001490116
+1216,1,9,5864,"Road - F - TRUCK - OtherVan - Biodiesel (FT, synthetic) - Euro 8 (2025-29)  - vintage  2025 to  2030",126.72029876709,2025,,2026,,0.100000001490116
+1217,1,9,5865,"Road - F - TRUCK - OtherVan - Biodiesel (FT, synthetic) - Euro 9 (2030-34)  - vintage  2030 to  2035",126.72029876709,2030,,2031,,0.100000001490116
+1218,1,9,5866,"Road - F - TRUCK - OtherVan - Biodiesel (FT, synthetic) - Euro 10 (2035-39)  - vintage  2035 to  2040",126.72029876709,2035,,2036,,0.100000001490116
+1219,1,9,5867,"Road - F - TRUCK - OtherVan - Biodiesel (FT, synthetic) - Euro 11 (2040-44)  - vintage  2040 to  2045",126.72029876709,2040,,2041,,0.100000001490116
+1220,1,9,5868,"Road - F - TRUCK - OtherVan - Biodiesel (FT, synthetic) - Euro 12 (2045-50)  - vintage  2045 to 2050",126.72029876709,2045,,2046,,0.100000001490116
+1221,1,9,5869,Road - F - TRUCK - OtherVan - Compressed Natural Gas - Euro 4 (2005-09)  - vintage  2005 to  2009,0.0,2005,,2006,,0.100000001490116
+1222,1,9,5870,Road - F - TRUCK - OtherVan - Compressed Natural Gas - Euro 5 (2009-14)  - vintage  2009 to  2015,126.72029876709,2009,,2010,,0.100000001490116
+1223,1,9,5871,Road - F - TRUCK - OtherVan - Compressed Natural Gas - Euro 6 (2015-19)  - vintage  2015 to  2020,126.72029876709,2015,,2016,,0.100000001490116
+1224,1,9,5872,Road - F - TRUCK - OtherVan - Compressed Natural Gas - Euro 7 (2020-24)  - vintage  2020 to  2025,126.72029876709,2020,,2021,,0.100000001490116
+1225,1,9,5873,Road - F - TRUCK - OtherVan - Compressed Natural Gas - Euro 8 (2025-29)  - vintage  2025 to  2030,126.72029876709,2025,,2026,,0.100000001490116
+1226,1,9,5874,Road - F - TRUCK - OtherVan - Compressed Natural Gas - Euro 9 (2030-34)  - vintage  2030 to  2035,126.72029876709,2030,,2031,,0.100000001490116
+1227,1,9,5875,Road - F - TRUCK - OtherVan - Compressed Natural Gas - Euro 10 (2035-39)  - vintage  2035 to  2040,126.72029876709,2035,,2036,,0.100000001490116
+1228,1,9,5876,Road - F - TRUCK - OtherVan - Compressed Natural Gas - Euro 11 (2040-44)  - vintage  2040 to  2045,126.72029876709,2040,,2041,,0.100000001490116
+1229,1,9,5877,Road - F - TRUCK - OtherVan - Compressed Natural Gas - Euro 12 (2045-50)  - vintage  2045 to 2050,126.72029876709,2045,,2046,,0.100000001490116
+1230,1,9,5878,Road - F - TRUCK - OtherVan - Electricity - Euro 3 (2001-05)  - vintage  2001 to  2005,0.100000001490116,2001,,2002,,0.100000001490116
+1231,1,9,5879,Road - F - TRUCK - OtherVan - Electricity - Euro 4 (2005-09)  - vintage  2005 to  2009,1267.0,2005,,2006,,0.100000001490116
+1232,1,9,5880,Road - F - TRUCK - OtherVan - Electricity - Euro 5 (2009-14)  - vintage  2009 to  2015,1267.20300292969,2009,,2010,,0.100000001490116
+1233,1,9,5881,Road - F - TRUCK - OtherVan - Electricity - Euro 6 (2015-19)  - vintage  2015 to  2020,126720.296875,2015,,2016,,0.100000001490116
+1234,1,9,5882,Road - F - TRUCK - OtherVan - Electricity - Euro 7 (2020-24)  - vintage  2020 to  2025,126720.296875,2020,,2021,,0.100000001490116
+1235,1,9,5883,Road - F - TRUCK - OtherVan - Electricity - Euro 8 (2025-29)  - vintage  2025 to  2030,253440.59375,2025,,2026,,0.100000001490116
+1236,1,9,5884,Road - F - TRUCK - OtherVan - Electricity - Euro 9 (2030-34)  - vintage  2030 to  2035,506881.1875,2030,,2031,,0.100000001490116
+1237,1,9,5885,Road - F - TRUCK - OtherVan - Electricity - Euro 10 (2035-39)  - vintage  2035 to  2040,506881.1875,2035,,2036,,0.100000001490116
+1238,1,9,5886,Road - F - TRUCK - OtherVan - Electricity - Euro 11 (2040-44)  - vintage  2040 to  2045,506881.1875,2040,,2041,,0.100000001490116
+1239,1,9,5887,Road - F - TRUCK - OtherVan - Electricity - Euro 12 (2045-50)  - vintage  2045 to 2050,506881.1875,2045,,2046,,0.100000001490116
+1240,1,9,5888,Road - F - TRUCK - OtherVan - Gaseous Hydrogen - Fuel Cell  - vintage  2020 to  2025,0.100000001490116,2020,,2021,,0.100000001490116
+1241,1,9,5889,Road - F - TRUCK - OtherVan - Gaseous Hydrogen - Fuel Cell  - vintage  2025 to  2030,0.100000001490116,2025,,2026,,0.100000001490116
+1242,1,9,5890,Road - F - TRUCK - OtherVan - Gaseous Hydrogen - Fuel Cell  - vintage  2030 to  2035,0.100000001490116,2030,,2031,,0.100000001490116
+1243,1,9,5891,Road - F - TRUCK - OtherVan - Gaseous Hydrogen - Fuel Cell  - vintage  2035 to  2040,0.100000001490116,2035,,2036,,0.100000001490116
+1244,1,9,5892,Road - F - TRUCK - OtherVan - Gaseous Hydrogen - Fuel Cell  - vintage  2040 to  2045,0.100000001490116,2040,,2041,,0.100000001490116
+1245,1,9,5893,Road - F - TRUCK - OtherVan - Gaseous Hydrogen - Fuel Cell  - vintage  2045 to 2050,0.100000001490116,2045,,2046,,0.100000001490116

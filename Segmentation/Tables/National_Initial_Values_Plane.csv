@@ -1,0 +1,10 @@
+,CountryID,MassCatID,TransTypeID,Desc,AveCapacity,AveLoadFactor,AveNumTrips,AveTripLength,ExpectLife,FailSteep,CargoFactor
+0,9,41,1,"Great Britain, Aeroplane General Aviation, Passenger Transport",4.0,0.634,620,250,38,15,0.093
+1,9,42,1,"Great Britain, Aeroplane Short Distance, Passenger Transport",89.0,0.634,762,500,38,15,0.093
+2,9,42,2,"Great Britain, Aeroplane Short Distance, Freight Transport",9.0,0.6,911,350,38,15,0.093
+3,9,43,1,"Great Britain, Aeroplane Middle Distance, Passenger Transport",222.3,0.79,950,2500,38,15,0.093
+4,9,43,2,"Great Britain, Aeroplane Middle Distance, Freight Transport",30.0,0.73,757,3500,38,15,0.093
+5,9,44,1,"Great Britain, Aeroplane Long Distance, Passenger Transport",300.0,0.79,427,7000,38,15,0.093
+6,9,44,2,"Great Britain, Aeroplane Long Distance, Freight Transport",45.0,0.73,471,7500,38,15,0.093
+7,9,45,1,"Great Britain, Aeroplane Supersonic, Passenger Transport",100.0,0.79,539,6000,38,15,0.093
+8,9,45,2,"Great Britain, Aeroplane Supersonic, Freight Transport",9.0,0.73,471,7500,38,15,0.093

@@ -1,0 +1,11 @@
+,CountryID,MassCatID,TransTypeID,Desc,AveCapacity,AveLoadFactor,AveAnnualKm,ExpectLife,FailSteep
+0,9,1,1,"Great Britain, Car Small, Passenger Transport",4.0,0.399326,17124.0,21,7.0
+1,9,2,1,"Great Britain, Car Medium, Passenger Transport",4.0,0.399326,17124.0,21,7.0
+2,9,3,1,"Great Britain, Car Large, Passenger Transport",4.0,0.399326,17124.0,21,7.0
+3,9,11,1,"Great Britain, Bus Mini, Passenger Transport",10.0,0.4,48393.0,25,7.5
+4,9,12,1,"Great Britain, Bus Urban, Passenger Transport",40.0,0.24,76172.0,25,7.5
+5,9,13,1,"Great Britain, Bus Coach, Passenger Transport",40.0,0.24,191371.0,25,7.5
+6,9,51,2,"Great Britain, Ship River, Freight Transport",4054.0,0.5,2757.2,30,6.5
+7,9,52,2,"Great Britain, Ship Coastal, Freight Transport",23164.3,0.5,27457.1,30,6.5
+8,9,53,2,"Great Britain, Ship Maritime, Freight Transport",46328.6,0.5,41261.8,30,6.5
+9,9,4,1,"Great Britain, Motorcycle, Tiny, Passenger Transport",2.0,0.533394,6312.0,14,5.0

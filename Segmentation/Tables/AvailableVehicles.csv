@@ -1,0 +1,12 @@
+﻿AvailableVehiclesID,AvailableVehiclesAB,AvailableVehiclesNA,VehicleType,TransType
+1,NO,Passenger non-motorised,0,1
+2,BIKE,Passenger bike,1,1
+3,MOTO,Passenger motorcycle,2,1
+4,CAR,Passenger car,3,1
+5,BUS,Passenger bus,4,1
+6,TRUCK,Freight truck,5,2
+7,TRAIN_P,Passenger train,6,1
+8,TRAIN_F,Freight train,6,2
+9,SHIP,Freight ship,7,2
+10,PLANE_P,Passenger plane,8,1
+11,PLANE_F,Freight plane,8,2
