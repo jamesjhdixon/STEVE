@@ -11,14 +11,15 @@ import seaborn as sns
 
 sns.set_style('whitegrid')
 
-from Scotland.Segmentation_useful_functions import *
+from Segmentation.utils.Segmentation_useful_functions import *
 
-from Calibration.Calibration_functions import *
+from Segmentation.utils.Calibration_functions import *
+
+# data path for bulky data not in online repo
+DataPath = "C:/Users/cenv0795/Data/CREDS 222/Vehicle fleet model/Scen_CarSegments/"
 
 # load NewCars_by_LSOA
-f = open(
-    r'C:\Users\cenv0795\OneDrive - Nexus365\Code\Vehicle Ownership Modelling\Scotland' + '\\' + 'Cars_by_LSOA_incScrappage.pckl',
-    'rb')
+f = open("./data/Cars_by_LSOA_incScrappage.pckl", "rb")
 NewCars_by_LSOA = pickle.load(f)
 f.close()
 
@@ -30,23 +31,21 @@ NewCars_by_LSOA = NewCars_by_LSOA[['GEO_CODE'] + ['NewCars'+str(y) for y in year
 
 # Load relevant tables - Cost_Data, Scen_CarSegments, CT_Fuel, Technology
 
-TablesDir = r'C:\Users\cenv0795\OneDrive - Nexus365\Code\Vehicle Ownership Modelling\Tables' + '\\'
-
 LED_scenario = 'LED1'
 
 # Cost_data
-Cost_Data = pd.read_csv(TablesDir + '\\Cost_Data_' + LED_scenario + '.csv')
+Cost_Data = pd.read_csv(f"./tables/Cost_Data_{LED_scenario}.csv")
 
 # Scen_CarSegments - by LSOA - for Scotland
-f = open(TablesDir + '\\Scen_CarSegments_byLSOA_SCOTLAND_' + LED_scenario + '.pckl', 'rb')
+f = open(f"{DataPath}Scen_CarSegments_byLSOA_SCOTLAND_{LED_scenario}.pckl", "rb")
 Scen_CarSegments = pickle.load(f)  # LSOA-specific
 f.close()
 
 # Fuel
-CT_Fuel = pd.read_csv(TablesDir + '\\CT_Fuel.csv')  # fuel lookup
+CT_Fuel = pd.read_csv("./tables/CT_Fuel.csv")  # fuel lookup
 
 # Technology
-Technology = pd.read_csv(TablesDir + '\\Technology_' + LED_scenario + '.csv')
+Technology = pd.read_csv(f"./tables/Technology_{LED_scenario}.csv")
 
 # exclude other vehicle types (cars only)
 Technology = Technology[Technology.VehTypeID == 3]
@@ -182,9 +181,9 @@ while trial_cnt < 1:
     save = False
     if save:
 
-        savedir = r'C:\Users\cenv0795\Data\CREDS 222\Vehicle fleet model\Segmentation data' + '\\'
+        savedir = "C:/Users/cenv0795/Data/CREDS 222/Vehicle fleet model/Segmentation data/"
 
-        f = open(savedir + 'Segmentation_df_Scotland_' + LED_scenario + str(len(sample_LSOAs)) + 'LSOAs.pckl', 'wb')
+        f = open(f"{savedir}Segmentation_df_Scotland_{LED_scenario}{str(len(sample_LSOAs))}LSOAs.pckl", "wb")
         pickle.dump(Segmentation_df, f)
         f.close()
 
