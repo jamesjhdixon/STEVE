@@ -4,7 +4,7 @@ import pandas as pd
 def retrieve_real_marketshare_data():
     # load in raw date - veh1153 (DFT licensing stats
     df = pd.read_excel(
-        r'C:\Users\cenv0795\OneDrive - Nexus365\Code\Vehicle Ownership Modelling\Calibration\veh1153.xlsx',
+        "./data/veh1153.xlsx",
         sheet_name='VEH1153a_RoadUsing', skiprows=range(4))
     MS_data = df[(df['Date'].isin([str(y) for y in range(2012, 2022)])) & (df['Geography'] == 'Great Britain') & (
             df['Date Interval'] == 'Annual') & (df['Units'] == 'Percentage of total') & (df['BodyType'] == 'Cars')]
@@ -190,6 +190,67 @@ def plot_MS_Total(MarketShare_Total, Options):
 
     ax.set_title('; '.join([k for k in Options.keys() if Options[k]]))
 
+# plot total market share aggregated into wider categories: ICE, HEV, PHEV, BEV
+def plot_MS_Total_Aggregated(MarketShare_Total, years, LED_Scenario):
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+    import colorcet as cc
+
+    Real_MS_data = retrieve_real_marketshare_data()
+
+    Real_MS_data['ICE'] = Real_MS_data['Petrol'] + Real_MS_data['Diesel']
+    Real_MS_data['HEV'] = Real_MS_data['Hybrid Electric']
+    Real_MS_data['PHEV'] = Real_MS_data['Plug-in Hybrid Electric']
+    Real_MS_data['BEV'] = Real_MS_data['Battery Electric']
+
+    Real_MS_techtypes = ['ICE',
+                         'HEV',
+                         'PHEV',
+                         'BEV']
+
+    sns.set_style('whitegrid')
+
+    ICE_MS, HEV_MS, PHEV_MS, BEV_MS = [], [], [], []
+    for year in years:
+        # ICE
+        ICE_MS.append(MarketShare_Total[(MarketShare_Total.Year == year) & ((MarketShare_Total.FuelID == 1) | (MarketShare_Total.FuelID == 2) |
+                                        (MarketShare_Total.FuelID == 3) | (MarketShare_Total.FuelID == 4)) &
+                                       (MarketShare_Total.HybridFlag == 0)].MarketShare.sum())
+        # HEV
+        HEV_MS.append(MarketShare_Total[(MarketShare_Total.Year == year) & ((MarketShare_Total.FuelID == 1) | (MarketShare_Total.FuelID == 2) |
+                                        (MarketShare_Total.FuelID == 3) | (MarketShare_Total.FuelID == 4)) &
+                                       (MarketShare_Total.HybridFlag == 1)].MarketShare.sum())
+        # PHEV
+        PHEV_MS.append(MarketShare_Total[(MarketShare_Total.Year == year) & ((MarketShare_Total.FuelID == 1) | (MarketShare_Total.FuelID == 2) |
+                                        (MarketShare_Total.FuelID == 3) | (MarketShare_Total.FuelID == 4)) &
+                                       (MarketShare_Total.HybridFlag == 2)].MarketShare.sum())
+        # BEV
+        BEV_MS.append(MarketShare_Total[(MarketShare_Total.Year == year) & (MarketShare_Total.FuelID == 12) &
+                                        (MarketShare_Total.HybridFlag == 0)].MarketShare.sum())
+
+    clrs = sns.color_palette(cc.glasbey_warm, n_colors=4)
+
+    fig, ax = plt.subplots(figsize=(8,6))
+
+    ax.plot(years, ICE_MS, label='ICE', color=clrs[0])
+    ax.plot(years, HEV_MS, label='HEV', color=clrs[1])
+    ax.plot(years, PHEV_MS, label='PHEV', color=clrs[2])
+    ax.plot(years, BEV_MS, label='BEV', color=clrs[3])
+
+    for tech in Real_MS_techtypes:
+        ax.plot(pd.to_numeric(Real_MS_data.Date), Real_MS_data[tech] / 100, label=tech + ' (DVLA data)',
+                color=clrs[Real_MS_techtypes.index(tech)], linestyle='--')
+
+    for t in ax.xaxis.get_majorticklabels(): t.set_fontsize(14)
+    for t in ax.yaxis.get_majorticklabels(): t.set_fontsize(14)
+
+    ax.legend(fontsize=10, loc='upper left')
+    ax.set_ylabel('Market share (proportion of new registrations)',fontsize=18)
+
+    ax.set_title(LED_Scenario, fontsize=16)
+    fig.tight_layout()
+    plt.savefig(f"MarketShareTotal_{LED_Scenario}.png")
+
 
 # increase share aware of EVs
 def change_awareness(Scen_CarSegments, shift_yrs, multiplier):
@@ -228,7 +289,7 @@ def change_awareness(Scen_CarSegments, shift_yrs, multiplier):
 
 
 # Change the supply penalty for all BEVs - a function that can be called
-def change_supply_penalty_BEV(Scen_CarSegments, Cost_Data, Technology, years, shift_yrs, multiplier1, multiplier2, y1):
+def change_supply_penalty_BEV(Scen_CarSegments, Cost_Data, Technology, years, shift_yrs, multiplier1, multiplier2, multiplier3, multiplier4, y1, y2, y3):
     # the supply penalties applied to all LSOAs
     SPBEVsmall_vector = Scen_CarSegments[
         Scen_CarSegments.LSOA == Scen_CarSegments.LSOA.unique().tolist()[0]].SPBEVsmall.tolist()
@@ -250,8 +311,12 @@ def change_supply_penalty_BEV(Scen_CarSegments, Cost_Data, Technology, years, sh
     # multiply by multipliers. y1 is the year, relative to the start year, where multiplier 2 kicks in
     for i in range(y1):
         new_SPBEVsmall_vector[i] *= multiplier1
-    for i in range(y1, len(new_SPBEVsmall_vector)):
+    for i in range(y1, y2):
         new_SPBEVsmall_vector[i] *= multiplier2
+    for i in range(y2, y3):
+        new_SPBEVsmall_vector[i] *= multiplier3
+    for i in range(y3, len(new_SPBEVsmall_vector)):
+        new_SPBEVsmall_vector[i] *= multiplier4
 
     # medium
 
@@ -266,8 +331,12 @@ def change_supply_penalty_BEV(Scen_CarSegments, Cost_Data, Technology, years, sh
     # multiply by multipliers. y1 is the year, relative to the start year, where multiplier 2 kicks in
     for i in range(y1):
         new_SPBEVmedium_vector[i] *= multiplier1
-    for i in range(y1, len(new_SPBEVmedium_vector)):
+    for i in range(y1, y2):
         new_SPBEVmedium_vector[i] *= multiplier2
+    for i in range(y2, y3):
+        new_SPBEVmedium_vector[i] *= multiplier3
+    for i in range(y3, len(new_SPBEVmedium_vector)):
+        new_SPBEVmedium_vector[i] *= multiplier4
 
     # large
 
@@ -282,8 +351,12 @@ def change_supply_penalty_BEV(Scen_CarSegments, Cost_Data, Technology, years, sh
     # multiply by multipliers. y1 is the year, relative to the start year, where multiplier 2 kicks in
     for i in range(y1):
         new_SPBEVlarge_vector[i] *= multiplier1
-    for i in range(y1, len(new_SPBEVlarge_vector)):
+    for i in range(y1, y2):
         new_SPBEVlarge_vector[i] *= multiplier2
+    for i in range(y2, y3):
+        new_SPBEVlarge_vector[i] *= multiplier3
+    for i in range(y3, len(new_SPBEVlarge_vector)):
+        new_SPBEVlarge_vector[i] *= multiplier4
 
     new_SupplyPenalties = pd.DataFrame({'Year': range(2012, 2051), 'SPBEVsmall': new_SPBEVsmall_vector,
                                         'SPBEVmedium': new_SPBEVmedium_vector, 'SPBEVlarge': new_SPBEVlarge_vector})
@@ -306,7 +379,7 @@ def change_supply_penalty_BEV(Scen_CarSegments, Cost_Data, Technology, years, sh
 
 
 # Change the supply penalty for all HEVs - a function that can be called
-def change_supply_penalty_HEV(Scen_CarSegments, Cost_Data, Technology, years, shift_yrs, multiplier1, multiplier2, y1, phase_out_date):
+def change_supply_penalty_HEV(Scen_CarSegments, Cost_Data, Technology, years, shift_yrs, multiplier1, multiplier2, multiplier3, y1, y2, phase_out_date):
     # the supply penalties applied to all LSOAs
     SPHEVsmall_vector = Scen_CarSegments[
         Scen_CarSegments.LSOA == Scen_CarSegments.LSOA.unique().tolist()[0]].SPHEVsmall.tolist()
@@ -328,8 +401,10 @@ def change_supply_penalty_HEV(Scen_CarSegments, Cost_Data, Technology, years, sh
     # multiply by multipliers. y1 is the year, relative to the start year, where multiplier 2 kicks in
     for i in range(y1):
         new_SPHEVsmall_vector[i] *= multiplier1
-    for i in range(y1, len(new_SPHEVsmall_vector)):
+    for i in range(y1, y2):
         new_SPHEVsmall_vector[i] *= multiplier2
+    for i in range(y2, len(new_SPHEVsmall_vector)):
+        new_SPHEVsmall_vector[i] *= multiplier3
 
     # apply phase out - assign high supply penalty for all elements in vector after phase_out_date
     for i in range(range(2012, 2051).index(phase_out_date), len(new_SPHEVsmall_vector)):
@@ -348,8 +423,10 @@ def change_supply_penalty_HEV(Scen_CarSegments, Cost_Data, Technology, years, sh
     # multiply by multipliers. y1 is the year, relative to the start year, where multiplier 2 kicks in
     for i in range(y1):
         new_SPHEVmedium_vector[i] *= multiplier1
-    for i in range(y1, len(new_SPHEVmedium_vector)):
+    for i in range(y1, y2):
         new_SPHEVmedium_vector[i] *= multiplier2
+    for i in range(y2, len(new_SPHEVmedium_vector)):
+        new_SPHEVmedium_vector[i] *= multiplier3
 
     # apply phase out - assign high supply penalty for all elements in vector after phase_out_date
     for i in range(range(2012, 2051).index(phase_out_date), len(new_SPHEVmedium_vector)):
@@ -368,8 +445,11 @@ def change_supply_penalty_HEV(Scen_CarSegments, Cost_Data, Technology, years, sh
     # multiply by multipliers. y1 is the year, relative to the start year, where multiplier 2 kicks in
     for i in range(y1):
         new_SPHEVlarge_vector[i] *= multiplier1
-    for i in range(y1, len(new_SPHEVlarge_vector)):
+    for i in range(y1, y2):
         new_SPHEVlarge_vector[i] *= multiplier2
+    for i in range(y2, len(new_SPHEVlarge_vector)):
+        new_SPHEVlarge_vector[i] *= multiplier3
+
 
     # apply phase out - assign high supply penalty for all elements in vector after phase_out_date
     for i in range(range(2012, 2051).index(phase_out_date), len(new_SPHEVlarge_vector)):
@@ -396,7 +476,7 @@ def change_supply_penalty_HEV(Scen_CarSegments, Cost_Data, Technology, years, sh
 
 
 # Change the supply penalty for all PHEVs - a function that can be called
-def change_supply_penalty_PHEV(Scen_CarSegments, Cost_Data, Technology, years, shift_yrs, multiplier1, multiplier2, y1, phase_out_date):
+def change_supply_penalty_PHEV(Scen_CarSegments, Cost_Data, Technology, years, shift_yrs, multiplier1, multiplier2, multiplier3, y1, y2, phase_out_date):
     # the supply penalties applied to all LSOAs
     SPPHEVsmall_vector = Scen_CarSegments[
         Scen_CarSegments.LSOA == Scen_CarSegments.LSOA.unique().tolist()[0]].SPPHEVsmall.tolist()
@@ -416,10 +496,13 @@ def change_supply_penalty_PHEV(Scen_CarSegments, Cost_Data, Technology, years, s
         new_SPPHEVsmall_vector[i] = SPPHEVsmall_vector[i]
 
     # multiply by multipliers. y1 is the year, relative to the start year, where multiplier 2 kicks in
+    # added multiplier 3, which takes place after y2
     for i in range(y1):
         new_SPPHEVsmall_vector[i] *= multiplier1
-    for i in range(y1, len(new_SPPHEVsmall_vector)):
+    for i in range(y1, y2):
         new_SPPHEVsmall_vector[i] *= multiplier2
+    for i in range(y2, len(new_SPPHEVsmall_vector)):
+        new_SPPHEVsmall_vector[i] *= multiplier3
 
     # apply phase out - assign high supply penalty for all elements in vector after phase_out_date
     for i in range(range(2012, 2051).index(phase_out_date), len(new_SPPHEVsmall_vector)):
@@ -438,8 +521,10 @@ def change_supply_penalty_PHEV(Scen_CarSegments, Cost_Data, Technology, years, s
     # multiply by multipliers. y1 is the year, relative to the start year, where multiplier 2 kicks in
     for i in range(y1):
         new_SPPHEVmedium_vector[i] *= multiplier1
-    for i in range(y1, len(new_SPPHEVmedium_vector)):
+    for i in range(y1, y2):
         new_SPPHEVmedium_vector[i] *= multiplier2
+    for i in range(y2, len(new_SPPHEVmedium_vector)):
+        new_SPPHEVmedium_vector[i] *= multiplier3
 
     # apply phase out - assign high supply penalty for all elements in vector after phase_out_date
     for i in range(range(2012, 2051).index(phase_out_date), len(new_SPPHEVmedium_vector)):
@@ -458,8 +543,10 @@ def change_supply_penalty_PHEV(Scen_CarSegments, Cost_Data, Technology, years, s
     # multiply by multipliers. y1 is the year, relative to the start year, where multiplier 2 kicks in
     for i in range(y1):
         new_SPPHEVlarge_vector[i] *= multiplier1
-    for i in range(y1, len(new_SPPHEVlarge_vector)):
+    for i in range(y1, y2):
         new_SPPHEVlarge_vector[i] *= multiplier2
+    for i in range(y2, len(new_SPPHEVlarge_vector)):
+        new_SPPHEVlarge_vector[i] *= multiplier3
 
     # apply phase out - assign high supply penalty for all elements in vector after phase_out_date
     for i in range(range(2012, 2051).index(phase_out_date), len(new_SPPHEVlarge_vector)):
@@ -486,7 +573,7 @@ def change_supply_penalty_PHEV(Scen_CarSegments, Cost_Data, Technology, years, s
 
 
 # Change the supply penalty for all PETROLs - a function that can be called
-def change_supply_penalty_Petrol(Scen_CarSegments, Cost_Data, Technology, years, shift_yrs, multiplier1, multiplier2, y1, phase_out_date):
+def change_supply_penalty_Petrol(Scen_CarSegments, Cost_Data, Technology, years, shift_yrs, multiplier1, multiplier2, multiplier3, y1, y2, phase_out_date):
     # the supply penalties applied to all LSOAs
     SPPetrolsmall_vector = Scen_CarSegments[
         Scen_CarSegments.LSOA == Scen_CarSegments.LSOA.unique().tolist()[0]].SPPetrolsmall.tolist()
@@ -508,8 +595,10 @@ def change_supply_penalty_Petrol(Scen_CarSegments, Cost_Data, Technology, years,
     # multiply by multipliers. y1 is the year, relative to the start year, where multiplier 2 kicks in
     for i in range(y1):
         new_SPPetrolsmall_vector[i] *= multiplier1
-    for i in range(y1, len(new_SPPetrolsmall_vector)):
+    for i in range(y1, y2):
         new_SPPetrolsmall_vector[i] *= multiplier2
+    for i in range(y2, len(new_SPPetrolsmall_vector)):
+        new_SPPetrolsmall_vector[i] *= multiplier3
 
     # apply phase out - assign high supply penalty for all elements in vector after phase_out_date
     for i in range(range(2012, 2051).index(phase_out_date), len(new_SPPetrolsmall_vector)):
@@ -528,8 +617,10 @@ def change_supply_penalty_Petrol(Scen_CarSegments, Cost_Data, Technology, years,
     # multiply by multipliers. y1 is the year, relative to the start year, where multiplier 2 kicks in
     for i in range(y1):
         new_SPPetrolmedium_vector[i] *= multiplier1
-    for i in range(y1, len(new_SPPetrolmedium_vector)):
+    for i in range(y1, y2):
         new_SPPetrolmedium_vector[i] *= multiplier2
+    for i in range(y2, len(new_SPPetrolmedium_vector)):
+        new_SPPetrolmedium_vector[i] *= multiplier3
 
     # apply phase out - assign high supply penalty for all elements in vector after phase_out_date
     for i in range(range(2012, 2051).index(phase_out_date), len(new_SPPetrolmedium_vector)):
@@ -548,8 +639,10 @@ def change_supply_penalty_Petrol(Scen_CarSegments, Cost_Data, Technology, years,
     # multiply by multipliers. y1 is the year, relative to the start year, where multiplier 2 kicks in
     for i in range(y1):
         new_SPPetrollarge_vector[i] *= multiplier1
-    for i in range(y1, len(new_SPPetrollarge_vector)):
+    for i in range(y1, y2):
         new_SPPetrollarge_vector[i] *= multiplier2
+    for i in range(y2, len(new_SPPetrollarge_vector)):
+        new_SPPetrollarge_vector[i] *= multiplier3
 
     # apply phase out - assign high supply penalty for all elements in vector after phase_out_date
     for i in range(range(2012, 2051).index(phase_out_date), len(new_SPPetrollarge_vector)):
@@ -577,7 +670,7 @@ def change_supply_penalty_Petrol(Scen_CarSegments, Cost_Data, Technology, years,
 
 
 # Change the supply penalty for all DIESELs - a function that can be called
-def change_supply_penalty_Diesel(Scen_CarSegments, Cost_Data, Technology, years, shift_yrs, multiplier1, multiplier2, y1, phase_out_date):
+def change_supply_penalty_Diesel(Scen_CarSegments, Cost_Data, Technology, years, shift_yrs, multiplier1, multiplier2, multiplier3, y1, y2, phase_out_date):
     # the supply penalties applied to all LSOAs
     SPDieselsmall_vector = Scen_CarSegments[
         Scen_CarSegments.LSOA == Scen_CarSegments.LSOA.unique().tolist()[0]].SPDieselsmall.tolist()
@@ -599,8 +692,10 @@ def change_supply_penalty_Diesel(Scen_CarSegments, Cost_Data, Technology, years,
     # multiply by multipliers. y1 is the year, relative to the start year, where multiplier 2 kicks in
     for i in range(y1):
         new_SPDieselsmall_vector[i] *= multiplier1
-    for i in range(y1, len(new_SPDieselsmall_vector)):
+    for i in range(y1, y2):
         new_SPDieselsmall_vector[i] *= multiplier2
+    for i in range(y2, len(new_SPDieselsmall_vector)):
+        new_SPDieselsmall_vector[i] *= multiplier3
 
     # apply phase out - assign high supply penalty for all elements in vector after phase_out_date
     for i in range(range(2012, 2051).index(phase_out_date), len(new_SPDieselsmall_vector)):
@@ -619,8 +714,10 @@ def change_supply_penalty_Diesel(Scen_CarSegments, Cost_Data, Technology, years,
     # multiply by multipliers. y1 is the year, relative to the start year, where multiplier 2 kicks in
     for i in range(y1):
         new_SPDieselmedium_vector[i] *= multiplier1
-    for i in range(y1, len(new_SPDieselmedium_vector)):
+    for i in range(y1, y2):
         new_SPDieselmedium_vector[i] *= multiplier2
+    for i in range(y2, len(new_SPDieselmedium_vector)):
+        new_SPDieselmedium_vector[i] *= multiplier3
 
     # apply phase out - assign high supply penalty for all elements in vector after phase_out_date
     for i in range(range(2012, 2051).index(phase_out_date), len(new_SPDieselmedium_vector)):
@@ -639,8 +736,10 @@ def change_supply_penalty_Diesel(Scen_CarSegments, Cost_Data, Technology, years,
     # multiply by multipliers. y1 is the year, relative to the start year, where multiplier 2 kicks in
     for i in range(y1):
         new_SPDiesellarge_vector[i] *= multiplier1
-    for i in range(y1, len(new_SPDiesellarge_vector)):
+    for i in range(y1, y2):
         new_SPDiesellarge_vector[i] *= multiplier2
+    for i in range(y2, len(new_SPDiesellarge_vector)):
+        new_SPDiesellarge_vector[i] *= multiplier3
 
     # apply phase out - assign high supply penalty for all elements in vector after phase_out_date
     for i in range(range(2012, 2051).index(phase_out_date), len(new_SPDiesellarge_vector)):
