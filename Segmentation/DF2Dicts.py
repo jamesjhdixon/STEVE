@@ -28,7 +28,7 @@ Technology.Final_Year.fillna(int(2050), inplace=True)
 # TODO: TECHNOLOGY DICTIONARY
 Technology_dict = dict()
 
-Technology_variables = ['MassCatID', 'HybridFlagID', 'FuelID']
+Technology_variables = ['MassCatID', 'HybridFlag', 'FuelID']
 
 # take year from Cost_Data
 for year in Cost_Data['Year'].tolist():
