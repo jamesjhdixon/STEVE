@@ -16,7 +16,7 @@ from Segmentation.utils.Segmentation_useful_functions import *
 from Segmentation.utils.Calibration_functions import *
 
 # data path for bulky data not in online repo
-DataPath = "C:/Users/cenv0795/Data/STEVE_DATA/Scen_CarSegments/"
+DataPath = "C:/Users/cenv0795/Data/STEVE_DATA/"
 
 # load NewCars_by_LSOA
 f = open("./data/Cars_by_LSOA_incScrappage.pckl", "rb")
@@ -30,6 +30,11 @@ years = range(2012, 2036)
 NewCars_by_LSOA = Cars_by_LSOA[['GEO_CODE'] + ['NewCars'+str(y) for y in years]]
 TotalCars_by_LSOA = Cars_by_LSOA[['GEO_CODE'] + ['TotalCars'+str(y) for y in years]]
 
+# load AgeData
+f = open(f"{DataPath}MOT_data/AgeProfile_by_LSOA_normalised.pckl", "rb")
+AgeData = pickle.load(f)
+f.close()
+
 # Load relevant tables - Cost_Data, Scen_CarSegments, CT_Fuel, Technology
 
 LED_scenario = 'LED2'
@@ -38,7 +43,7 @@ LED_scenario = 'LED2'
 Cost_Data = pd.read_csv(f"./tables/Cost_Data_{LED_scenario}.csv")
 
 # Scen_CarSegments - by LSOA - for Scotland
-f = open(f"{DataPath}Scen_CarSegments_byLSOA_SCOTLAND_{LED_scenario}.pckl", "rb")
+f = open(f"{DataPath}Scen_CarSegments/Scen_CarSegments_byLSOA_SCOTLAND_{LED_scenario}.pckl", "rb")
 Scen_CarSegments = pickle.load(f)  # LSOA-specific
 f.close()
 
@@ -177,6 +182,10 @@ while trial_cnt < 1:
                                  Private_Fleet_Options, Charging_Access_Levels)
 
         Segmentation_df = Segmentation_df.append(NewCars[NewCars.NewCars > 0])
+
+        # TODO: integrate scrappage function HERE to update cumulative list of technologies
+
+        # TODO: return cumulative technology segmentation by year, based on scrappage integration above
 
         LSOA_cnt += 1
 
