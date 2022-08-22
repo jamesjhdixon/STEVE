@@ -190,10 +190,12 @@ def plot_MS_Total(MarketShare_Total, Options):
 
     ax.set_title('; '.join([k for k in Options.keys() if Options[k]]))
 
-# plot total market share aggregated into wider categories: ICE, HEV, PHEV, BEV
-def plot_MS_Total_Aggregated(MarketShare_Total, years, LED_Scenario):
+# plot total market share aggregated into wider categories: ICE, HEV, PHEV, BEV.
+# proportional kwarg --> if True, plot as percentage; if False, plot as numbers
+def plot_MS_Total_Aggregated(LSOA, SumNew, MarketShare_Total, years, LED_Scenario, proportional=True):
     import matplotlib.pyplot as plt
     import seaborn as sns
+    import numpy as np
     import colorcet as cc
 
     Real_MS_data = retrieve_real_marketshare_data()
@@ -211,45 +213,89 @@ def plot_MS_Total_Aggregated(MarketShare_Total, years, LED_Scenario):
     sns.set_style('whitegrid')
 
     ICE_MS, HEV_MS, PHEV_MS, BEV_MS = [], [], [], []
-    for year in years:
-        # ICE
-        ICE_MS.append(MarketShare_Total[(MarketShare_Total.Year == year) & ((MarketShare_Total.FuelID == 1) | (MarketShare_Total.FuelID == 2) |
-                                        (MarketShare_Total.FuelID == 3) | (MarketShare_Total.FuelID == 4)) &
-                                       (MarketShare_Total.HybridFlag == 0)].MarketShare.sum())
-        # HEV
-        HEV_MS.append(MarketShare_Total[(MarketShare_Total.Year == year) & ((MarketShare_Total.FuelID == 1) | (MarketShare_Total.FuelID == 2) |
-                                        (MarketShare_Total.FuelID == 3) | (MarketShare_Total.FuelID == 4)) &
-                                       (MarketShare_Total.HybridFlag == 1)].MarketShare.sum())
-        # PHEV
-        PHEV_MS.append(MarketShare_Total[(MarketShare_Total.Year == year) & ((MarketShare_Total.FuelID == 1) | (MarketShare_Total.FuelID == 2) |
-                                        (MarketShare_Total.FuelID == 3) | (MarketShare_Total.FuelID == 4)) &
-                                       (MarketShare_Total.HybridFlag == 2)].MarketShare.sum())
-        # BEV
-        BEV_MS.append(MarketShare_Total[(MarketShare_Total.Year == year) & (MarketShare_Total.FuelID == 12) &
-                                        (MarketShare_Total.HybridFlag == 0)].MarketShare.sum())
 
-    clrs = sns.color_palette(cc.glasbey_warm, n_colors=4)
+    if proportional:
+        for year in years:
+            # ICE
+            ICE_MS.append(MarketShare_Total[(MarketShare_Total.Year == year) & ((MarketShare_Total.FuelID == 1) | (MarketShare_Total.FuelID == 2) |
+                                            (MarketShare_Total.FuelID == 3) | (MarketShare_Total.FuelID == 4)) &
+                                           (MarketShare_Total.HybridFlag == 0)].MarketShare.sum())
+            # HEV
+            HEV_MS.append(MarketShare_Total[(MarketShare_Total.Year == year) & ((MarketShare_Total.FuelID == 1) | (MarketShare_Total.FuelID == 2) |
+                                            (MarketShare_Total.FuelID == 3) | (MarketShare_Total.FuelID == 4)) &
+                                           (MarketShare_Total.HybridFlag == 1)].MarketShare.sum())
+            # PHEV
+            PHEV_MS.append(MarketShare_Total[(MarketShare_Total.Year == year) & ((MarketShare_Total.FuelID == 1) | (MarketShare_Total.FuelID == 2) |
+                                            (MarketShare_Total.FuelID == 3) | (MarketShare_Total.FuelID == 4)) &
+                                           (MarketShare_Total.HybridFlag == 2)].MarketShare.sum())
+            # BEV
+            BEV_MS.append(MarketShare_Total[(MarketShare_Total.Year == year) & (MarketShare_Total.FuelID == 12) &
+                                            (MarketShare_Total.HybridFlag == 0)].MarketShare.sum())
 
-    fig, ax = plt.subplots(figsize=(8,6))
+        clrs = sns.color_palette(cc.glasbey_warm, n_colors=4)
 
-    ax.plot(years, ICE_MS, label='ICE', color=clrs[0])
-    ax.plot(years, HEV_MS, label='HEV', color=clrs[1])
-    ax.plot(years, PHEV_MS, label='PHEV', color=clrs[2])
-    ax.plot(years, BEV_MS, label='BEV', color=clrs[3])
+        fig, ax = plt.subplots(figsize=(8,6))
 
-    for tech in Real_MS_techtypes:
-        ax.plot(pd.to_numeric(Real_MS_data.Date), Real_MS_data[tech] / 100, label=tech + ' (DVLA data)',
-                color=clrs[Real_MS_techtypes.index(tech)], linestyle='--')
+        ax.plot(years, ICE_MS, label='ICE', color=clrs[0])
+        ax.plot(years, HEV_MS, label='HEV', color=clrs[1])
+        ax.plot(years, PHEV_MS, label='PHEV', color=clrs[2])
+        ax.plot(years, BEV_MS, label='BEV', color=clrs[3])
 
-    for t in ax.xaxis.get_majorticklabels(): t.set_fontsize(14)
-    for t in ax.yaxis.get_majorticklabels(): t.set_fontsize(14)
+        for tech in Real_MS_techtypes:
+            ax.plot(pd.to_numeric(Real_MS_data.Date), Real_MS_data[tech] / 100, label=tech + ' (DVLA data)',
+                    color=clrs[Real_MS_techtypes.index(tech)], linestyle='--')
 
-    ax.legend(fontsize=10, loc='upper left')
-    ax.set_ylabel('Market share (proportion of new registrations)',fontsize=18)
+        for t in ax.xaxis.get_majorticklabels(): t.set_fontsize(14)
+        for t in ax.yaxis.get_majorticklabels(): t.set_fontsize(14)
 
-    ax.set_title(LED_Scenario, fontsize=16)
-    fig.tight_layout()
-    plt.savefig(f"MarketShareTotal_{LED_Scenario}.png")
+        ax.legend(fontsize=10, loc='upper left')
+        ax.set_ylabel('Market share (proportion of new registrations)',fontsize=18)
+
+        ax.set_title(f"{LSOA}, {LED_Scenario}", fontsize=16)
+        fig.tight_layout()
+        plt.savefig(f"MarketShareTotal_{LED_Scenario}.png")
+
+    else:
+
+        for year in years:
+            # ICE
+            ICE_MS.append(np.round(SumNew[SumNew.Year == year].TotalCars.item() * MarketShare_Total[
+                (MarketShare_Total.Year == year) & ((MarketShare_Total.FuelID == 1) | (MarketShare_Total.FuelID == 2) |
+                                                    (MarketShare_Total.FuelID == 3) | (MarketShare_Total.FuelID == 4)) &
+                (MarketShare_Total.HybridFlag == 0)].MarketShare.sum(), 0))
+            # HEV
+            HEV_MS.append(np.round(SumNew[SumNew.Year == year].TotalCars.item() * MarketShare_Total[
+                (MarketShare_Total.Year == year) & ((MarketShare_Total.FuelID == 1) | (MarketShare_Total.FuelID == 2) |
+                                                    (MarketShare_Total.FuelID == 3) | (MarketShare_Total.FuelID == 4)) &
+                (MarketShare_Total.HybridFlag == 1)].MarketShare.sum(), 0))
+            # PHEV
+            PHEV_MS.append(np.round(SumNew[SumNew.Year == year].TotalCars.item() * MarketShare_Total[
+                (MarketShare_Total.Year == year) & ((MarketShare_Total.FuelID == 1) | (MarketShare_Total.FuelID == 2) |
+                                                    (MarketShare_Total.FuelID == 3) | (MarketShare_Total.FuelID == 4)) &
+                (MarketShare_Total.HybridFlag == 2)].MarketShare.sum(), 0))
+            # BEV
+            BEV_MS.append(np.round(SumNew[SumNew.Year == year].TotalCars.item() * MarketShare_Total[
+                (MarketShare_Total.Year == year) & (MarketShare_Total.FuelID == 12) &
+                (MarketShare_Total.HybridFlag == 0)].MarketShare.sum(), 0))
+
+        clrs = sns.color_palette(cc.glasbey_warm, n_colors=4)
+
+        fig, ax = plt.subplots(figsize=(8, 6))
+
+        ax.plot(years, ICE_MS, label='ICE', color=clrs[0])
+        ax.plot(years, HEV_MS, label='HEV', color=clrs[1])
+        ax.plot(years, PHEV_MS, label='PHEV', color=clrs[2])
+        ax.plot(years, BEV_MS, label='BEV', color=clrs[3])
+
+        for t in ax.xaxis.get_majorticklabels(): t.set_fontsize(14)
+        for t in ax.yaxis.get_majorticklabels(): t.set_fontsize(14)
+
+        ax.legend(fontsize=10, loc='upper left')
+        ax.set_ylabel('New registrations by technology (aggregated)', fontsize=18)
+
+        ax.set_title(f"{LSOA}, {LED_Scenario}", fontsize=16)
+        fig.tight_layout()
+        plt.savefig(f"NewVehiclesbyTech_{LED_Scenario}.png")
 
 
 # increase share aware of EVs
