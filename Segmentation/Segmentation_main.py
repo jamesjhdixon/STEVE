@@ -153,6 +153,13 @@ for LED_scenario in LED_scenarios:
     NewCars = pd.DataFrame(
         columns=['LSOA', 'Year', 'TechID', 'Private_Fleet', 'Size', 'Consumer', 'Charging_Access', 'NewCars'])
 
+    #TODO: Instantiate a NEW dataframe, TotalCars, that takes the results of NewCars and adds them to *separate* age bands to allow calculation of scrap
+    TotalCars = pd.DataFrame(
+        columns=['LSOA', 'Year', 'TechID', 'Private_Fleet', 'Size', 'Consumer', 'Charging_Access'] + [
+            'TotalCars_AGE' + str(a) for a in range(22)])
+
+    #TODO: TotalCars gets passed to the return_NewCars function.
+
     # Set possible configurations -- Private/Fleet, Size, Consumer, Charging_Access
     Private_Fleet_Options = ['Private', 'Fleet']
     Consumer_Segments = [['Enthusiast', 'Aspirer', 'Mass', 'Resistor'], ['UserChooser', 'FleetCar']]
