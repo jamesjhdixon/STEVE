@@ -1,8 +1,9 @@
 import pandas as pd
 import numpy as np
 import time
+import pickle
 
-# useful functions
+# SumNew
 def return_SumNew(NewCars_by_LSOA, LSOA):
     time_sumnew = time.time()
     """
@@ -21,7 +22,7 @@ def return_SumNew(NewCars_by_LSOA, LSOA):
     print('Sumnew took', time.time()-time_sumnew)
     return SumNew
 
-
+# Size multiplier
 def return_Size_Multiplier(Size, PF_Prefix):
     if Size == 1:
         SizeStr = 'Small'
@@ -32,7 +33,7 @@ def return_Size_Multiplier(Size, PF_Prefix):
 
     return 'sh' + PF_Prefix + SizeStr
 
-
+# charging multiplier
 def return_Charging_Multipliers(ConsumerSeg, Charging_Access):
     # Charging access is a bit more complicated - they are compound, and they depend on fleet/private
     if ConsumerSeg == 'FleetCar':
@@ -52,7 +53,7 @@ def return_Charging_Multipliers(ConsumerSeg, Charging_Access):
 
     return Charging_Multipliers
 
-
+# SumNewCars
 def return_SumNewCars(SumNewCars, LSOA, SumNew, Scen_CarSegments, Private_Fleet_Options, Consumer_Segments,
                       Sizes, Charging_Access_Levels):
 
@@ -115,7 +116,7 @@ def return_SumNewCars(SumNewCars, LSOA, SumNew, Scen_CarSegments, Private_Fleet_
     print('SumNewCars took', time.time() - time_sumnewcars)
     return SumNewCars
 
-
+# ASC based on vehicle type
 def return_ASC_VehType(FuelID, HybridFlag):
     # lookup Vehicle type based on FuelID for ASC lookup (below)
     if FuelID == 12:
@@ -134,7 +135,7 @@ def return_ASC_VehType(FuelID, HybridFlag):
 
     return ASC_VehType
 
-
+# ASC
 def return_ASC(year, ASC_VehType, Scen_CarSegments, SumNew, NewCars, Technology, ConsumerSeg, FuelID, HybridFlag):
     ASC_Modifier = 1  # default value. Re-evaluated in loop if conditions are met.
 
@@ -163,7 +164,7 @@ def return_ASC(year, ASC_VehType, Scen_CarSegments, SumNew, NewCars, Technology,
 
     return ASC
 
-
+# MarketShare
 def return_MarketShare(MarketShare, SumNew, Technology, Cost_Data, Private_Fleet_Options, Consumer_Segments, NewCars,
                        Scen_CarSegments):
     time_marketsh = time.time()
@@ -225,7 +226,7 @@ def return_MarketShare(MarketShare, SumNew, Technology, Cost_Data, Private_Fleet
     print('MarketShare took', time.time()-time_marketsh)
     return MarketShare
 
-
+# Available Tech
 def return_AvailableTech(Charging_Access, Technology):
     if Charging_Access == 0:  # not aware of EVs
         AvailableTechIDs = Technology[(Technology.FuelID < 5) & (Technology.HybridFlag < 2)].TechID.tolist()
@@ -236,7 +237,7 @@ def return_AvailableTech(Charging_Access, Technology):
 
     return AvailableTechIDs
 
-
+# MarketShTot
 def return_MarketShTot(SumNewCars, MarketShare, Technology):
     time_marketshtot = time.time()
     """
@@ -263,7 +264,7 @@ def return_MarketShTot(SumNewCars, MarketShare, Technology):
     print('marketshtot took', time.time() - time_marketshtot)
     return SumNewCars
 
-
+# NewCars
 def return_NewCars(LSOA, NewCars, SumNew, SumNewCars, MarketShare, Technology, Consumer_Segments, Private_Fleet_Options, Charging_Access_Levels):
     time_newcars = time.time()
     """
@@ -380,8 +381,7 @@ def return_NewCars(LSOA, NewCars, SumNew, SumNewCars, MarketShare, Technology, C
     print('newcars took', time.time() - time_newcars)
     return NewCars
 
-
-#a quick function (not originally in TEAM) to return the market share of technologies (BEVs, PHEVs
+# a quick function (not originally in TEAM) to return the market share of technologies (BEVs, PHEVs)
 def return_MarketShare_Totals(LSOA, MarketShare, SumNew, Technology):
 
     FuelID_dict = {1: 'Gasoline',
@@ -424,8 +424,7 @@ def return_MarketShare_Totals(LSOA, MarketShare, SumNew, Technology):
 
     return MarketShare_Totals
 
-
-#update Cost_Data after Scen_CarSegments has been changed
+# update Cost_Data after Scen_CarSegments has been changed
 def update_Cost_Data(Cost_Data, Scen_CarSegments):
     #we need to update SUPPLY PENALTY and CHARGING TIME
 
@@ -436,3 +435,80 @@ def update_Cost_Data(Cost_Data, Scen_CarSegments):
     #assign to relevant
 
     return Cost_Data
+
+# scrappage function
+def return_scrappage(AgeData, years, Cars_per_LSOA):
+
+
+    LSOAs = Cars_per_LSOA.GEO_CODE.unique().tolist()
+
+    for y in years:
+        for l in LSOAs:
+            # return index of this LSOA
+            ind = Cars_per_LSOA[Cars_per_LSOA['GEO_CODE'] == l].index.values[0]
+
+            # return age profile for this lsoa
+            AgeProfile_LSOA = AgeData[AgeData.GEO_CODE == l]
+            AgeProfile_ind = AgeProfile_LSOA.index.values[0]
+
+            # look up average age for the LSOA for scrappage probability calc in loop
+            AvgAge_LSOA = AgeProfile_LSOA.AveAGE.item()
+
+            # use that average age value to lookup a delta value
+            # lookup delta from table by sorting -- https://stackoverflow.com/questions/30112202/how-do-i-find-the-closest-values-in-a-pandas-series-to-an-input-number
+            if years.index(y) == 0:  # only do it for the first year
+                delta = AvgAge_d_lookup.iloc[(AvgAge_d_lookup['AvgAge'] - AvgAge_LSOA).abs().argsort()[0]].delta
+
+            # gamma = characteristic service life for vehicle type = car
+            gamma = 21
+
+            # go through each year in turn and evaluate the proportion of scrapped vehicles
+            scrapped_cars = 0
+            for age in range(22):
+                # calculate probability of scrappage
+                Pscrap = 1 - np.exp(-1 * ((age + delta) / gamma) ** delta) / np.exp(
+                    -1 * (((age - 1) + delta) / gamma) ** delta)
+
+                # scrapped vehicles for each age is the number of vehicles that age * the probability that one is scrapped
+                scrapped = int(np.round(AgeData.loc[AgeProfile_ind, 'AGE_' + str(age)] * Pscrap, 0))
+
+                scrapped_cars += scrapped
+
+                # minus the scrapped vehicles from the Age Profile data of this cell
+                AgeData.at[AgeProfile_ind, 'AGE_' + str(age)] -= scrapped
+
+            # MINUS the scrapped cars away from the total cars in year y-1 and ADD them to the new cars
+            Cars_per_LSOA.at[ind, 'TotalCars' + str(y - 1)] -= scrapped_cars
+            Cars_per_LSOA.at[ind, 'NewCars' + str(y)] += scrapped_cars
+
+            # advance the age profile along by one year
+            NewAgeData = pd.DataFrame(columns=AgeData.columns)
+
+            # set LSOA
+            NewAgeData.at[AgeProfile_ind, 'GEO_CODE'] = l
+
+            for age in range(1, 22):
+                NewAgeData.at[AgeProfile_ind, 'AGE_' + str(age)] = int(
+                    np.round(AgeProfile_LSOA['AGE_' + str(age - 1)].item(), 0))
+
+            # and add NewCars of this year y (the cars demanded PLUS those to replace the scrapped ones) to the age data at age=0
+            NewAgeData.at[AgeProfile_ind, 'AGE_' + str(0)] = int(Cars_per_LSOA.at[ind, 'NewCars' + str(y)])
+
+            # recalculate average age
+            NewAgeData.at[AgeProfile_ind, 'AveAGE'] = sum(
+                [NewAgeData.iloc[0]['AGE_' + str(age)] * age for age in range(22)]) / sum(
+                [NewAgeData.iloc[0]['AGE_' + str(age)] for age in range(22)])
+
+            # recalculate totalcars - they were DELETED from each age group, and now they are ADDED as new cars
+            NewAgeData.at[AgeProfile_ind, 'TotalCars'] = Cars_per_LSOA.at[ind, 'TotalCars' + str(y)]
+
+            # re-normliase the car counts by age 
+            for i in range(22):
+                NewAgeData.at[AgeProfile_ind, 'AGE_' + str(i)] = int(np.round(
+                    NewAgeData.at[AgeProfile_ind, 'AGE_' + str(i)] / sum(
+                        [NewAgeData.at[AgeProfile_ind, 'AGE_' + str(j)] for j in range(22)]) * NewAgeData.at[
+                        AgeProfile_ind, 'TotalCars'], 0))
+
+            AgeData.loc[AgeProfile_ind, :] = NewAgeData.loc[AgeProfile_ind, :]
+
+    return Cars_per_LSOA, AgeData

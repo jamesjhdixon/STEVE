@@ -18,17 +18,30 @@ from Segmentation.utils.Calibration_functions import *
 # data path for bulky data not in online repo
 DataPath = "C:/Users/cenv0795/Data/STEVE_DATA/Scen_CarSegments/"
 
-# load NewCars_by_LSOA
-f = open("./data/Cars_by_LSOA_incScrappage.pckl", "rb")
-Cars_by_LSOA = pickle.load(f)
+# load NewCars_per_LSOA
+f = open("./data/Cars_per_LSOA_incScrappage.pckl", "rb")
+Cars_per_LSOA = pickle.load(f)
 f.close()
 
-LSOAs = Cars_by_LSOA.GEO_CODE.unique().tolist()
+LSOAs = Cars_per_LSOA.GEO_CODE.unique().tolist()
 years = range(2012, 2036)
 
-#everything is driven by NewCars_by_LSOA. Select only a subset and everything produced will be a subset
-NewCars_by_LSOA = Cars_by_LSOA[['GEO_CODE'] + ['NewCars'+str(y) for y in years]]
-TotalCars_by_LSOA = Cars_by_LSOA[['GEO_CODE'] + ['TotalCars'+str(y) for y in years]]
+#everything is driven by NewCars_per_LSOA. Select only a subset and everything produced will be a subset
+NewCars_per_LSOA = Cars_per_LSOA[['GEO_CODE'] + ['NewCars'+str(y) for y in years]]
+TotalCars_per_LSOA = Cars_per_LSOA[['GEO_CODE'] + ['TotalCars'+str(y) for y in years]]
+
+# ---- AGE DATA FOR SCRAPPAGE MODULE ---- #
+# load age data
+f = open("./data/AgeProfile_by_LSOA_normalised.pckl", 'rb')
+AgeData = pickle.load(f)
+f.close()
+
+# load delta lookup
+f = open("./data/delta_AvgAge_lookup.pckl", 'rb')
+AvgAge_d_lookup = pickle.load(f)
+f.close()
+
+# ---- AGE DATA FOR SCRAPPAGE MODULE ---- #
 
 # Load relevant tables - Cost_Data, Scen_CarSegments, CT_Fuel, Technology
 
@@ -163,7 +176,7 @@ for LED_scenario in LED_scenarios:
         #sample_LSOAs = ['S01007460'] #this one has shFleet != 0, shPrivate != 0
 
         for LSOA in sample_LSOAs:
-            SumNew = return_SumNew(NewCars_by_LSOA, LSOA)
+            SumNew = return_SumNew(NewCars_per_LSOA, LSOA)
 
             SumNewCars = return_SumNewCars(SumNewCars, LSOA, SumNew, Scen_CarSegments, Private_Fleet_Options,
                                            Consumer_Segments, Sizes, Charging_Access_Levels)
@@ -174,7 +187,6 @@ for LED_scenario in LED_scenarios:
 
             MarketShare_Total = return_MarketShare_Totals(LSOA, MarketShare, SumNew, Technology)
 
-            #COMMENT OUT BELOW IF DON'T NEED DETAILED MARKET BREAKDOWNS!
             SumNewCars = return_MarketShTot(SumNewCars, MarketShare, Technology)
 
             NewCars = return_NewCars(LSOA, NewCars, SumNew, SumNewCars, MarketShare, Technology, Consumer_Segments,
