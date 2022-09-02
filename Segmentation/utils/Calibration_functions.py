@@ -1,5 +1,57 @@
 import pandas as pd
 
+# return share of BEV, HEV, PHEV and ICE by year based on TotalCars
+def return_BEV_share(years, TotalCars, Technology):
+
+    BEV_Share, HEV_Share, PHEV_Share, ICE_Share = [], [], [], []
+    for year in years:
+        Total_Count = TotalCars[(TotalCars.Year == year)][['TotalCars_AGE'+str(a) for a in range(22)]].sum().sum()
+
+        #BEVs
+        BEV_Count = TotalCars[(TotalCars.Year == year) & (TotalCars.TechID.isin(Technology[Technology.FuelID == 12].TechID.unique().tolist()))][['TotalCars_AGE'+str(a) for a in range(22)]].sum().sum()
+        BEV_Share.append(BEV_Count/Total_Count)
+
+        #HEVs
+        HEV_Count = TotalCars[(TotalCars.Year == year) & (TotalCars.TechID.isin(Technology[(Technology.FuelID.isin(range(1,5))) & (Technology.HybridFlag == 1)].TechID.unique().tolist()))][['TotalCars_AGE'+str(a) for a in range(22)]].sum().sum()
+        HEV_Share.append(HEV_Count/Total_Count)
+
+        #PHEVs
+        PHEV_Count = TotalCars[(TotalCars.Year == year) & (TotalCars.TechID.isin(Technology[(Technology.FuelID.isin(range(1,5))) & (Technology.HybridFlag == 2)].TechID.unique().tolist()))][['TotalCars_AGE'+str(a) for a in range(22)]].sum().sum()
+        PHEV_Share.append(PHEV_Count/Total_Count)
+
+        #ICEs
+        ICE_Count = TotalCars[(TotalCars.Year == year) & (TotalCars.TechID.isin(Technology[(Technology.FuelID.isin(range(1,5))) & (Technology.HybridFlag == 0)].TechID.unique().tolist()))][['TotalCars_AGE'+str(a) for a in range(22)]].sum().sum()
+        ICE_Share.append(ICE_Count/Total_Count)
+
+    return BEV_Share, HEV_Share, PHEV_Share, ICE_Share
+
+#plot results of return_BEV_share function
+def plot_BEV_share(years, LED_Scenario, BEV_Share, HEV_Share, PHEV_Share, ICE_Share):
+
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+    import colorcet as cc
+    sns.set_style('whitegrid')
+    clrs = sns.color_palette(cc.glasbey, n_colors=4)
+
+    fig, ax = plt.subplots(figsize=(10, 6))
+
+    ax.plot(years, BEV_Share, color=clrs[0], label='BEV')
+    ax.plot(years, PHEV_Share, color=clrs[1], label='PHEV')
+    ax.plot(years, HEV_Share, color=clrs[2], label='HEV')
+    ax.plot(years, ICE_Share, color=clrs[3], label='ICE')
+
+    for t in ax.xaxis.get_majorticklabels(): t.set_fontsize(14)
+    for t in ax.yaxis.get_majorticklabels(): t.set_fontsize(14)
+    ax.legend(fontsize=10, loc='upper left')
+    ax.set_ylabel('Fleet share (proportion of registered vehicles)', fontsize=18)
+
+    ax.set_title(LED_Scenario, fontsize=16)
+    fig.tight_layout()
+
+    plt.savefig(f"TotalRegistrations_{LED_Scenario}.png")
+
+    return
 
 def retrieve_real_marketshare_data():
     # load in raw date - veh1153 (DFT licensing stats

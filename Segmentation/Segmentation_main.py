@@ -19,7 +19,7 @@ from Segmentation.utils.Calibration_functions import *
 DataPath = "C:/Users/cenv0795/Data/STEVE_DATA/Scen_CarSegments/"
 
 # load NewCars_per_LSOA
-f = open("./data/Cars_per_LSOA_incScrappage.pckl", "rb")
+f = open("./data/Cars_per_LSOA.pckl", "rb")
 Cars_per_LSOA = pickle.load(f)
 f.close()
 
@@ -45,7 +45,7 @@ f.close()
 
 # Load relevant tables - Cost_Data, Scen_CarSegments, CT_Fuel, Technology
 
-LED_scenarios = ['LED0', 'LED1', 'LED2']
+LED_scenarios = ['LED2']
 
 #LED_scenario = 'LED2'
 
@@ -153,7 +153,7 @@ for LED_scenario in LED_scenarios:
     NewCars = pd.DataFrame(
         columns=['LSOA', 'Year', 'TechID', 'Private_Fleet', 'Size', 'Consumer', 'Charging_Access', 'NewCars'])
 
-    #TODO: Instantiate a NEW dataframe, TotalCars, that takes the results of NewCars and adds them to *separate* age bands to allow calculation of scrap
+    #TODO: Instantiate a NEW dataframe, TotalCars, that takes the results of NewCars and adds them to *separate* age bands to allow calculation of scrappage per yr
     TotalCars = pd.DataFrame(
         columns=['LSOA', 'Year', 'TechID', 'Private_Fleet', 'Size', 'Consumer', 'Charging_Access'] + [
             'TotalCars_AGE' + str(a) for a in range(22)])

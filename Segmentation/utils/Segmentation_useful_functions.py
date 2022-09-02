@@ -381,6 +381,39 @@ def return_NewCars(LSOA, NewCars, SumNew, SumNewCars, MarketShare, Technology, C
     print('newcars took', time.time() - time_newcars)
     return NewCars
 
+# TotalCars
+def return_TotalCars(years, LSOA, NewCars, AgeData, TotalCars, SumNew, SumNewCars, MarketShare, Technology, Consumer_Segments, Private_Fleet_Options, Charging_Access_Levels):
+
+    """
+    TotalCars is a dataframe that keeps track of the age bands of the cumulative fleet.
+    It takes NewCars as an input. For each year it *stores* the new count of each TechID in each segment.
+    It calculates the count of scrapped vehicles of each TechID in each segment.
+    It derives the cumulative count of each TechID in each segment.
+    """
+
+    LSOA_AgeData = AgeData[AgeData.GEO_CODE == LSOA]
+
+    #TODO: first, work out the segsplit in the first year (2011 as default). This is the same, proportionally, as the split in NewCars in the first year (2012).
+    first_year = years[0] - 1 #the year 'before' it starts
+    TotalCars.loc[0, ['TotalCars_AGE'+str(a) for a in range(22)]] = LSOA_AgeData[['AGE_'+str(a) for a in range(22)]].iloc[0].tolist()
+
+
+
+
+    for i in list(NewCars.index.values):
+
+        year = NewCars.Year[i]
+
+        if year == NewCars.Year.unique()[0]: #if year is the first year
+
+            #TODO: if year is first year, then TotalCars is the same seg split as newCars
+            print('')
+
+
+
+    return TotalCars
+
+
 # a quick function (not originally in TEAM) to return the market share of technologies (BEVs, PHEVs)
 def return_MarketShare_Totals(LSOA, MarketShare, SumNew, Technology):
 
