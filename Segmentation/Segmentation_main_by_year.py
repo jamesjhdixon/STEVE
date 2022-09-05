@@ -138,32 +138,32 @@ for LED_scenario in LED_scenarios:
         st_year = time.time()
         #if year is first year, then calculate data for base year (default = 2011)
         if years.index(year) == 0:
-            SumNewCars = return_SumNewCars(year, SumNewCars, LSOA, SumNew[SumNew.Year == year].TotalCars.item(),
+            SumNewCars_year = return_SumNewCars(year, LSOA, SumNewCars, SumNew[SumNew.Year == year].TotalCars.item(),
                                            Scen_CarSegments, Private_Fleet_Options, Consumer_Segments, Sizes,
                                            Charging_Access_Levels)
 
-            MarketShare = return_MarketShare(year, years, MarketShare, Technology, Cost_Data, Private_Fleet_Options,
+            MarketShare_year = return_MarketShare(year, years, MarketShare, Technology, Cost_Data, Private_Fleet_Options,
                                              Consumer_Segments, NewCars, Scen_CarSegments)
 
-            SumNewCars = return_MarketShTot(year, SumNewCars, MarketShare, Technology)
+            SumNewCars_year = return_MarketShTot(SumNewCars_year, MarketShare_year, Technology)
 
-            NewCars = return_NewCars(year, LSOA, NewCars, SumNewCars, MarketShare, Technology, Consumer_Segments,
+            NewCars_year = return_NewCars(year, LSOA, NewCars, SumNewCars_year, MarketShare_year, Technology, Consumer_Segments,
                                      Private_Fleet_Options, Charging_Access_Levels)
 
-            TotalCars = return_TotalCars_base_year(years, LSOA, AgeData, NewCars, TotalCars)
-
-            MarketShare_Total = return_MarketShare_Totals(year, LSOA, MarketShare, MarketShare_Totals, Technology)
+            TotalCars = return_TotalCars_base_year(years, LSOA, AgeData, NewCars_year, TotalCars)
 
             # clear data to avoid duplicates
-            SumNewCars = SumNewCars.iloc[0:0]
-            MarketShare = MarketShare.iloc[0:0]
-            NewCars = NewCars.iloc[0:0]
+            # SumNewCars = SumNewCars.iloc[0:0]
+            # MarketShare = MarketShare.iloc[0:0]
+            # NewCars = NewCars.iloc[0:0]
 
-        TotalCars = return_TotalCars(year, years, LSOA, TotalCars, NewCars, SumNewCars, AgeData, MarketShare,
-                                     AvgAge_d_lookup, Cars_per_LSOA, Technology, Cost_Data, Scen_CarSegments,
-                                     Consumer_Segments, Sizes, Private_Fleet_Options, Charging_Access_Levels)
+        TotalCars_year, NewCars_year = return_TotalCars(year, years, LSOA, TotalCars, NewCars, SumNewCars,
+                                                        AgeData, MarketShare, AvgAge_d_lookup, Cars_per_LSOA,
+                                                        Technology, Cost_Data, Scen_CarSegments, Consumer_Segments,
+                                                        Sizes, Private_Fleet_Options, Charging_Access_Levels)
 
-        MarketShare_Total = return_MarketShare_Totals(year, LSOA, MarketShare, MarketShare_Totals, Technology)
+        TotalCars = TotalCars.append(TotalCars_year)
+        NewCars = NewCars.append(NewCars_year)
 
         print(f"YEAR TIME, {year}: {time.time()-st_year} sec")
 
@@ -174,10 +174,6 @@ for LED_scenario in LED_scenarios:
     if plot_Fleet_Evolution:
         BEV_Share, HEV_Share, PHEV_Share, ICE_Share = return_BEV_share(years, TotalCars, Technology)
         plot_BEV_share(years, LED_scenario, BEV_Share, HEV_Share, PHEV_Share, ICE_Share)
-
-    plot_MarketShare_Total_Aggregated = True
-    if plot_MarketShare_Total_Aggregated:
-        plot_MS_Total_Aggregated(LSOA, SumNew, MarketShare_Total, years, LED_scenario, proportional=False)
 
 
 
