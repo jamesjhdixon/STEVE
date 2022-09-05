@@ -32,149 +32,152 @@ TotalCars_per_LSOA = Cars_per_LSOA[['GEO_CODE'] + ['TotalCars'+str(y) for y in y
 AgeData, AvgAge_d_lookup = return_agedata()
 
 # Load relevant tables - Cost_Data, Scen_CarSegments, CT_Fuel, Technology
-LED_scenario = 'LED2'
-Cost_Data, Scen_CarSegments, CT_Fuel, Technology = return_tables(LED_scenario, years)
+LED_scenarios = ['LED0', 'LED1', 'LED2']
 
-#######
-#Calibration
-#######
+for LED_scenario in LED_scenarios:
+    #LED_scenario = 'LED2'
+    Cost_Data, Scen_CarSegments, CT_Fuel, Technology = return_tables(LED_scenario, years)
 
-increase_awareness = True
-reduce_supplypenaltyBEV = True
-reduce_supplypenaltyPHEV = True
-reduce_supplypenaltyHEV = True
-reduce_supplypenaltyBEV = True
-increase_supplypenaltyPetrol = True
-increase_supplypenaltyDiesel = True
-increase_accesstoOP = False
-increase_certainty_access = False
-increase_charging_power = False
+    #######
+    #Calibration
+    #######
 
-if increase_awareness:
-    print('Adjusting EV awareness')
-    Scen_CarSegments = change_awareness(Scen_CarSegments, shift_yrs=5, multiplier=1.2)
+    increase_awareness = True
+    reduce_supplypenaltyBEV = True
+    reduce_supplypenaltyPHEV = True
+    reduce_supplypenaltyHEV = True
+    reduce_supplypenaltyBEV = True
+    increase_supplypenaltyPetrol = True
+    increase_supplypenaltyDiesel = True
+    increase_accesstoOP = False
+    increase_certainty_access = False
+    increase_charging_power = False
 
-if reduce_supplypenaltyBEV:
-    print('Adjusting BEV supply penalty')
-    Scen_CarSegments, Cost_Data = change_supply_penalty_BEV(Scen_CarSegments, Cost_Data, Technology, years, shift_yrs=0, multiplier1=1.8, multiplier2=1.6, multiplier3=0.6, multiplier4=-4, y1=8, y2=14, y3=16)
+    if increase_awareness:
+        print('Adjusting EV awareness')
+        Scen_CarSegments = change_awareness(Scen_CarSegments, shift_yrs=5, multiplier=1.2)
 
-if reduce_supplypenaltyPHEV:
-    print('Adjusting PHEV supply penalty')
-    Scen_CarSegments, Cost_Data = change_supply_penalty_PHEV(Scen_CarSegments, Cost_Data, Technology, years, shift_yrs=0, multiplier1=1, multiplier2=0.3, multiplier3=0.2, y1=5, y2=12, phase_out_date=2035)
+    if reduce_supplypenaltyBEV:
+        print('Adjusting BEV supply penalty')
+        Scen_CarSegments, Cost_Data = change_supply_penalty_BEV(Scen_CarSegments, Cost_Data, Technology, years, shift_yrs=0, multiplier1=1.8, multiplier2=1.6, multiplier3=0.6, multiplier4=-4, y1=8, y2=14, y3=16)
 
-if reduce_supplypenaltyHEV:
-    print('Adjusting HEV supply penalty')
-    Scen_CarSegments, Cost_Data = change_supply_penalty_HEV(Scen_CarSegments, Cost_Data, Technology, years, shift_yrs=0, multiplier1=2, multiplier2=1.8, multiplier3=2, y1=6, y2=11, phase_out_date=2030)
+    if reduce_supplypenaltyPHEV:
+        print('Adjusting PHEV supply penalty')
+        Scen_CarSegments, Cost_Data = change_supply_penalty_PHEV(Scen_CarSegments, Cost_Data, Technology, years, shift_yrs=0, multiplier1=1, multiplier2=0.3, multiplier3=0.2, y1=5, y2=12, phase_out_date=2035)
 
-if increase_supplypenaltyPetrol:
-    print('Adjusting Petrol supply penalty')
-    Scen_CarSegments, Cost_Data = change_supply_penalty_Petrol(Scen_CarSegments, Cost_Data, Technology, years, shift_yrs=0, multiplier1=0.4, multiplier2=1.2, multiplier3=2.5, y1=10, y2=13, phase_out_date=2030)
+    if reduce_supplypenaltyHEV:
+        print('Adjusting HEV supply penalty')
+        Scen_CarSegments, Cost_Data = change_supply_penalty_HEV(Scen_CarSegments, Cost_Data, Technology, years, shift_yrs=0, multiplier1=2, multiplier2=1.8, multiplier3=2, y1=6, y2=11, phase_out_date=2030)
 
-if increase_supplypenaltyDiesel:
-    print('Adjusting Diesel supply penalty')
-    Scen_CarSegments, Cost_Data = change_supply_penalty_Diesel(Scen_CarSegments, Cost_Data, Technology, years, shift_yrs=0, multiplier1=0.5, multiplier2=1.2, multiplier3=2.5, y1=9, y2=14, phase_out_date=2030)
+    if increase_supplypenaltyPetrol:
+        print('Adjusting Petrol supply penalty')
+        Scen_CarSegments, Cost_Data = change_supply_penalty_Petrol(Scen_CarSegments, Cost_Data, Technology, years, shift_yrs=0, multiplier1=0.4, multiplier2=1.2, multiplier3=2.5, y1=10, y2=13, phase_out_date=2030)
 
-if increase_accesstoOP:
-    print('Adjusting access to overnight parking (private vehicles)')
-    Scen_CarSegments = change_access_to_OP(Scen_CarSegments, limit=1)
+    if increase_supplypenaltyDiesel:
+        print('Adjusting Diesel supply penalty')
+        Scen_CarSegments, Cost_Data = change_supply_penalty_Diesel(Scen_CarSegments, Cost_Data, Technology, years, shift_yrs=0, multiplier1=0.5, multiplier2=1.2, multiplier3=2.5, y1=9, y2=14, phase_out_date=2030)
 
-if increase_certainty_access:
-    print('Adjusting certainty of access to overnight parking (fleet vehicles)')
-    Scen_CarSegments = change_certainty_of_access(Scen_CarSegments, shift_yrs=5, multiplier=1.2)
+    if increase_accesstoOP:
+        print('Adjusting access to overnight parking (private vehicles)')
+        Scen_CarSegments = change_access_to_OP(Scen_CarSegments, limit=1)
 
-if increase_charging_power:
-    print('Adjusting BEV charging power')
-    Scen_CarSegments, Cost_Data = change_BEVChargingPower(Scen_CarSegments, Cost_Data, shift_yrs=5, multiplier=2)
+    if increase_certainty_access:
+        print('Adjusting certainty of access to overnight parking (fleet vehicles)')
+        Scen_CarSegments = change_certainty_of_access(Scen_CarSegments, shift_yrs=5, multiplier=1.2)
 
-Options = {'increase_awareness':increase_awareness, 'reduce_supplypenaltyBEV':reduce_supplypenaltyBEV,
-           'reduce_supplypenaltyPHEV':reduce_supplypenaltyPHEV, 'reduce_supplypenaltyHEV':reduce_supplypenaltyHEV,
-           'increase_supplypenaltyPetrol':increase_supplypenaltyPetrol, 'increase_supplypenaltyDiesel':increase_supplypenaltyDiesel,
-           'increase_certainty_access':increase_certainty_access, 'increase_charging_power':increase_charging_power}
+    if increase_charging_power:
+        print('Adjusting BEV charging power')
+        Scen_CarSegments, Cost_Data = change_BEVChargingPower(Scen_CarSegments, Cost_Data, shift_yrs=5, multiplier=2)
 
-#plot calibration?
-plot_calibration = False
-if plot_calibration:
-    plot_calibration_variables(Scen_CarSegments, random.sample(LSOAs, 1)[0], Options)
+    Options = {'increase_awareness':increase_awareness, 'reduce_supplypenaltyBEV':reduce_supplypenaltyBEV,
+               'reduce_supplypenaltyPHEV':reduce_supplypenaltyPHEV, 'reduce_supplypenaltyHEV':reduce_supplypenaltyHEV,
+               'increase_supplypenaltyPetrol':increase_supplypenaltyPetrol, 'increase_supplypenaltyDiesel':increase_supplypenaltyDiesel,
+               'increase_certainty_access':increase_certainty_access, 'increase_charging_power':increase_charging_power}
 
-# Add columns for indiviuals who are not aware of EV incentives, without charging access
-Scen_CarSegments['shNotAwareEV'] = 1 - Scen_CarSegments['shAwareEV']
-Scen_CarSegments['shPNoAccessToOC'] = 1 - Scen_CarSegments['shPAccessToOC']
-Scen_CarSegments['shFNoCertaintyOfAccess'] = 1 - Scen_CarSegments['shFCertaintyOfAccess']
+    #plot calibration?
+    plot_calibration = False
+    if plot_calibration:
+        plot_calibration_variables(Scen_CarSegments, random.sample(LSOAs, 1)[0], Options)
 
-# Define new dataframes for Utility/MarketSh, SumNewCars/MarketShTotal, NewCars
-SumNewCars = pd.DataFrame(columns=['Year', 'Private_Fleet', 'Size', 'Consumer', 'Charging_Access', 'SumNewCars'])
-MarketShare = pd.DataFrame(columns=['TechID', 'Year', 'Size', 'Private_Fleet', 'Consumer', 'Utility', 'MarketShare'])
-NewCars = pd.DataFrame(
-    columns=['LSOA', 'Year', 'TechID', 'Private_Fleet', 'Size', 'Consumer', 'Charging_Access', 'NewCars'])
+    # Add columns for indiviuals who are not aware of EV incentives, without charging access
+    Scen_CarSegments['shNotAwareEV'] = 1 - Scen_CarSegments['shAwareEV']
+    Scen_CarSegments['shPNoAccessToOC'] = 1 - Scen_CarSegments['shPAccessToOC']
+    Scen_CarSegments['shFNoCertaintyOfAccess'] = 1 - Scen_CarSegments['shFCertaintyOfAccess']
 
-#Instantiate a NEW dataframe, TotalCars, that *TRACKS* the evolution of the vehicle fleet
-TotalCars = pd.DataFrame(
-    columns=['LSOA', 'Year', 'TechID', 'Private_Fleet', 'Size', 'Consumer', 'Charging_Access'] + [
-        'TotalCars_AGE' + str(a) for a in range(22)] + ['ScrappedCars_AGE' + str(a) for a in range(22)])
+    # Define new dataframes for Utility/MarketSh, SumNewCars/MarketShTotal, NewCars
+    SumNewCars = pd.DataFrame(columns=['Year', 'Private_Fleet', 'Size', 'Consumer', 'Charging_Access', 'SumNewCars'])
+    MarketShare = pd.DataFrame(columns=['TechID', 'Year', 'Size', 'Private_Fleet', 'Consumer', 'Utility', 'MarketShare'])
+    NewCars = pd.DataFrame(
+        columns=['LSOA', 'Year', 'TechID', 'Private_Fleet', 'Size', 'Consumer', 'Charging_Access', 'NewCars'])
 
-MarketShare_Totals = pd.DataFrame(columns=['LSOA', 'Year', 'FuelID', 'Fuel', 'HybridFlag', 'Hybrid', 'MarketShare'])
+    #Instantiate a NEW dataframe, TotalCars, that *TRACKS* the evolution of the vehicle fleet
+    TotalCars = pd.DataFrame(
+        columns=['LSOA', 'Year', 'TechID', 'Private_Fleet', 'Size', 'Consumer', 'Charging_Access'] + [
+            'TotalCars_AGE' + str(a) for a in range(22)] + ['ScrappedCars_AGE' + str(a) for a in range(22)])
 
-# Set possible configurations -- Private/Fleet, Size, Consumer, Charging_Access
-Private_Fleet_Options = ['Private', 'Fleet']
-Consumer_Segments = [['Enthusiast', 'Aspirer', 'Mass', 'Resistor'], ['UserChooser', 'FleetCar']]
-Sizes = [1, 2, 3]
-Charging_Access_Levels = [0, 1,
-                          2]  # not aware of EV incentives, aware and access to charging, aware but no access to charging
+    MarketShare_Totals = pd.DataFrame(columns=['LSOA', 'Year', 'FuelID', 'Fuel', 'HybridFlag', 'Hybrid', 'MarketShare'])
 
-# Start timer
-segstart = time.time()
+    # Set possible configurations -- Private/Fleet, Size, Consumer, Charging_Access
+    Private_Fleet_Options = ['Private', 'Fleet']
+    Consumer_Segments = [['Enthusiast', 'Aspirer', 'Mass', 'Resistor'], ['UserChooser', 'FleetCar']]
+    Sizes = [1, 2, 3]
+    Charging_Access_Levels = [0, 1,
+                              2]  # not aware of EV incentives, aware and access to charging, aware but no access to charging
 
-LSOA = 'S01006998' #this one is Aberdeen A52 6HJ (Connor's network)
+    # Start timer
+    segstart = time.time()
 
-#SumNew is calculated ONCE for all years.
-SumNew = return_SumNew(NewCars_per_LSOA, LSOA)
+    LSOA = 'S01006998' #this one is Aberdeen A52 6HJ (Connor's network)
 
-count = 0
+    #SumNew is calculated ONCE for all years.
+    SumNew = return_SumNew(NewCars_per_LSOA, LSOA)
 
-for year in years:
-    st_year = time.time()
-    #if year is first year, then calculate data for base year (default = 2011)
-    if years.index(year) == 0:
-        SumNewCars = return_SumNewCars(year, SumNewCars, LSOA, SumNew[SumNew.Year == year].TotalCars.item(),
-                                       Scen_CarSegments, Private_Fleet_Options, Consumer_Segments, Sizes,
-                                       Charging_Access_Levels)
+    count = 0
 
-        MarketShare = return_MarketShare(year, years, MarketShare, Technology, Cost_Data, Private_Fleet_Options,
-                                         Consumer_Segments, NewCars, Scen_CarSegments)
+    for year in years:
+        st_year = time.time()
+        #if year is first year, then calculate data for base year (default = 2011)
+        if years.index(year) == 0:
+            SumNewCars = return_SumNewCars(year, SumNewCars, LSOA, SumNew[SumNew.Year == year].TotalCars.item(),
+                                           Scen_CarSegments, Private_Fleet_Options, Consumer_Segments, Sizes,
+                                           Charging_Access_Levels)
 
-        SumNewCars = return_MarketShTot(year, SumNewCars, MarketShare, Technology)
+            MarketShare = return_MarketShare(year, years, MarketShare, Technology, Cost_Data, Private_Fleet_Options,
+                                             Consumer_Segments, NewCars, Scen_CarSegments)
 
-        NewCars = return_NewCars(year, LSOA, NewCars, SumNewCars, MarketShare, Technology, Consumer_Segments,
-                                 Private_Fleet_Options, Charging_Access_Levels)
+            SumNewCars = return_MarketShTot(year, SumNewCars, MarketShare, Technology)
 
-        TotalCars = return_TotalCars_base_year(years, LSOA, AgeData, NewCars, TotalCars)
+            NewCars = return_NewCars(year, LSOA, NewCars, SumNewCars, MarketShare, Technology, Consumer_Segments,
+                                     Private_Fleet_Options, Charging_Access_Levels)
+
+            TotalCars = return_TotalCars_base_year(years, LSOA, AgeData, NewCars, TotalCars)
+
+            MarketShare_Total = return_MarketShare_Totals(year, LSOA, MarketShare, MarketShare_Totals, Technology)
+
+            # clear data to avoid duplicates
+            SumNewCars = SumNewCars.iloc[0:0]
+            MarketShare = MarketShare.iloc[0:0]
+            NewCars = NewCars.iloc[0:0]
+
+        TotalCars = return_TotalCars(year, years, LSOA, TotalCars, NewCars, SumNewCars, AgeData, MarketShare,
+                                     AvgAge_d_lookup, Cars_per_LSOA, Technology, Cost_Data, Scen_CarSegments,
+                                     Consumer_Segments, Sizes, Private_Fleet_Options, Charging_Access_Levels)
 
         MarketShare_Total = return_MarketShare_Totals(year, LSOA, MarketShare, MarketShare_Totals, Technology)
 
-        # clear data to avoid duplicates
-        SumNewCars = SumNewCars.iloc[0:0]
-        MarketShare = MarketShare.iloc[0:0]
-        NewCars = NewCars.iloc[0:0]
+        print(f"YEAR TIME, {year}: {time.time()-st_year} sec")
 
-    TotalCars = return_TotalCars(year, years, LSOA, TotalCars, NewCars, SumNewCars, AgeData, MarketShare,
-                                 AvgAge_d_lookup, Cars_per_LSOA, Technology, Cost_Data, Scen_CarSegments,
-                                 Consumer_Segments, Sizes, Private_Fleet_Options, Charging_Access_Levels)
+    print(f"Overall time: {time.time()-segstart} sec")
 
-    MarketShare_Total = return_MarketShare_Totals(year, LSOA, MarketShare, MarketShare_Totals, Technology)
+    #plot here.
+    plot_Fleet_Evolution = True
+    if plot_Fleet_Evolution:
+        BEV_Share, HEV_Share, PHEV_Share, ICE_Share = return_BEV_share(years, TotalCars, Technology)
+        plot_BEV_share(years, LED_scenario, BEV_Share, HEV_Share, PHEV_Share, ICE_Share)
 
-    print(f"YEAR TIME, {year}: {time.time()-st_year} sec")
-
-print(f"Overall time: {time.time()-segstart} sec")
-
-#plot here.
-plot_Fleet_Evolution = True
-if plot_Fleet_Evolution:
-    BEV_Share, HEV_Share, PHEV_Share, ICE_Share = return_BEV_share(years, TotalCars, Technology)
-    plot_BEV_share(years, LED_scenario, BEV_Share, HEV_Share, PHEV_Share, ICE_Share)
-
-plot_MarketShare_Total_Aggregated = True
-if plot_MarketShare_Total_Aggregated:
-    plot_MS_Total_Aggregated(LSOA, SumNew, MarketShare_Total, years, LED_scenario, proportional=False)
+    plot_MarketShare_Total_Aggregated = True
+    if plot_MarketShare_Total_Aggregated:
+        plot_MS_Total_Aggregated(LSOA, SumNew, MarketShare_Total, years, LED_scenario, proportional=False)
 
 
 
