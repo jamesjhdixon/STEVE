@@ -98,7 +98,7 @@ def return_Charging_Multipliers(ConsumerSeg, Charging_Access):
     return Charging_Multipliers
 
 # SumNewCars - BY YEAR
-def return_SumNewCars(year, SumNewCars, LSOA, Cars_for_segmentation, Scen_CarSegments, Private_Fleet_Options, Consumer_Segments,
+def return_SumNewCars(year, LSOA, SumNewCars, Cars_for_segmentation, Scen_CarSegments, Private_Fleet_Options, Consumer_Segments,
                       Sizes, Charging_Access_Levels):
 
     time_sumnewcars = time.time()
@@ -111,6 +111,9 @@ def return_SumNewCars(year, SumNewCars, LSOA, Cars_for_segmentation, Scen_CarSeg
         cnt = 0
     else:
         cnt = SumNewCars.index.tolist()[-1] + 1
+
+    #create new dataframe just for this year
+    SumNewCars_year = pd.DataFrame(columns=SumNewCars.columns)
 
     # Segment data for this year
     Segment_data = Scen_CarSegments[(Scen_CarSegments.Year == year) & (Scen_CarSegments.LSOA == LSOA)]
@@ -146,18 +149,18 @@ def return_SumNewCars(year, SumNewCars, LSOA, Cars_for_segmentation, Scen_CarSeg
                     SegmentCars = Cars_for_segmentation * PF_Share * Consumer_Share * Size_Share * Charging_Share
 
                     # Write to df
-                    SumNewCars.at[cnt, 'Year'] = year
-                    SumNewCars.at[cnt, 'Private_Fleet'] = P_F
-                    SumNewCars.at[cnt, 'Size'] = Size
-                    SumNewCars.at[cnt, 'Consumer'] = ConsumerSeg
-                    SumNewCars.at[cnt, 'Charging_Access'] = Charging_Access
-                    SumNewCars.at[
+                    SumNewCars_year.at[cnt, 'Year'] = year
+                    SumNewCars_year.at[cnt, 'Private_Fleet'] = P_F
+                    SumNewCars_year.at[cnt, 'Size'] = Size
+                    SumNewCars_year.at[cnt, 'Consumer'] = ConsumerSeg
+                    SumNewCars_year.at[cnt, 'Charging_Access'] = Charging_Access
+                    SumNewCars_year.at[
                         cnt, 'SumNewCars'] = SegmentCars  # taken out rounding 5/1/22 (compliance with TEAM)
 
                     cnt += 1
 
     print('SumNewCars took', time.time() - time_sumnewcars)
-    return SumNewCars
+    return SumNewCars_year
 
 # ASC based on vehicle type
 def return_ASC_VehType(FuelID, HybridFlag):
@@ -192,13 +195,11 @@ def return_ASC(year, years, ASC_VehType, Scen_CarSegments, NewCars, Technology, 
         # ASC modifier is calculated on the basis of the year beforehand, so this does not run in the first year
         if years.index(year) > 0:
             # ASC modifier is a linear relationship of -4x + 1. The ASC_Modifier is 1 by default. The less it is (closer to zero) the lower the costs will be
-            ASC_Modifier = max(0, -4 * NewCars[(NewCars['Year'] == year - 1) &
-                                               (NewCars['TechID'].isin(
+            ASC_Modifier = max(0, -4 * NewCars[(NewCars['TechID'].isin(
                                                    Technology[Technology['FuelID'] == FuelID]['TechID']))
                                                & (NewCars['TechID'].isin(
                 Technology[Technology['HybridFlag'] == HybridFlag]['TechID']))
-                                               ]['NewCars'].sum() / NewCars[NewCars['Year'] == year - 1][
-                                   'NewCars'].sum() + 1)
+                                               ]['NewCars'].sum() / NewCars['NewCars'].sum() + 1)
 
             ASC *= ASC_Modifier
 
@@ -215,11 +216,14 @@ def return_MarketShare(year, years, MarketShare, Technology, Cost_Data, Private_
     Utility/MarketShare
     -For each year, go through each available technology and calculate the utility and market share of that utility
     """
-    # ensure that data goes at the end of the current dataframe
+    # set indexing to be concurrent with overall dataframe
     if MarketShare.index.empty:
         cnt = 0
     else:
         cnt = MarketShare.index.tolist()[-1] + 1
+
+    # make a new dataframe for this year
+    MarketShare_year = pd.DataFrame(columns=MarketShare.columns)
 
     # return available tech in this year
     AvailableTech = Technology[(Technology.Availability <= year) & (Technology.Final_Year >= year)]
@@ -245,7 +249,7 @@ def return_MarketShare(year, years, MarketShare, Technology, Cost_Data, Private_
 
             for ConsumerSeg in ConsumerSegs:
                 # retrieve ASC - includes ASC_Modifier (as of 26 May 2022)
-                ASC = return_ASC(year, years, ASC_VehType, Scen_CarSegments, NewCars, Technology, ConsumerSeg,
+                ASC = return_ASC(year, years, ASC_VehType, Scen_CarSegments, NewCars[NewCars.Year == year - 1], Technology, ConsumerSeg,
                                  FuelID, HybridFlag)
 
                 # Calculate Utility (U)
@@ -257,18 +261,18 @@ def return_MarketShare(year, years, MarketShare, Technology, Cost_Data, Private_
                 # Market share = exp(U)
                 MarketSh = np.exp(Utility)  # this will always be positive
 
-                MarketShare.at[cnt, 'TechID'] = TechID
-                MarketShare.at[cnt, 'Year'] = year
-                MarketShare.at[cnt, 'Size'] = Size
-                MarketShare.at[cnt, 'Private_Fleet'] = Private_Fleet
-                MarketShare.at[cnt, 'Consumer'] = ConsumerSeg
-                MarketShare.at[cnt, 'Utility'] = Utility
-                MarketShare.at[cnt, 'MarketShare'] = MarketSh
+                MarketShare_year.at[cnt, 'TechID'] = TechID
+                MarketShare_year.at[cnt, 'Year'] = year
+                MarketShare_year.at[cnt, 'Size'] = Size
+                MarketShare_year.at[cnt, 'Private_Fleet'] = Private_Fleet
+                MarketShare_year.at[cnt, 'Consumer'] = ConsumerSeg
+                MarketShare_year.at[cnt, 'Utility'] = Utility
+                MarketShare_year.at[cnt, 'MarketShare'] = MarketSh
 
                 cnt += 1
 
     print('MarketShare took', time.time()-time_marketsh)
-    return MarketShare
+    return MarketShare_year
 
 # Available Tech
 def return_AvailableTech(Charging_Access, Technology):
@@ -282,35 +286,34 @@ def return_AvailableTech(Charging_Access, Technology):
     return AvailableTechIDs
 
 
-def return_MarketShTot(year, SumNewCars, MarketShare, Technology):
+def return_MarketShTot(SumNewCars_year, MarketShare_year, Technology):
     time_marketshtot = time.time()
     """
     MarketShTot
     -MarketShTot(P/F,Size,Consumer,ChargingAccess) is the SUM of all the MarketSh's of all the TechIDs that correspond to that ChargingAccess
     """
-    SumNewCars_year = SumNewCars[SumNewCars.Year == year]
 
     for i in list(SumNewCars_year.index.values):
         # return config for this row
-        year, P_F, Size, Consumer, Charging_Access = SumNewCars.Year[i], SumNewCars.Private_Fleet[i], SumNewCars.Size[i], \
-                                                     SumNewCars.Consumer[i], SumNewCars.Charging_Access[i]
+        year, P_F, Size, Consumer, Charging_Access = SumNewCars_year.Year[i], SumNewCars_year.Private_Fleet[i], SumNewCars_year.Size[i], \
+                                                     SumNewCars_year.Consumer[i], SumNewCars_year.Charging_Access[i]
 
-        # return MarketShare data corresponding to this config
-        MS = MarketShare[
-            (MarketShare.Year == year) & (MarketShare.Private_Fleet == P_F) & (MarketShare.Size == Size) & (
-                    MarketShare.Consumer == Consumer)]
+        # return MarketShare_year data corresponding to this config
+        MS = MarketShare_year[
+            (MarketShare_year.Year == year) & (MarketShare_year.Private_Fleet == P_F) & (MarketShare_year.Size == Size) & (
+                    MarketShare_year.Consumer == Consumer)]
 
         AvailableTechIDs = return_AvailableTech(Charging_Access, Technology)
 
         MarketShTot = MS[MS.TechID.isin(AvailableTechIDs)].MarketShare.sum()
 
-        SumNewCars.at[i, 'MarketShTotal'] = MarketShTot
+        SumNewCars_year.at[i, 'MarketShTotal'] = MarketShTot
 
     print('marketshtot took', time.time() - time_marketshtot)
-    return SumNewCars
+    return SumNewCars_year
 
 # NewCars
-def return_NewCars(year, LSOA, NewCars, SumNewCars, MarketShare, Technology, Consumer_Segments, Private_Fleet_Options, Charging_Access_Levels):
+def return_NewCars(year, LSOA, NewCars, SumNewCars_year, MarketShare_year, Technology, Consumer_Segments, Private_Fleet_Options, Charging_Access_Levels):
     time_newcars = time.time()
     """
     NewCars
@@ -321,6 +324,8 @@ def return_NewCars(year, LSOA, NewCars, SumNewCars, MarketShare, Technology, Con
         cnt = 0
     else:
         cnt = NewCars.index.tolist()[-1] + 1
+
+    NewCars_year = pd.DataFrame(columns=NewCars.columns)
 
     # retrieve the Technologies available for this year
     AvailableTech = Technology[(Technology.Availability <= year) & (Technology.Final_Year >= year)]
@@ -346,17 +351,17 @@ def return_NewCars(year, LSOA, NewCars, SumNewCars, MarketShare, Technology, Con
                         if FuelID < 5 and HybridFlag < 2:
 
                             MarketSh = \
-                            MarketShare[(MarketShare.Year == year) & (MarketShare.Private_Fleet == P_F) & (
-                                    MarketShare.Size == Size) & (MarketShare.Consumer == Consumer) & (
-                                                MarketShare.TechID == TechID)].MarketShare.tolist()[0]
+                            MarketShare_year[(MarketShare_year.Year == year) & (MarketShare_year.Private_Fleet == P_F) & (
+                                    MarketShare_year.Size == Size) & (MarketShare_year.Consumer == Consumer) & (
+                                                MarketShare_year.TechID == TechID)].MarketShare.tolist()[0]
                             MarketShTot = \
-                            SumNewCars[(SumNewCars.Year == year) & (SumNewCars.Private_Fleet == P_F) & (
-                                    SumNewCars.Size == Size) & (SumNewCars.Consumer == Consumer) & (
-                                               SumNewCars.Charging_Access == Charging_Access)].MarketShTotal.tolist()[
+                            SumNewCars_year[(SumNewCars_year.Year == year) & (SumNewCars_year.Private_Fleet == P_F) & (
+                                    SumNewCars_year.Size == Size) & (SumNewCars_year.Consumer == Consumer) & (
+                                               SumNewCars_year.Charging_Access == Charging_Access)].MarketShTotal.tolist()[
                                 0]
-                            SumNewC = SumNewCars[(SumNewCars.Year == year) & (SumNewCars.Private_Fleet == P_F) & (
-                                    SumNewCars.Size == Size) & (SumNewCars.Consumer == Consumer) & (
-                                                         SumNewCars.Charging_Access == Charging_Access)].SumNewCars.tolist()[
+                            SumNewC = SumNewCars_year[(SumNewCars_year.Year == year) & (SumNewCars_year.Private_Fleet == P_F) & (
+                                    SumNewCars_year.Size == Size) & (SumNewCars_year.Consumer == Consumer) & (
+                                                         SumNewCars_year.Charging_Access == Charging_Access)].SumNewCars.tolist()[
                                 0]
 
                             if MarketShTot > 0:
@@ -369,16 +374,16 @@ def return_NewCars(year, LSOA, NewCars, SumNewCars, MarketShare, Technology, Con
 
                     elif Charging_Access == 1:
 
-                        MarketSh = MarketShare[(MarketShare.Year == year) & (MarketShare.Private_Fleet == P_F) & (
-                                MarketShare.Size == Size) & (MarketShare.Consumer == Consumer) & (
-                                                       MarketShare.TechID == TechID)].MarketShare.tolist()[0]
-                        MarketShTot = SumNewCars[(SumNewCars.Year == year) & (SumNewCars.Private_Fleet == P_F) & (
-                                SumNewCars.Size == Size) & (SumNewCars.Consumer == Consumer) & (
-                                                         SumNewCars.Charging_Access == Charging_Access)].MarketShTotal.tolist()[
+                        MarketSh = MarketShare_year[(MarketShare_year.Year == year) & (MarketShare_year.Private_Fleet == P_F) & (
+                                MarketShare_year.Size == Size) & (MarketShare_year.Consumer == Consumer) & (
+                                                       MarketShare_year.TechID == TechID)].MarketShare.tolist()[0]
+                        MarketShTot = SumNewCars_year[(SumNewCars_year.Year == year) & (SumNewCars_year.Private_Fleet == P_F) & (
+                                SumNewCars_year.Size == Size) & (SumNewCars_year.Consumer == Consumer) & (
+                                                         SumNewCars_year.Charging_Access == Charging_Access)].MarketShTotal.tolist()[
                             0]
-                        SumNewC = SumNewCars[(SumNewCars.Year == year) & (SumNewCars.Private_Fleet == P_F) & (
-                                SumNewCars.Size == Size) & (SumNewCars.Consumer == Consumer) & (
-                                                     SumNewCars.Charging_Access == Charging_Access)].SumNewCars.tolist()[
+                        SumNewC = SumNewCars_year[(SumNewCars_year.Year == year) & (SumNewCars_year.Private_Fleet == P_F) & (
+                                SumNewCars_year.Size == Size) & (SumNewCars_year.Consumer == Consumer) & (
+                                                     SumNewCars_year.Charging_Access == Charging_Access)].SumNewCars.tolist()[
                             0]
 
                         if MarketShTot > 0:
@@ -391,17 +396,17 @@ def return_NewCars(year, LSOA, NewCars, SumNewCars, MarketShare, Technology, Con
                         if FuelID != 12:
 
                             MarketSh = \
-                            MarketShare[(MarketShare.Year == year) & (MarketShare.Private_Fleet == P_F) & (
-                                    MarketShare.Size == Size) & (MarketShare.Consumer == Consumer) & (
-                                                MarketShare.TechID == TechID)].MarketShare.tolist()[0]
+                            MarketShare_year[(MarketShare_year.Year == year) & (MarketShare_year.Private_Fleet == P_F) & (
+                                    MarketShare_year.Size == Size) & (MarketShare_year.Consumer == Consumer) & (
+                                                MarketShare_year.TechID == TechID)].MarketShare.tolist()[0]
                             MarketShTot = \
-                            SumNewCars[(SumNewCars.Year == year) & (SumNewCars.Private_Fleet == P_F) & (
-                                    SumNewCars.Size == Size) & (SumNewCars.Consumer == Consumer) & (
-                                               SumNewCars.Charging_Access == Charging_Access)].MarketShTotal.tolist()[
+                            SumNewCars_year[(SumNewCars_year.Year == year) & (SumNewCars_year.Private_Fleet == P_F) & (
+                                    SumNewCars_year.Size == Size) & (SumNewCars_year.Consumer == Consumer) & (
+                                               SumNewCars_year.Charging_Access == Charging_Access)].MarketShTotal.tolist()[
                                 0]
-                            SumNewC = SumNewCars[(SumNewCars.Year == year) & (SumNewCars.Private_Fleet == P_F) & (
-                                    SumNewCars.Size == Size) & (SumNewCars.Consumer == Consumer) & (
-                                                         SumNewCars.Charging_Access == Charging_Access)].SumNewCars.tolist()[
+                            SumNewC = SumNewCars_year[(SumNewCars_year.Year == year) & (SumNewCars_year.Private_Fleet == P_F) & (
+                                    SumNewCars_year.Size == Size) & (SumNewCars_year.Consumer == Consumer) & (
+                                                         SumNewCars_year.Charging_Access == Charging_Access)].SumNewCars.tolist()[
                                 0]
 
                             if MarketShTot > 0:
@@ -413,19 +418,19 @@ def return_NewCars(year, LSOA, NewCars, SumNewCars, MarketShare, Technology, Con
                             NewC = 0
 
                     # write to DF
-                    NewCars.at[cnt, 'LSOA'] = LSOA
-                    NewCars.at[cnt, 'Year'] = year
-                    NewCars.at[cnt, 'TechID'] = TechID
-                    NewCars.at[cnt, 'Private_Fleet'] = P_F
-                    NewCars.at[cnt, 'Size'] = Size
-                    NewCars.at[cnt, 'Consumer'] = Consumer
-                    NewCars.at[cnt, 'Charging_Access'] = Charging_Access
-                    NewCars.at[cnt, 'NewCars'] = NewC  # got rid of rounding, 5/1 (compliance with TEAM)
+                    NewCars_year.at[cnt, 'LSOA'] = LSOA
+                    NewCars_year.at[cnt, 'Year'] = year
+                    NewCars_year.at[cnt, 'TechID'] = TechID
+                    NewCars_year.at[cnt, 'Private_Fleet'] = P_F
+                    NewCars_year.at[cnt, 'Size'] = Size
+                    NewCars_year.at[cnt, 'Consumer'] = Consumer
+                    NewCars_year.at[cnt, 'Charging_Access'] = Charging_Access
+                    NewCars_year.at[cnt, 'NewCars'] = NewC  # got rid of rounding, 5/1 (compliance with TEAM)
 
                     cnt += 1
 
     print('newcars took', time.time() - time_newcars)
-    return NewCars
+    return NewCars_year
 
 # function to return TotalCars for base year.
 
@@ -474,16 +479,18 @@ def return_TotalCars(year, years, LSOA, TotalCars, NewCars, SumNewCars, AgeData,
     # initiate count
     cnt = TotalCars.index.tolist()[-1] + 1
 
+    TotalCars_year = pd.DataFrame(columns=TotalCars.columns)
+
     for i in list(TotalCars_lastyear.index.values):
 
         LSOA, TechID, P_F, Size, Consumer, Charging_Access = TotalCars_lastyear.loc[
             i, ['LSOA', 'TechID', 'Private_Fleet', 'Size', 'Consumer', 'Charging_Access']].tolist()
 
-        TotalCars.loc[
+        TotalCars_year.loc[
             cnt, ['LSOA', 'TechID', 'Private_Fleet', 'Size', 'Consumer', 'Charging_Access']] = TotalCars_lastyear.loc[
             i, ['LSOA', 'TechID', 'Private_Fleet', 'Size', 'Consumer', 'Charging_Access']].tolist()
 
-        TotalCars.at[cnt, 'Year'] = year
+        TotalCars_year.at[cnt, 'Year'] = year
 
         for age in range(22):
 
@@ -500,53 +507,53 @@ def return_TotalCars(year, years, LSOA, TotalCars, NewCars, SumNewCars, AgeData,
             cars_this_year = cars_from_last_year - scrapped_cars
 
             # Set scrapped cars of this age, TechID, segment
-            TotalCars.at[cnt, 'ScrappedCars_AGE'+str(age)] = scrapped_cars
+            TotalCars_year.at[cnt, 'ScrappedCars_AGE'+str(age)] = scrapped_cars
 
             # calculate total cars of this age, TechID, segment
-            TotalCars.at[cnt, 'TotalCars_AGE'+str(age)] = cars_this_year
+            TotalCars_year.at[cnt, 'TotalCars_AGE'+str(age)] = cars_this_year
 
-        TotalCars.loc[cnt, ['TotalCars_AGE' + str(age) for age in range(22)]] = TotalCars.loc[
+        TotalCars_year.loc[cnt, ['TotalCars_AGE' + str(age) for age in range(22)]] = TotalCars_year.loc[
             cnt, ['TotalCars_AGE' + str(age) for age in range(22)]].shift(periods=1)
         cnt += 1
 
     desired_cars = Cars_per_LSOA[Cars_per_LSOA.GEO_CODE == LSOA]['TotalCars'+str(year)].item()
-    cars_we_have = TotalCars[TotalCars.Year == year][['TotalCars_AGE'+str(a) for a in range(22)]].sum().sum()
+    cars_we_have = TotalCars_year[['TotalCars_AGE'+str(a) for a in range(22)]].sum().sum()
 
     Cars_for_segmentation = desired_cars - cars_we_have
 
-    SumNewCars = return_SumNewCars(year, SumNewCars, LSOA, Cars_for_segmentation, Scen_CarSegments,
+    SumNewCars_year = return_SumNewCars(year, LSOA, SumNewCars, Cars_for_segmentation, Scen_CarSegments,
                                    Private_Fleet_Options, Consumer_Segments, Sizes, Charging_Access_Levels)
 
-    MarketShare = return_MarketShare(year, years, MarketShare, Technology, Cost_Data, Private_Fleet_Options,
+    MarketShare_year = return_MarketShare(year, years, MarketShare, Technology, Cost_Data, Private_Fleet_Options,
                                      Consumer_Segments, NewCars, Scen_CarSegments)
 
-    SumNewCars = return_MarketShTot(year, SumNewCars, MarketShare, Technology)
+    SumNewCars_year = return_MarketShTot(SumNewCars_year, MarketShare_year, Technology)
 
-    NewCars = return_NewCars(year, LSOA, NewCars, SumNewCars, MarketShare, Technology, Consumer_Segments,
+    NewCars_year = return_NewCars(year, LSOA, NewCars, SumNewCars_year, MarketShare_year, Technology, Consumer_Segments,
                              Private_Fleet_Options, Charging_Access_Levels)
 
     #add new cars to age=0
-    for j in list(NewCars[NewCars.Year == year].index.values):
-        LSOA, TechID, P_F, Size, Consumer, Charging_Access = NewCars.loc[j, ['LSOA', 'TechID', 'Private_Fleet', 'Size', 'Consumer', 'Charging_Access']]
+    for j in list(NewCars_year.index.values):
+        LSOA, TechID, P_F, Size, Consumer, Charging_Access = NewCars_year.loc[j, ['LSOA', 'TechID', 'Private_Fleet', 'Size', 'Consumer', 'Charging_Access']]
 
-        if not TotalCars[(TotalCars.Year == year) & (TotalCars.LSOA == LSOA) & (TotalCars.TechID == TechID) &
-                            (TotalCars.Private_Fleet == P_F) & (TotalCars.Size == Size) &
-                            (TotalCars.Consumer == Consumer) & (TotalCars.Charging_Access == Charging_Access)].empty:
-            set_ind = TotalCars[(TotalCars.Year == year) & (TotalCars.LSOA == LSOA) & (TotalCars.TechID == TechID) &
-                                (TotalCars.Private_Fleet == P_F) & (TotalCars.Size == Size) &
-                                (TotalCars.Consumer == Consumer) & (TotalCars.Charging_Access == Charging_Access)].index.item()
+        if not TotalCars_year[(TotalCars_year.LSOA == LSOA) & (TotalCars_year.TechID == TechID) &
+                            (TotalCars_year.Private_Fleet == P_F) & (TotalCars_year.Size == Size) &
+                            (TotalCars_year.Consumer == Consumer) & (TotalCars_year.Charging_Access == Charging_Access)].empty:
+            set_ind = TotalCars_year[(TotalCars_year.LSOA == LSOA) & (TotalCars_year.TechID == TechID) &
+                                (TotalCars_year.Private_Fleet == P_F) & (TotalCars_year.Size == Size) &
+                                (TotalCars_year.Consumer == Consumer) & (TotalCars_year.Charging_Access == Charging_Access)].index.item()
         else: #if this TechID isn't already kept track of in TotalCars
-            set_ind = TotalCars.index.tolist()[-1] + 1
+            set_ind = TotalCars_year.index.tolist()[-1] + 1
 
-        TotalCars.at[set_ind, ['LSOA', 'TechID', 'Private_Fleet', 'Size', 'Consumer', 'Charging_Access']] = [LSOA, TechID, P_F, Size, Consumer, Charging_Access]
-        TotalCars.at[set_ind, 'Year'] = year
-        TotalCars.at[set_ind, 'TotalCars_AGE0'] = NewCars[(NewCars.LSOA == LSOA) & (NewCars.Year == year) & (NewCars.TechID == TechID) & (NewCars.Private_Fleet == P_F)
-                                                  & (NewCars.Size == Size) & (NewCars.Consumer == Consumer) & (NewCars.Charging_Access == Charging_Access)]['NewCars'].item()
+        TotalCars_year.at[set_ind, ['LSOA', 'TechID', 'Private_Fleet', 'Size', 'Consumer', 'Charging_Access']] = [LSOA, TechID, P_F, Size, Consumer, Charging_Access]
+        TotalCars_year.at[set_ind, 'Year'] = year
+        TotalCars_year.at[set_ind, 'TotalCars_AGE0'] = NewCars_year[(NewCars_year.LSOA == LSOA) & (NewCars_year.TechID == TechID) & (NewCars_year.Private_Fleet == P_F)
+                                                  & (NewCars_year.Size == Size) & (NewCars_year.Consumer == Consumer) & (NewCars_year.Charging_Access == Charging_Access)]['NewCars'].item()
 
-    return TotalCars
+    return TotalCars_year, NewCars_year
 
 # a quick function (not originally in TEAM) to return the market share of technologies (BEVs, PHEVs)
-def return_MarketShare_Totals(year, LSOA, MarketShare, MarketShare_Totals, Technology):
+def return_MarketShare_Totals(year, LSOA, MarketShare_year, MarketShare_Totals, Technology):
 # instantiate new dataframe
 
     FuelID_dict = {1: 'Gasoline',
@@ -569,27 +576,27 @@ def return_MarketShare_Totals(year, LSOA, MarketShare, MarketShare_Totals, Techn
                    1: 'Hybrid',
                    2: 'Plug-in hybrid'}
 
-
-
     if MarketShare_Totals.index.empty:
         count = 0
     else:
         count = MarketShare_Totals.index.tolist()[-1] + 1
 
+    MarketShare_Totals_year = pd.DataFrame(columns=MarketShare_Totals.columns)
+
     for fuel_key in FuelID_dict:
         for hybrid_key in Hybrid_dict:
 
-            MarketShare_Totals.at[count, 'LSOA'] = LSOA
-            MarketShare_Totals.at[count, 'Year'] = year
-            MarketShare_Totals.at[count, 'FuelID'] = fuel_key
-            MarketShare_Totals.at[count, 'Fuel'] = FuelID_dict[fuel_key]
-            MarketShare_Totals.at[count, 'HybridFlag'] = hybrid_key
-            MarketShare_Totals.at[count, 'Hybrid'] = Hybrid_dict[hybrid_key]
-            MarketShare_Totals.at[count, 'MarketShare'] = MarketShare[(MarketShare.TechID.isin(Technology[Technology.FuelID == fuel_key].TechID)) & (MarketShare.TechID.isin(Technology[Technology.HybridFlag == hybrid_key].TechID)) & (MarketShare.Year == year)].MarketShare.sum() / MarketShare[MarketShare.Year == year].MarketShare.sum()
+            MarketShare_Totals_year.at[count, 'LSOA'] = LSOA
+            MarketShare_Totals_year.at[count, 'Year'] = year
+            MarketShare_Totals_year.at[count, 'FuelID'] = fuel_key
+            MarketShare_Totals_year.at[count, 'Fuel'] = FuelID_dict[fuel_key]
+            MarketShare_Totals_year.at[count, 'HybridFlag'] = hybrid_key
+            MarketShare_Totals_year.at[count, 'Hybrid'] = Hybrid_dict[hybrid_key]
+            MarketShare_Totals_year.at[count, 'MarketShare'] = MarketShare_year[(MarketShare_year.TechID.isin(Technology[Technology.FuelID == fuel_key].TechID)) & (MarketShare_year.TechID.isin(Technology[Technology.HybridFlag == hybrid_key].TechID))].MarketShare.sum() / MarketShare_year.MarketShare.sum()
 
             count += 1
 
-    return MarketShare_Totals
+    return MarketShare_Totals_year
 
 # return delta and gamma scrappage parameters
 def return_gamma_delta(AvgAge_d_lookup, AgeData, LSOA, gamma=21):
