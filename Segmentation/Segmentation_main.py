@@ -30,7 +30,8 @@ NewCars_per_LSOA = Cars_per_LSOA[['GEO_CODE'] + ['NewCars'+str(y) for y in years
 AgeData, AvgAge_d_lookup = return_agedata()
 
 # Load relevant tables - Cost_Data, Scen_CarSegments, CT_Fuel, Technology
-LED_scenarios = ['LED0', 'LED1', 'LED2']
+myvar = 2*[2]
+LED_scenarios = ['LED0']#, 'LED1', 'LED2']
 
 for LED_scenario in LED_scenarios:
     #LED_scenario = 'LED2'
