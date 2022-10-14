@@ -943,3 +943,195 @@ def change_BEVChargingPower(Scen_CarSegments, Cost_Data, shift_yrs, multiplier):
         Cost_Data_BEVChargingPower.loc[Cost_Data_inds, 'ChargingTime'] *= new_BEVChargingPower[new_BEVChargingPower.Year == year].old_BEVChargingPower.item() / new_BEVChargingPower[new_BEVChargingPower.Year == year].BEVChargingPower.item()
 
     return Scen_CarSegments_BEVChargingPower, Cost_Data_BEVChargingPower
+
+# Change the supply penalty for biofuels to PHASE THEM OUT
+def change_supply_penalty_BioV(Scen_CarSegments, Cost_Data, Technology, years, shift_yrs, multiplier1, multiplier2, multiplier3, y1, y2, phase_out_date):
+    # the supply penalties applied to all LSOAs
+    SPBioVsmall_vector = Scen_CarSegments[
+        Scen_CarSegments.LSOA == Scen_CarSegments.LSOA.unique().tolist()[0]].SPBioVsmall.tolist()
+    SPBioVmedium_vector = Scen_CarSegments[
+        Scen_CarSegments.LSOA == Scen_CarSegments.LSOA.unique().tolist()[0]].SPBioVmedium.tolist()
+    SPBioVlarge_vector = Scen_CarSegments[
+        Scen_CarSegments.LSOA == Scen_CarSegments.LSOA.unique().tolist()[0]].SPBioVlarge.tolist()
+
+    # small
+
+    # shift it along by shift_yrs
+    new_SPBioVsmall_vector = len(SPBioVsmall_vector) * [0]
+    for i in range(len(SPBioVsmall_vector) - shift_yrs):
+        new_SPBioVsmall_vector[i] = SPBioVsmall_vector[i + shift_yrs]
+
+    for i in range(len(SPBioVsmall_vector) - shift_yrs, len(SPBioVsmall_vector)):
+        new_SPBioVsmall_vector[i] = SPBioVsmall_vector[i]
+
+    # multiply by multipliers. y1 is the year, relative to the start year, where multiplier 2 kicks in
+    for i in range(y1):
+        new_SPBioVsmall_vector[i] *= multiplier1
+    for i in range(y1, y2):
+        new_SPBioVsmall_vector[i] *= multiplier2
+    for i in range(y2, len(new_SPBioVsmall_vector)):
+        new_SPBioVsmall_vector[i] *= multiplier3
+
+    # apply phase out - assign high supply penalty for all elements in vector after phase_out_date
+    for i in range(range(2012, 2051).index(phase_out_date), len(new_SPBioVsmall_vector)):
+        new_SPBioVsmall_vector[i] = 10e6
+
+    # medium
+
+    # shift it along by shift_yrs
+    new_SPBioVmedium_vector = len(SPBioVmedium_vector) * [0]
+    for i in range(len(SPBioVmedium_vector) - shift_yrs):
+        new_SPBioVmedium_vector[i] = SPBioVmedium_vector[i + shift_yrs]
+
+    for i in range(len(SPBioVmedium_vector) - shift_yrs, len(SPBioVmedium_vector)):
+        new_SPBioVmedium_vector[i] = SPBioVmedium_vector[i]
+
+    # multiply by multipliers. y1 is the year, relative to the start year, where multiplier 2 kicks in
+    for i in range(y1):
+        new_SPBioVmedium_vector[i] *= multiplier1
+    for i in range(y1, y2):
+        new_SPBioVmedium_vector[i] *= multiplier2
+    for i in range(y2, len(new_SPBioVmedium_vector)):
+        new_SPBioVmedium_vector[i] *= multiplier3
+
+    # apply phase out - assign high supply penalty for all elements in vector after phase_out_date
+    for i in range(range(2012, 2051).index(phase_out_date), len(new_SPBioVmedium_vector)):
+        new_SPBioVmedium_vector[i] = 10e6
+
+    # large
+
+    # shift by shift_yrs
+    new_SPBioVlarge_vector = len(SPBioVlarge_vector) * [0]
+    for i in range(len(SPBioVlarge_vector) - shift_yrs):
+        new_SPBioVlarge_vector[i] = SPBioVlarge_vector[i + shift_yrs]
+
+    for i in range(len(SPBioVlarge_vector) - shift_yrs, len(SPBioVlarge_vector)):
+        new_SPBioVlarge_vector[i] = SPBioVlarge_vector[i]
+
+    # multiply by multipliers. y1 is the year, relative to the start year, where multiplier 2 kicks in
+    for i in range(y1):
+        new_SPBioVlarge_vector[i] *= multiplier1
+    for i in range(y1, y2):
+        new_SPBioVlarge_vector[i] *= multiplier2
+    for i in range(y2, len(new_SPBioVlarge_vector)):
+        new_SPBioVlarge_vector[i] *= multiplier3
+
+    # apply phase out - assign high supply penalty for all elements in vector after phase_out_date
+    for i in range(range(2012, 2051).index(phase_out_date), len(new_SPBioVlarge_vector)):
+        new_SPBioVlarge_vector[i] = 10e6
+
+    new_SupplyPenalties = pd.DataFrame({'Year': range(2012, 2051), 'SPBioVsmall': new_SPBioVsmall_vector,
+                                        'SPBioVmedium': new_SPBioVmedium_vector,
+                                        'SPBioVlarge': new_SPBioVlarge_vector})
+
+    Scen_CarSegments_NewSP = Scen_CarSegments.copy()
+    Cost_Data_NewSP = Cost_Data.copy()
+
+    #update Scen_CarSegments and Cost_Data
+    size_dict = {1: 'small', 2: 'medium', 3: 'large'}
+    for year in years:
+        Scen_CarSegments_inds = Scen_CarSegments_NewSP[Scen_CarSegments_NewSP.Year == year].index.tolist()
+        for key in size_dict:
+            Scen_CarSegments_NewSP.loc[Scen_CarSegments_inds, 'SPBioV'+size_dict[key]] = new_SupplyPenalties[
+                new_SupplyPenalties.Year == year]['SPBioV'+size_dict[key]].item()
+
+            Cost_Data_inds = Cost_Data[(Cost_Data.Year == year) & (Cost_Data.TechID.isin(Technology[(Technology.MassCatID == key) & (Technology.FuelID.isin([2, 4])) & (Technology.HybridFlag == 0)].TechID))].index.tolist()
+            Cost_Data_NewSP.loc[Cost_Data_inds, 'SupplyPenalty'] = new_SupplyPenalties[new_SupplyPenalties.Year == year]['SPBioV'+size_dict[key]].item()
+
+    return Scen_CarSegments_NewSP, Cost_Data_NewSP
+
+# Change the supply penalty for all GAS VEHICLES (CNG & LNG) - a function that can be called
+def change_supply_penalty_GV(Scen_CarSegments, Cost_Data, Technology, years, shift_yrs, multiplier1, multiplier2, multiplier3, y1, y2, phase_out_date):
+    # the supply penalties applied to all LSOAs
+    SPGVsmall_vector = Scen_CarSegments[
+        Scen_CarSegments.LSOA == Scen_CarSegments.LSOA.unique().tolist()[0]].SPGVsmall.tolist()
+    SPGVmedium_vector = Scen_CarSegments[
+        Scen_CarSegments.LSOA == Scen_CarSegments.LSOA.unique().tolist()[0]].SPGVmedium.tolist()
+    SPGVlarge_vector = Scen_CarSegments[
+        Scen_CarSegments.LSOA == Scen_CarSegments.LSOA.unique().tolist()[0]].SPGVlarge.tolist()
+
+    # small
+
+    # shift it along by shift_yrs
+    new_SPGVsmall_vector = len(SPGVsmall_vector) * [0]
+    for i in range(len(SPGVsmall_vector) - shift_yrs):
+        new_SPGVsmall_vector[i] = SPGVsmall_vector[i + shift_yrs]
+
+    for i in range(len(SPGVsmall_vector) - shift_yrs, len(SPGVsmall_vector)):
+        new_SPGVsmall_vector[i] = SPGVsmall_vector[i]
+
+    # multiply by multipliers. y1 is the year, relative to the start year, where multiplier 2 kicks in
+    for i in range(y1):
+        new_SPGVsmall_vector[i] *= multiplier1
+    for i in range(y1, y2):
+        new_SPGVsmall_vector[i] *= multiplier2
+    for i in range(y2, len(new_SPGVsmall_vector)):
+        new_SPGVsmall_vector[i] *= multiplier3
+
+    # apply phase out - assign high supply penalty for all elements in vector after phase_out_date
+    for i in range(range(2012, 2051).index(phase_out_date), len(new_SPGVsmall_vector)):
+        new_SPGVsmall_vector[i] = 10e6
+
+    # medium
+
+    # shift it along by shift_yrs
+    new_SPGVmedium_vector = len(SPGVmedium_vector) * [0]
+    for i in range(len(SPGVmedium_vector) - shift_yrs):
+        new_SPGVmedium_vector[i] = SPGVmedium_vector[i + shift_yrs]
+
+    for i in range(len(SPGVmedium_vector) - shift_yrs, len(SPGVmedium_vector)):
+        new_SPGVmedium_vector[i] = SPGVmedium_vector[i]
+
+    # multiply by multipliers. y1 is the year, relative to the start year, where multiplier 2 kicks in
+    for i in range(y1):
+        new_SPGVmedium_vector[i] *= multiplier1
+    for i in range(y1, y2):
+        new_SPGVmedium_vector[i] *= multiplier2
+    for i in range(y2, len(new_SPGVmedium_vector)):
+        new_SPGVmedium_vector[i] *= multiplier3
+
+    # apply phase out - assign high supply penalty for all elements in vector after phase_out_date
+    for i in range(range(2012, 2051).index(phase_out_date), len(new_SPGVmedium_vector)):
+        new_SPGVmedium_vector[i] = 10e6
+
+    # large
+
+    # shift by shift_yrs
+    new_SPGVlarge_vector = len(SPGVlarge_vector) * [0]
+    for i in range(len(SPGVlarge_vector) - shift_yrs):
+        new_SPGVlarge_vector[i] = SPGVlarge_vector[i + shift_yrs]
+
+    for i in range(len(SPGVlarge_vector) - shift_yrs, len(SPGVlarge_vector)):
+        new_SPGVlarge_vector[i] = SPGVlarge_vector[i]
+
+    # multiply by multipliers. y1 is the year, relative to the start year, where multiplier 2 kicks in
+    for i in range(y1):
+        new_SPGVlarge_vector[i] *= multiplier1
+    for i in range(y1, y2):
+        new_SPGVlarge_vector[i] *= multiplier2
+    for i in range(y2, len(new_SPGVlarge_vector)):
+        new_SPGVlarge_vector[i] *= multiplier3
+
+    # apply phase out - assign high supply penalty for all elements in vector after phase_out_date
+    for i in range(range(2012, 2051).index(phase_out_date), len(new_SPGVlarge_vector)):
+        new_SPGVlarge_vector[i] = 10e6
+
+    new_SupplyPenalties = pd.DataFrame({'Year': range(2012, 2051), 'SPGVsmall': new_SPGVsmall_vector,
+                                        'SPGVmedium': new_SPGVmedium_vector,
+                                        'SPGVlarge': new_SPGVlarge_vector})
+
+    Scen_CarSegments_NewSP = Scen_CarSegments.copy()
+    Cost_Data_NewSP = Cost_Data.copy()
+
+    #update Scen_CarSegments and Cost_Data
+    size_dict = {1: 'small', 2: 'medium', 3: 'large'}
+    for year in years:
+        Scen_CarSegments_inds = Scen_CarSegments_NewSP[Scen_CarSegments_NewSP.Year == year].index.tolist()
+        for key in size_dict:
+            Scen_CarSegments_NewSP.loc[Scen_CarSegments_inds, 'SPGV'+size_dict[key]] = new_SupplyPenalties[
+                new_SupplyPenalties.Year == year]['SPGV'+size_dict[key]].item()
+
+            Cost_Data_inds = Cost_Data[(Cost_Data.Year == year) & (Cost_Data.TechID.isin(Technology[(Technology.MassCatID == key) & (Technology.FuelID.isin([2, 4])) & (Technology.HybridFlag == 0)].TechID))].index.tolist()
+            Cost_Data_NewSP.loc[Cost_Data_inds, 'SupplyPenalty'] = new_SupplyPenalties[new_SupplyPenalties.Year == year]['SPGV'+size_dict[key]].item()
+
+    return Scen_CarSegments_NewSP, Cost_Data_NewSP

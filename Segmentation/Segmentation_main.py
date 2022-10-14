@@ -15,30 +15,31 @@ from Segmentation.utils.Segmentation_useful_functions import *
 
 from Segmentation.utils.Calibration_functions import *
 
-# load NewCars_per_LSOA - NOT INCLUDING SCRAPPAGE
-f = open("./data/Cars_per_LSOA.pckl", "rb")
-Cars_per_LSOA = pickle.load(f)
-f.close()
-
-LSOAs = Cars_per_LSOA.GEO_CODE.unique().tolist()
-years = range(2012, 2051)
-
-#everything is driven by NewCars_per_LSOA. Select only a subset and everything produced will be a subset
-NewCars_per_LSOA = Cars_per_LSOA[['GEO_CODE'] + ['NewCars'+str(y) for y in years]]
 
 # Load age data for scrappage module
 AgeData, AvgAge_d_lookup = return_agedata()
 
 # Load relevant tables - Cost_Data, Scen_CarSegments, CT_Fuel, Technology
-myvar = 2*[2]
-LED_scenarios = ['LED0']#, 'LED1', 'LED2']
+LED_scenarios = ['LED0', 'LED1', 'LED2']
 
 for LED_scenario in LED_scenarios:
-    #LED_scenario = 'LED2'
+
+    # load NewCars_per_LSOA - NOT INCLUDING SCRAPPAGE
+    f = open(f"./data/Cars_per_LSOA_{LED_scenario}.pckl", "rb")
+    Cars_per_LSOA = pickle.load(f)
+    f.close()
+
+    LSOAs = Cars_per_LSOA.GEO_CODE.unique().tolist()
+    years = range(2012, 2051)
+
+    # everything is driven by NewCars_per_LSOA. Select only a subset and everything produced will be a subset
+    NewCars_per_LSOA = Cars_per_LSOA[['GEO_CODE'] + ['NewCars' + str(y) for y in years]]
+
+    # LED_scenario = 'LED2'
     Cost_Data, Scen_CarSegments, CT_Fuel, Technology = return_tables(LED_scenario, years)
 
     #######
-    #Calibration
+    # Calibration
     #######
 
     increase_awareness = True
@@ -48,9 +49,11 @@ for LED_scenario in LED_scenarios:
     reduce_supplypenaltyBEV = True
     increase_supplypenaltyPetrol = True
     increase_supplypenaltyDiesel = True
-    increase_accesstoOP = False
-    increase_certainty_access = False
+    increase_accesstoOP = True
+    increase_certainty_access = True
     increase_charging_power = False
+    increase_supplypenaltyBioV = True
+    increase_supplypenaltyGV = True
 
     if increase_awareness:
         print('Adjusting EV awareness')
@@ -98,13 +101,29 @@ for LED_scenario in LED_scenarios:
         print('Adjusting BEV charging power')
         Scen_CarSegments, Cost_Data = change_BEVChargingPower(Scen_CarSegments, Cost_Data, shift_yrs=5, multiplier=2)
 
-    Options = {'increase_awareness':increase_awareness, 'reduce_supplypenaltyBEV':reduce_supplypenaltyBEV,
-               'reduce_supplypenaltyPHEV':reduce_supplypenaltyPHEV, 'reduce_supplypenaltyHEV':reduce_supplypenaltyHEV,
-               'increase_supplypenaltyPetrol':increase_supplypenaltyPetrol,
-               'increase_supplypenaltyDiesel':increase_supplypenaltyDiesel,
-               'increase_certainty_access':increase_certainty_access, 'increase_charging_power':increase_charging_power}
+    if increase_supplypenaltyBioV:
+        print('Adjusting BioV supply penalty')
+        Scen_CarSegments, Cost_Data = change_supply_penalty_BioV(Scen_CarSegments, Cost_Data, Technology, years,
+                                                                   shift_yrs=0, multiplier1=1, multiplier2=1,
+                                                                   multiplier3=1, y1=1, y2=1, phase_out_date=2030)
 
-    #plot calibration?
+    if increase_supplypenaltyGV:
+        print('Adjusting GV supply penalty')
+        Scen_CarSegments, Cost_Data = change_supply_penalty_GV(Scen_CarSegments, Cost_Data, Technology, years,
+                                                                   shift_yrs=0, multiplier1=1, multiplier2=1,
+                                                                   multiplier3=1, y1=1, y2=1, phase_out_date=2030)
+
+
+    Options = {'increase_awareness': increase_awareness, 'reduce_supplypenaltyBEV': reduce_supplypenaltyBEV,
+               'reduce_supplypenaltyPHEV': reduce_supplypenaltyPHEV, 'reduce_supplypenaltyHEV': reduce_supplypenaltyHEV,
+               'increase_supplypenaltyPetrol': increase_supplypenaltyPetrol,
+               'increase_supplypenaltyDiesel': increase_supplypenaltyDiesel,
+               'increase_certainty_access': increase_certainty_access,
+               'increase_charging_power': increase_charging_power,
+               'increase_supplypenaltyBioV': increase_supplypenaltyBioV,
+               'increase_supplypenaltyGV': increase_supplypenaltyGV}
+
+    # plot calibration?
     plot_calibration = False
     if plot_calibration:
         plot_calibration_variables(Scen_CarSegments, random.sample(LSOAs, 1)[0], Options)
@@ -133,26 +152,28 @@ for LED_scenario in LED_scenarios:
     # Start timer
     segstart = time.time()
 
-    LSOA = 'S01006998' #this one is Aberdeen A52 6HJ (Connor's network)
+    LSOA = 'S01006998'  # this one is Aberdeen A52 6HJ (Connor's network)
 
-    #SumNew is calculated ONCE for all years.
+    # SumNew is calculated ONCE for all years.
     SumNew = return_SumNew(NewCars_per_LSOA, LSOA)
 
     for year in years:
         st_year = time.time()
-        #if year is first year, then calculate data for base year (default = 2011)
+        # if year is first year, then calculate data for base year (default = 2011)
         if years.index(year) == 0:
             SumNewCars_year = return_SumNewCars(year, LSOA, SumNewCars, SumNew[SumNew.Year == year].TotalCars.item(),
-                                           Scen_CarSegments, Private_Fleet_Options, Consumer_Segments, Sizes,
-                                           Charging_Access_Levels)
+                                                Scen_CarSegments, Private_Fleet_Options, Consumer_Segments, Sizes,
+                                                Charging_Access_Levels)
 
-            MarketShare_year = return_MarketShare(year, years, MarketShare, Technology, Cost_Data, Private_Fleet_Options,
-                                             Consumer_Segments, NewCars, Scen_CarSegments)
+            MarketShare_year = return_MarketShare(year, years, MarketShare, Technology, Cost_Data,
+                                                  Private_Fleet_Options,
+                                                  Consumer_Segments, NewCars, Scen_CarSegments)
 
             SumNewCars_year = return_MarketShTot(SumNewCars_year, MarketShare_year, Technology)
 
-            NewCars_year = return_NewCars(year, LSOA, NewCars, SumNewCars_year, MarketShare_year, Technology, Consumer_Segments,
-                                     Private_Fleet_Options, Charging_Access_Levels)
+            NewCars_year = return_NewCars(year, LSOA, NewCars, SumNewCars_year, MarketShare_year, Technology,
+                                          Consumer_Segments,
+                                          Private_Fleet_Options, Charging_Access_Levels)
 
             TotalCars = return_TotalCars_base_year(years, LSOA, AgeData, NewCars_year, TotalCars)
 
@@ -164,12 +185,18 @@ for LED_scenario in LED_scenarios:
         TotalCars = TotalCars.append(TotalCars_year)
         NewCars = NewCars.append(NewCars_year)
 
-        print(f"YEAR TIME, {year}: {time.time()-st_year} sec")
+        print(f"YEAR TIME, {year}: {time.time() - st_year} sec")
 
-    print(f"Overall time: {time.time()-segstart} sec")
+    print(f"Overall time: {time.time() - segstart} sec")
 
-    #plot here.
+    # plot here.
     plot_Fleet_Evolution = True
     if plot_Fleet_Evolution:
         BEV_Share, HEV_Share, PHEV_Share, ICE_Share = return_BEV_share(years, TotalCars, Technology)
         plot_BEV_share(years, LED_scenario, BEV_Share, HEV_Share, PHEV_Share, ICE_Share)
+
+    save = True
+    if save:
+        f = open(f"TotalRegistrations_{LED_scenario}.pckl", "wb")
+        pickle.dump(TotalCars, f)
+        f.close()
