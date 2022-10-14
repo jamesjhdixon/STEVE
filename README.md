@@ -1,7 +1,5 @@
 # STEVE
- Spatial-Temporal Engine for Vehicle fleet Evolution
-
-![steve](https://user-images.githubusercontent.com/36702681/185434954-dcd5dfc2-a6ef-4d32-be14-b7a1abe4d771.jpg)
+ Spatial-Temporal Engine for Vehicle fleet Evolution (STEVE)
 
 STEVE is based on three modules:
 1. Regression analysis to return number of cars per geography area
